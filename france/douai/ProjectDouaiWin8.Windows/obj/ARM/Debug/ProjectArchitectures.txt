@@ -1,0 +1,1 @@
+F:\terre\france\douai\ProjectDouaiWin8.Windows\ProjectDouaiWin8.Windows.csproj;arm

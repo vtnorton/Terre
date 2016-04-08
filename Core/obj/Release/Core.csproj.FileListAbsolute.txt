@@ -1,0 +1,5 @@
+F:\terre\Core\bin\Release\Core.dll
+F:\terre\Core\bin\Release\Core.pdb
+F:\terre\Core\obj\Release\Core.csprojResolveAssemblyReference.cache
+F:\terre\Core\obj\Release\Core.dll
+F:\terre\Core\obj\Release\Core.pdb

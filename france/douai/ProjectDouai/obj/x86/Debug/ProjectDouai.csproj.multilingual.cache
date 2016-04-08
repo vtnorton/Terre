@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Strings\en-US\Shared.resw</FileName>
+    <Checksum>19445231789119274250127252174924620990180</Checksum>
+    <ModifiedTime>2016-04-07T23:55:37.5689751</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\en-US\Resources.resw</FileName>
+    <Checksum>13816525215914716071971418681130111103161200</Checksum>
+    <ModifiedTime>2016-04-07T23:55:37.5639736</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>

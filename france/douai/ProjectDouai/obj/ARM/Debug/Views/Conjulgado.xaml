@@ -1,0 +1,114 @@
+﻿<Page
+    x:Class="ProjectDouai.Views.Conjulgado"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjectDouai.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:UI="using:Microsoft.Advertising.WinRT.UI"
+    mc:Ignorable="d">
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Margin="13,0,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox x:ConnectionId='13' x:Name="Verbo" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextWrapping="Wrap" PlaceholderText="Digite o verbo a ser conjulgado"/>
+            <Button x:ConnectionId='14' Grid.Column="1"                      Content="Conjugar" Background="Green" Width="90" Height="32" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        </Grid>
+        <Grid Grid.Row="1" Background="Black">
+            <Pivot>
+                <PivotItem Header="principais">
+                    <Grid>
+                        <ScrollViewer>
+                            <TextBlock x:ConnectionId='12' FontSize="24" x:Name="Principal"></TextBlock>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="presente">
+                    <Grid>
+                        <ScrollViewer>
+                            <TextBlock x:ConnectionId='11' FontSize="24" x:Name="Presente"></TextBlock>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="pretérito imperfeito">
+                    <Grid>
+                        <ScrollViewer>
+                            <TextBlock x:ConnectionId='10' FontSize="24" x:Name="PreteritoImperfeito"></TextBlock>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="pretérito perfeito">
+                    <Grid>
+                        <ScrollViewer>
+                            <TextBlock x:ConnectionId='9' FontSize="24" x:Name="PreteritoPerfeito"></TextBlock>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="pretérito mais-que-perfeito">
+                    <Grid>
+                        <ScrollViewer>
+                            <TextBlock x:ConnectionId='8' FontSize="24" x:Name="PreteritoMaisQuePerfeito"></TextBlock>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="futuro do presente">
+                    <Grid>
+                        <ScrollViewer>
+                            <TextBlock x:ConnectionId='7' FontSize="24" x:Name="FuturoDoPresente"></TextBlock>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="futuro do pretérito">
+                    <Grid>
+                        <ScrollViewer>
+                            <TextBlock x:ConnectionId='6' FontSize="24" x:Name="FuturoDoPreterito"></TextBlock>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="presente do subjuntivo">
+                    <Grid>
+                        <ScrollViewer>
+                            <TextBlock x:ConnectionId='5' FontSize="24" x:Name="PresenteDoSubjuntivo"></TextBlock>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="pretérito imperfeito do subjuntivo">
+                    <Grid>
+                        <ScrollViewer>
+                            <TextBlock x:ConnectionId='4' FontSize="24" x:Name="PreteritoImperfeitoDoSubjuntivo"></TextBlock>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="futuro do subjuntivo">
+                    <Grid>
+                        <ScrollViewer>
+                            <TextBlock x:ConnectionId='3' FontSize="24" x:Name="FuturoDoSubjuntivo"></TextBlock>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="imperativo">
+                    <Grid>
+                        <ScrollViewer>
+                            <TextBlock x:ConnectionId='2' FontSize="24" x:Name="Imperativo"></TextBlock>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+            </Pivot>
+        </Grid>
+        <Grid Grid.Row="2">
+            <UI:AdControl x:ConnectionId='1' x:Name="Ad" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center" Width="320"/>
+        </Grid>
+        <Grid Grid.Row="3" Margin="10">
+            <TextBlock x:Uid="txtStudentNotes" TextWrapping="Wrap" Text="A ideia deste aplicativo é ser totalmente confiável, e sei que falta muito para chegar lá, então, se ver algum erro de conjugação, por favor, avise o mais rápido possível pois alguns alunos colam na prova com esse aplicativo e eles podem acabar indo mal na prova. (Não posso fazer nada para eles pararem de usar durante a prova)" ></TextBlock>
+        </Grid>
+    </Grid>
+</Page>
+

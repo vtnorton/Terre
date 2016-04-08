@@ -1,0 +1,7 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="f:\terre\core\bin\release\core.dll" HashGuid="f316af02-d739-64ab-0ea7-c9375cc13666" />
+    <ReferenceAssembly PathName="f:\terre\france\lyon\packages\jace.0.8.7\lib\wpa81\jace.dll" HashGuid="694431c9-06b1-24b5-4fbc-b89c4d7b2006" />
+    <ReferenceAssembly PathName="f:\terre\france\lyon\packages\universalratereminder.2.0.0\lib\portable-netcore451+wpa81\universalratereminder.dll" HashGuid="ce4fc02f-1433-1a32-511f-3192d942683e" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

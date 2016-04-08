@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="UniversalRateReminder" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="UniversalRateReminder">
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="UniversalRateReminder.rd.xml" uri="ms-resource://UniversalRateReminder/Files/UniversalRateReminder/Properties/UniversalRateReminder.rd.xml">
+						<Candidate type="Path">
+							<Value>UniversalRateReminder\Properties\UniversalRateReminder.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

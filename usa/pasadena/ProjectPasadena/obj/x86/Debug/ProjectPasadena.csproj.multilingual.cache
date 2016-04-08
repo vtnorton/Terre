@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Strings\en-US\Shared.resw</FileName>
+    <Checksum>19445231789119274250127252174924620990180</Checksum>
+    <ModifiedTime>2016-04-07T23:55:39.1732842</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\en-US\Resources.resw</FileName>
+    <Checksum>12315321713953510037106210566854519226</Checksum>
+    <ModifiedTime>2016-04-07T23:55:39.1677854</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\ProjectPasadena.fr.xlf</FileName>
+    <Checksum>130169156241200226108172949379118291362427</Checksum>
+    <ModifiedTime>2016-04-08T11:03:29.0389094-03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\fr\Shared.resw</FileName>
+    <Checksum>19642175761137194205218625219598153203137</Checksum>
+    <ModifiedTime>2016-04-08T11:03:59.4991379-03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\fr\Resources.resw</FileName>
+    <Checksum>10120029325713223197156185166223175216136102</Checksum>
+    <ModifiedTime>2016-04-08T11:03:59.4946226-03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\ProjectPasadena.it.xlf</FileName>
+    <Checksum>2441221084519317820413719136185331071016316</Checksum>
+    <ModifiedTime>2016-04-08T11:03:31.1116072-03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\it\Shared.resw</FileName>
+    <Checksum>22096118206952871478317720616724322524129</Checksum>
+    <ModifiedTime>2016-04-08T11:03:59.7301551-03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\it\Resources.resw</FileName>
+    <Checksum>1618288391801279619619139185125101201165120</Checksum>
+    <ModifiedTime>2016-04-08T11:03:59.7256566-03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\ProjectPasadena.pt.xlf</FileName>
+    <Checksum>1222123099152431681152537119715458718938</Checksum>
+    <ModifiedTime>2016-04-08T11:03:24.8006477-03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\pt\Shared.resw</FileName>
+    <Checksum>62134791645148125773910391791920014278</Checksum>
+    <ModifiedTime>2016-04-08T11:03:59.9602482-03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\pt\Resources.resw</FileName>
+    <Checksum>87232349276138193228251662554520583188155</Checksum>
+    <ModifiedTime>2016-04-08T11:03:59.9562474-03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\ProjectPasadena.es.xlf</FileName>
+    <Checksum>22023017139125191596864285914721517036107</Checksum>
+    <ModifiedTime>2016-04-08T11:03:23.9626423-03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\es\Shared.resw</FileName>
+    <Checksum>213184175184919102952491682472302545487206</Checksum>
+    <ModifiedTime>2016-04-08T11:03:59.2646224-03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\es\Resources.resw</FileName>
+    <Checksum>61681911921097132132112087198128151195</Checksum>
+    <ModifiedTime>2016-04-08T11:03:59.2611217-03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>
