@@ -3,3 +3,7 @@ F:\core\alpha\Core\bin\Release\Core.pdb
 F:\core\alpha\Core\obj\Release\Core.dll
 F:\core\alpha\Core\obj\Release\Core.pdb
 F:\core\alpha\Core\obj\Release\Core.csprojResolveAssemblyReference.cache
+F:\Terre\Core\obj\Release\Core.dll
+F:\Terre\Core\obj\Release\Core.pdb
+F:\Terre\Core\bin\Release\Core.dll
+F:\Terre\Core\bin\Release\Core.pdb
