@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="it" original="PROJECTLYONWIN8.SHARED/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1573.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="PROJECTLYONWIN8.SHARED/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="txtAbout.Text" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Informazioni su</target>
+        </trans-unit>
+        <trans-unit id="txtBand.Text" translate="yes" xml:space="preserve">
+          <source>Microsoft Band</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Microsoft Band</target>
+        </trans-unit>
+        <trans-unit id="txtHelp.Text" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">?</target>
+        </trans-unit>
+        <trans-unit id="txtHome.Text" translate="yes" xml:space="preserve">
+          <source>Home</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Home</target>
+        </trans-unit>
+        <trans-unit id="txtSettings.Text" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">impostazioni</target>
+        </trans-unit>
+        <trans-unit id="AppDescription" translate="yes" xml:space="preserve">
+          <source>Calculate and converts easily minutes, turning in hours, days, or even years or seconds. Perfect app for those who like to do marathons series and need to know how many episodes you can watch up to your next appointment, or you going to the movies and you want to eat something later, but can not miss the bus schedule. Do not waste time counting!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Calcolare e converte facilmente minuti, girando in ore, giorni, o anche anni o secondi. Applicazione perfetta per coloro che amano fare serie di maratone e bisogno di sapere quanti episodi si può guardare fino al prossimo appuntamento, o andare al cinema e si vuole mangiare qualcosa più tardi, ma non può mancare l'orario degli autobus. Non perdete il conteggio del tempo!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</note>
+        </trans-unit>
+        <trans-unit id="AppName" translate="yes" xml:space="preserve">
+          <source>Time calculator</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Calcolatore di tempo</target>
+        </trans-unit>
+        <trans-unit id="GetToKnowMe.Text" translate="yes" xml:space="preserve">
+          <source>Get to know me and my other apps by visiting my website.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vieni a conoscere me e le mie altre applicazioni visitando il mio sito Web.</target>
+        </trans-unit>
+        <trans-unit id="GoToSite.Content" translate="yes" xml:space="preserve">
+          <source>Visit my website</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Visita il mio sito</target>
+        </trans-unit>
+        <trans-unit id="Hour" translate="yes" xml:space="preserve">
+          <source>Hour</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ora</target>
+        </trans-unit>
+        <trans-unit id="HourAnd" translate="yes" xml:space="preserve">
+          <source>Hour and</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ore e</target>
+        </trans-unit>
+        <trans-unit id="Hours" translate="yes" xml:space="preserve">
+          <source>Hours</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">ore</target>
+        </trans-unit>
+        <trans-unit id="HoursAnd" translate="yes" xml:space="preserve">
+          <source>Hours and</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ore e</target>
+        </trans-unit>
+        <trans-unit id="Minute" translate="yes" xml:space="preserve">
+          <source>Minute</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">minuto</target>
+        </trans-unit>
+        <trans-unit id="MinuteAnd" translate="yes" xml:space="preserve">
+          <source>Minute and</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Minuti e</target>
+        </trans-unit>
+        <trans-unit id="Minutes" translate="yes" xml:space="preserve">
+          <source>Minutes</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Minuti</target>
+        </trans-unit>
+        <trans-unit id="MinutesAnd" translate="yes" xml:space="preserve">
+          <source>Minutes and</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Minuti e</target>
+        </trans-unit>
+        <trans-unit id="MSBand.Text" translate="yes" xml:space="preserve">
+          <source>You can connect this app with Microsoft Band 2, and it will be with you everywhere you go.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">È possibile collegare questa app con Microsoft Band 2, e sarà con voi ovunque andiate.</target>
+        </trans-unit>
+        <trans-unit id="RateInTheStore.Text" translate="yes" xml:space="preserve">
+          <source>Make someone happy by rating this app in the store. ;)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rendere qualcuno felice di valutare questa app store. ;)</target>
+        </trans-unit>
+        <trans-unit id="RateIt.Content" translate="yes" xml:space="preserve">
+          <source>Rate it and make someone happy</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Votare e fare felice qualcuno</target>
+        </trans-unit>
+        <trans-unit id="Second" translate="yes" xml:space="preserve">
+          <source>Second</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Secondo</target>
+        </trans-unit>
+        <trans-unit id="Seconds" translate="yes" xml:space="preserve">
+          <source>Seconds</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Secondi</target>
+        </trans-unit>
+        <trans-unit id="Sendfeedback.Text" translate="yes" xml:space="preserve">
+          <source>Please send me you feedback about this app. I am going to fix every bug and I will listen your ideias in how to make this app better.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vi prego di inviarmi feedback circa questo app. Ho intenzione di correggere ogni bug e ascolterò il tuo ideias in come rendere questa app migliore.</target>
+        </trans-unit>
+        <trans-unit id="SendFeedbackBtn.Content" translate="yes" xml:space="preserve">
+          <source>Send feedback</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Commenti e suggerimenti</target>
+        </trans-unit>
+        <trans-unit id="SetUpNewNumber.Text" translate="yes" xml:space="preserve">
+          <source>Make a normal account using minutes and than, when you get the result, it will appear as hours. Awesome, right?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fare un normale account utilizzando minuti e che, quando si ottiene il risultato, esso apparirà come ore. Awesome, destra?</target>
+        </trans-unit>
+        <trans-unit id="Timer.Text" translate="yes" xml:space="preserve">
+          <source>You can set a timer for changing number every second or you can define how many seconds wait until choose a new number.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">È possibile impostare un timer per cambiare numero ogni secondo o è possibile definire quanti secondi attendere fino a scegliere un nuovo numero.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en-US" target-language="it" original="PROJECTLYONWIN8.SHARED/STRINGS/EN-US/SHARED.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1573.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="PROJECTLYONWIN8.SHARED/STRINGS/EN-US/SHARED.RESW" datatype="resx">
+        <trans-unit id="AboutTheDev.Text" translate="yes" xml:space="preserve">
+          <source>Windows developer (C#, .Net, XAML and SQL Server), social media and web master. Work for myself. Read my social accounts and you gonna discover more who I am.</source>
+          <target state="new">Windows developer (C#, .Net, XAML and SQL Server), social media and web master. Work for myself. Read my social accounts and you gonna discover more who I am.</target>
+        </trans-unit>
+        <trans-unit id="DouaiDescription.Text" translate="yes" xml:space="preserve">
+          <source>Combining regular and irregular verbs of our Portuguese language in all tenses (Present, Imperfect, Perfect Present, more-than-perfect past, future, future of this, the present conditional, imperfect subjunctive tense, future subjunctive, imperative , infinitive and gerund).</source>
+          <target state="new">Combining regular and irregular verbs of our Portuguese language in all tenses (Present, Imperfect, Perfect Present, more-than-perfect past, future, future of this, the present conditional, imperfect subjunctive tense, future subjunctive, imperative , infinitive and gerund).</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Conjugue verbos regulares e irregulares da nossa língua portuguesa em todos os tempos verbais (Presente, Pretérito imperfeito, Pretérito perfeito, pretérito mais-que-perfeito, futuro, futuro do presente, presente do conjuntivo, pretérito imperfeito do conjuntivo, futuro do conjuntivo, imperativo, infinitivo e gerúndio). *** Por favor, não use esse aplicativo para colar na prova, ou use, mas por sua conta em risco ***</note>
+        </trans-unit>
+        <trans-unit id="DouaiTitle.Text" translate="yes" xml:space="preserve">
+          <source>Conjugar</source>
+          <target state="new">Conjugar</target>
+        </trans-unit>
+        <trans-unit id="DownloadIt.Content" translate="yes" xml:space="preserve">
+          <source>Download this app</source>
+          <target state="new">Download this app</target>
+        </trans-unit>
+        <trans-unit id="FeedbackEmailContent" translate="yes" xml:space="preserve">
+          <source>Hey, here is some of my thoughts on your app, and how can you improve it: </source>
+          <target state="new">Hey, here is some of my thoughts on your app, and how can you improve it: </target>
+        </trans-unit>
+        <trans-unit id="FeedbackEmailTitle" translate="yes" xml:space="preserve">
+          <source>Feedback about </source>
+          <target state="new">Feedback about </target>
+        </trans-unit>
+        <trans-unit id="FollowTwitter.Content" translate="yes" xml:space="preserve">
+          <source>Follow me on Twitter</source>
+          <target state="new">Follow me on Twitter</target>
+        </trans-unit>
+        <trans-unit id="LasVegasDescription.Text" translate="yes" xml:space="preserve">
+          <source>Those who never played such a game like this or have never heard that throw the first stone! The best game of truth and consequence that the Windows Store has seen so far, has several bottles according to the occasion (in family, in the square, between friends, drunk, with the bests , alone,in the classroom and among couples) , with questions and pre-defined challenges is fun in the right esste application!</source>
+          <target state="new">Those who never played such a game like this or have never heard that throw the first stone! The best game of truth and consequence that the Windows Store has seen so far, has several bottles according to the occasion (in family, in the square, between friends, drunk, with the bests , alone,in the classroom and among couples) , with questions and pre-defined challenges is fun in the right esste application!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Quem nunca jogou um jogo desses ou nunca ouviu falar, que jogue a primeira pedra? O melhor jogo de verdade e consequência que a Windows Store já viu, possui diversas garrafas de acordo com a ocasião (em família, na praça, entre amigos, entre bêbados, com as bests, sozinho, em sala de aula e entre casais), com perguntas e desafios pre definidos é diversão na certa esste aplicativo!</note>
+        </trans-unit>
+        <trans-unit id="LasVegasTitle.Text" translate="yes" xml:space="preserve">
+          <source>#TrueOrDare</source>
+          <target state="new">#TrueOrDare</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">#VerdadeOuConsequência</note>
+        </trans-unit>
+        <trans-unit id="LyonDescription.Text" translate="yes" xml:space="preserve">
+          <source>Calculate and converts easily minutes, turning in hours, days, or even years or seconds. Perfect app for those who like to do marathons series and need to know how many episodes you can watch up to your next appointment, or you going to the movies and you want to eat something later, but can not miss the bus schedule. Do not waste time counting!</source>
+          <target state="new">Calculate and converts easily minutes, turning in hours, days, or even years or seconds. Perfect app for those who like to do marathons series and need to know how many episodes you can watch up to your next appointment, or you going to the movies and you want to eat something later, but can not miss the bus schedule. Do not waste time counting!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Calcule e converta com facilidade minutos, transforando em horas, dias, anos ou até segundos. Aplicativo perfeito para você que gosta de fazer maratonas de séries e precisa saber quantos episódios você pode assistir até o seu próximo compromisso, ou para você que vai ao cinema e pretende comer algo depois, mas não pode perder o horário do ônibus. Não perca mais contando o tempo!</note>
+        </trans-unit>
+        <trans-unit id="LyonTitle.Text" translate="yes" xml:space="preserve">
+          <source>Time calculator</source>
+          <target state="new">Time calculator</target>
+        </trans-unit>
+        <trans-unit id="MiameDescription.Text" translate="yes" xml:space="preserve">
+          <source>A ser escrito</source>
+          <target state="new">A ser escrito</target>
+        </trans-unit>
+        <trans-unit id="MiameTitle.Text" translate="yes" xml:space="preserve">
+          <source>M!xer</source>
+          <target state="new">M!xer</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">M!xer</note>
+        </trans-unit>
+        <trans-unit id="NiceDescription.Text" translate="yes" xml:space="preserve">
+          <source>Isn't rare occasions where we need to give away someone with this application is easy. Just add the track numbers to be drawn and it will do the work for you. Try it.</source>
+          <target state="new">Isn't rare occasions where we need to give away someone with this application is easy. Just add the track numbers to be drawn and it will do the work for you. Try it.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</note>
+        </trans-unit>
+        <trans-unit id="NiceTitle.Text" translate="yes" xml:space="preserve">
+          <source>Random 42</source>
+          <target state="new">Random 42</target>
+        </trans-unit>
+        <trans-unit id="OpenSite.Content" translate="yes" xml:space="preserve">
+          <source>Go to my website</source>
+          <target state="new">Go to my website</target>
+        </trans-unit>
+        <trans-unit id="PasadenaDescription.Text" translate="yes" xml:space="preserve">
+          <source>A game can destroy as well as to strengthen friendships. Take stronger drink, or that is closer to you, and will play the famous 'I Never ever' , where every time you've done something shown on the screen you should drink a sip. The rule is simple, the game is known, then what are you waiting? Call your closest friends for a round of 'I never ever'.</source>
+          <target state="new">A game can destroy as well as to strengthen friendships. Take stronger drink, or that is closer to you, and will play the famous 'I Never ever' , where every time you've done something shown on the screen you should drink a sip. The rule is simple, the game is known, then what are you waiting? Call your closest friends for a round of 'I never ever'.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Um jogo capaz de destruir como também de fortalecer amizades. Pegue a bebida mais forte, ou a que esteja mais perto de você, e venha jogar o famoso 'Eu Nunca', onde toda vez que você já fez algo mostrado na tela você deve beber um gole. A regra é simples, o jogo é conhecido, então o que está esperando? Chame seus amigos mais proxímos para uma rodada de 'Eu nunca'.</note>
+        </trans-unit>
+        <trans-unit id="PasadenaTitle.Text" translate="yes" xml:space="preserve">
+          <source>#NeverEver</source>
+          <target state="new">#NeverEver</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">#EuNunca</note>
+        </trans-unit>
+        <trans-unit id="RatePopupCancelButton" translate="yes" xml:space="preserve">
+          <source>No, thanks</source>
+          <target state="new">No, thanks</target>
+        </trans-unit>
+        <trans-unit id="RatePopupRateButton" translate="yes" xml:space="preserve">
+          <source>Rate 5 stars</source>
+          <target state="new">Rate 5 stars</target>
+        </trans-unit>
+        <trans-unit id="RatePopupTitle" translate="yes" xml:space="preserve">
+          <source>Rate this app</source>
+          <target state="new">Rate this app</target>
+        </trans-unit>
+        <trans-unit id="RatePupupContent" translate="yes" xml:space="preserve">
+          <source>Your feedback help me improve this app. If you like it, please, rate with 5 star so, that way, I continue to create new functions and updates.</source>
+          <target state="new">Your feedback help me improve this app. If you like it, please, rate with 5 star so, that way, I continue to create new functions and updates.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seu feedback ajuda a melhorar este aplicativo. Se você gosta dele, por favor, avalie-o com cinco estrelas para que eu continue trabalhando em novas funções e atualizações</note>
+        </trans-unit>
+        <trans-unit id="RateThisApp.Content" translate="yes" xml:space="preserve">
+          <source>Rate this app</source>
+          <target state="new">Rate this app</target>
+        </trans-unit>
+        <trans-unit id="RioDescription.Text" translate="yes" xml:space="preserve">
+          <source>Now you can know, right in your phone, where the Olympic torch is going to be in Brazil.</source>
+          <target state="new">Now you can know, right in your phone, where the Olympic torch is going to be in Brazil.</target>
+        </trans-unit>
+        <trans-unit id="RioTitle.Text" translate="yes" xml:space="preserve">
+          <source>Tocha Olímpica</source>
+          <target state="new">Tocha Olímpica</target>
+        </trans-unit>
+        <trans-unit id="SendAFeedback.Content" translate="yes" xml:space="preserve">
+          <source>Send a feedback</source>
+          <target state="new">Send a feedback</target>
+        </trans-unit>
+        <trans-unit id="VersionApp" translate="yes" xml:space="preserve">
+          <source>App version: </source>
+          <target state="new">App version: </target>
+        </trans-unit>
+        <trans-unit id="VersionCore" translate="yes" xml:space="preserve">
+          <source>Core version: </source>
+          <target state="new">Core version: </target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Versão</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

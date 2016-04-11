@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtAbout.Text" xml:space="preserve">
+    <value>Informazioni su</value>
+  </data>
+  <data name="txtBand.Text" xml:space="preserve">
+    <value>Microsoft Band</value>
+  </data>
+  <data name="txtHelp.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="txtHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="txtSettings.Text" xml:space="preserve">
+    <value>impostazioni</value>
+  </data>
+  <data name="ErroIgualValueDescription" xml:space="preserve">
+    <value>I valori immessi sono uguali. Si prega di modificare uno di questi valori. O modificare il comando per consentire valori decimali.</value>
+  </data>
+  <data name="ErroIgualValueTitle" xml:space="preserve">
+    <value>I valori immessi sono uguali.</value>
+  </data>
+  <data name="ErroMinDescription" xml:space="preserve">
+    <value>Il valore minimo è maggiore del valore massimo. Si prega di risolverlo!</value>
+  </data>
+  <data name="ErroMinTitle" xml:space="preserve">
+    <value>Valore minimo è superiore al massimo.</value>
+  </data>
+  <data name="ErroFormatExeptionDescription" xml:space="preserve">
+    <value>Plese, controllare il numero di scritti, causare qualcosa è andato storto. Assicurarsi che è stato utilizzato solo uno "."o",". Entrambi ("."o",") non è consentito.</value>
+  </data>
+  <data name="ErroFormatExeptionTitle" xml:space="preserve">
+    <value>Il formato è sbagliato</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Non rare occasioni in cui dobbiamo dare via che qualcuno con questa applicazione è facile. Basta aggiungere i numeri di pista deve essere disegnato e farà il lavoro per voi. Provatelo.</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>42 casuale</value>
+  </data>
+  <data name="GetToKnowMe.Text" xml:space="preserve">
+    <value>Vieni a conoscere me e le mie altre applicazioni visitando il mio sito Web.</value>
+  </data>
+  <data name="GoToSite.Content" xml:space="preserve">
+    <value>Visita il mio sito</value>
+  </data>
+  <data name="MSBand.Text" xml:space="preserve">
+    <value>È possibile collegare questa app con Microsoft Band 2, e sarà con voi ovunque andiate.</value>
+  </data>
+  <data name="RateInTheStore.Text" xml:space="preserve">
+    <value>Rendere qualcuno felice di valutare questa app store. ;)</value>
+  </data>
+  <data name="RateIt.Content" xml:space="preserve">
+    <value>Votare e fare felice qualcuno</value>
+  </data>
+  <data name="SendFeedbackBtn.Content" xml:space="preserve">
+    <value>Commenti e suggerimenti</value>
+  </data>
+  <data name="Sendfeedback.Text" xml:space="preserve">
+    <value>Vi prego di inviarmi feedback circa questo app. Ho intenzione di correggere ogni bug e ascolterò il tuo ideias in come rendere questa app migliore.</value>
+  </data>
+  <data name="SetUpNewNumber.Text" xml:space="preserve">
+    <value>È possibile impostare un valore minimo ed un valore massimo. 
+Alcuni esempi per voi: 4, 16.2342, 8.15, 108.54</value>
+  </data>
+  <data name="Timer.Text" xml:space="preserve">
+    <value>È possibile impostare un timer per cambiare numero ogni secondo o è possibile definire quanti secondi attendere fino a scegliere un nuovo numero.</value>
+  </data>
+</root>

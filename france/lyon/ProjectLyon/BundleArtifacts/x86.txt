@@ -1,0 +1,2 @@
+MainPackage=F:\terre\france\lyon\Lyon\ProjectLyon\bin\x86\Release\ProjectLyon_2.1.2.0_x86.appx
+SymbolPackage=F:\packages\delta\ProjectLyon_2.1.0\ProjectLyon_2.1.2.0_Test\ProjectLyon_2.1.2.0_x86.appxsym

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtAbout.Text" xml:space="preserve">
+    <value>À propos de</value>
+  </data>
+  <data name="txtBand.Text" xml:space="preserve">
+    <value>Bande de Microsoft</value>
+  </data>
+  <data name="txtHelp.Text" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="txtHome.Text" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="txtSettings.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Ceux qui ont jamais joué un jeu comme ça, ou n'ont jamais entendu que jeter la première pierre ! Le meilleur jeu de la vérité et de la conséquence que le magasin de Windows a vu jusqu'ici, a plusieurs bouteilles selon l'occasion (en famille, sur la place, entre amis, ivres, avec les meilleurs, seuls, en classe et chez les couples), avec des questions et défis prédéfinis est amusant dans l'application du droit esste !</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>#TrueOrDare</value>
+  </data>
+  <data name="GetToKnowMe.Text" xml:space="preserve">
+    <value>Faire connaissance avec moi et mes autres applications en visitant mon site.</value>
+  </data>
+  <data name="GoToSite.Content" xml:space="preserve">
+    <value>Visitez mon site Web</value>
+  </data>
+  <data name="RateInTheStore.Text" xml:space="preserve">
+    <value>Rendre quelqu'un heureux par cette application dans le magasin de notation. ;)</value>
+  </data>
+  <data name="RateIt.Content" xml:space="preserve">
+    <value>Notez-le et rendre quelqu'un heureux</value>
+  </data>
+  <data name="Sendfeedback.Text" xml:space="preserve">
+    <value>S'il vous plaît envoyez-moi vous commentaires sur cette application. Je vais pour corriger tous les bogues et j'écouterai vos ideias dans Comment améliorer cette application.</value>
+  </data>
+  <data name="SendFeedbackBtn.Content" xml:space="preserve">
+    <value>Envoyer des commentaires</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Choisir une bouteille, cliquer dessus !</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Choisissez True ou ose et faire face au défi</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Aussi simple que cela !</value>
+  </data>
+</root>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtAbout.Text" xml:space="preserve">
+    <value>À propos de</value>
+  </data>
+  <data name="txtBand.Text" xml:space="preserve">
+    <value>Bande de Microsoft</value>
+  </data>
+  <data name="txtHelp.Text" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="txtHome.Text" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="txtSettings.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Un jeu peut détruire aussi bien de renforcer les liens d'amitié. Prendre une boisson plus forte, ou qui est plus proche de vous et va jouer le célèbre « I Never ever », où chaque fois que vous avez fait quelque chose apparaît sur l'écran, vous devez boire une gorgée. La règle est simple, le jeu est connu, alors qu'attendez-vous ? Appelez vos amis proches pour une série de « I never ever ».</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>#NeverEver</value>
+  </data>
+  <data name="GetToKnowMe.Text" xml:space="preserve">
+    <value>Faire connaissance avec moi et mes autres applications en visitant mon site.</value>
+  </data>
+  <data name="GoToSite.Content" xml:space="preserve">
+    <value>Visitez mon site Web</value>
+  </data>
+  <data name="RateInTheStore.Text" xml:space="preserve">
+    <value>Rendre quelqu'un heureux par cette application dans le magasin de notation. ;)</value>
+  </data>
+  <data name="RateIt.Content" xml:space="preserve">
+    <value>Notez-le et rendre quelqu'un heureux</value>
+  </data>
+  <data name="Sendfeedback.Text" xml:space="preserve">
+    <value>S'il vous plaît envoyez-moi vous commentaires sur cette application. Je vais pour corriger tous les bogues et j'écouterai vos ideias dans Comment améliorer cette application.</value>
+  </data>
+  <data name="SendFeedbackBtn.Content" xml:space="preserve">
+    <value>Envoyer des commentaires</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Allez dans un bar, ou tout simplement choisir votre boisson et passez à l'étape 2 !</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Pour tout ce que vous avez fait, et c'est montrer à l'écran, boire.</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Aussi simple que cela !</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Suivant</value>
+  </data>
+  <data name="ToStart.Text" xml:space="preserve">
+    <value>Pour commencer, cliquez sur suivant !</value>
+  </data>
+</root>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutTheDev.Text" xml:space="preserve">
+    <value>Desarrollador Windows (C#,. net, XAML y SQL Server), redes sociales y web master. Trabajo para mí. Leer mis cuentas sociales y vas a descubrir más quien soy.</value>
+  </data>
+  <data name="DouaiDescription.Text" xml:space="preserve">
+    <value>La combinación de verbos regulares e irregulares de la lengua portuguesa en todos tiempos verbales (presente, imperfecto, presente perfecto, pasado más que perfecto, futuro, futuro de esta, presente tiempo verbal del condicional, imperfecto de subjuntivo, futuro subjuntivo, imperativo, infinitivo y gerundio).</value>
+    <comment>Conjugue verbos regulares e irregulares da nossa língua portuguesa em todos os tempos verbais (Presente, Pretérito imperfeito, Pretérito perfeito, pretérito mais-que-perfeito, futuro, futuro do presente, presente do conjuntivo, pretérito imperfeito do conjuntivo, futuro do conjuntivo, imperativo, infinitivo e gerúndio). *** Por favor, não use esse aplicativo para colar na prova, ou use, mas por sua conta em risco ***</comment>
+  </data>
+  <data name="DouaiTitle.Text" xml:space="preserve">
+    <value>Conjugar</value>
+  </data>
+  <data name="DownloadIt.Content" xml:space="preserve">
+    <value>Descargar esta aplicación</value>
+  </data>
+  <data name="FeedbackEmailContent" xml:space="preserve">
+    <value>Bueno, aquí es algunas de mis reflexiones sobre su aplicación, y cómo se puede mejorar: </value>
+  </data>
+  <data name="FeedbackEmailTitle" xml:space="preserve">
+    <value>Comentarios sobre </value>
+  </data>
+  <data name="FollowTwitter.Content" xml:space="preserve">
+    <value>Sígueme en Twitter</value>
+  </data>
+  <data name="LasVegasDescription.Text" xml:space="preserve">
+    <value>Los que nunca jugaron un juego como esto o nunca han escuchado tire la primera piedra! El mejor juego de la verdad y la consecuencia que la Windows Store ha visto hasta ahora, tiene varias botellas según la ocasión (en familia, en la Plaza, entre amigos, borrachos, con los mejores, solos, en el aula y entre parejas), con preguntas y desafíos predefinidos es divertido en la aplicación de esste derecho!</value>
+    <comment>Quem nunca jogou um jogo desses ou nunca ouviu falar, que jogue a primeira pedra? O melhor jogo de verdade e consequência que a Windows Store já viu, possui diversas garrafas de acordo com a ocasião (em família, na praça, entre amigos, entre bêbados, com as bests, sozinho, em sala de aula e entre casais), com perguntas e desafios pre definidos é diversão na certa esste aplicativo!</comment>
+  </data>
+  <data name="LasVegasTitle.Text" xml:space="preserve">
+    <value>#TrueOrDare</value>
+    <comment>#VerdadeOuConsequência</comment>
+  </data>
+  <data name="LyonDescription.Text" xml:space="preserve">
+    <value>Calcular y convierte fácilmente minutos, convirtiendo en horas, días o incluso años o segundos. La aplicación perfecta para aquellos que les gusta hacer maratones series y necesito saber cuántos episodios se puede ver hasta la siguiente cita, o ir al cine y usted quiere comer algo más tarde, pero no puede faltar el horario del autobús. No pierdas el tiempo contando!</value>
+    <comment>Calcule e converta com facilidade minutos, transforando em horas, dias, anos ou até segundos. Aplicativo perfeito para você que gosta de fazer maratonas de séries e precisa saber quantos episódios você pode assistir até o seu próximo compromisso, ou para você que vai ao cinema e pretende comer algo depois, mas não pode perder o horário do ônibus. Não perca mais contando o tempo!</comment>
+  </data>
+  <data name="LyonTitle.Text" xml:space="preserve">
+    <value>Calculadora de tiempo</value>
+  </data>
+  <data name="MiameDescription.Text" xml:space="preserve">
+    <value>Un escrito de ser</value>
+  </data>
+  <data name="MiameTitle.Text" xml:space="preserve">
+    <value>M! xer</value>
+    <comment>M!xer</comment>
+  </data>
+  <data name="NiceDescription.Text" xml:space="preserve">
+    <value>No es raras ocasiones donde tenemos que dar a que alguien con esta aplicación es fácil. Sólo tiene que añadir los números de pista que se elaborará y hará el trabajo por usted. Pruébalo.</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="NiceTitle.Text" xml:space="preserve">
+    <value>42 al azar</value>
+  </data>
+  <data name="OpenSite.Content" xml:space="preserve">
+    <value>Ir a mi sitio web</value>
+  </data>
+  <data name="PasadenaDescription.Text" xml:space="preserve">
+    <value>Un juego puede destruir, así como para fortalecer amistades. Tomar la bebida más fuerte, o que está más cerca de usted y el famoso 'yo nunca', jugará donde cada vez que has hecho algo en la pantalla se debe beber un sorbo. La regla es simple, el juego es conocido, entonces ¿qué esperas? Llame a sus amigos más cercanos para una ronda de' nunca jamás'.</value>
+    <comment>Um jogo capaz de destruir como também de fortalecer amizades. Pegue a bebida mais forte, ou a que esteja mais perto de você, e venha jogar o famoso 'Eu Nunca', onde toda vez que você já fez algo mostrado na tela você deve beber um gole. A regra é simples, o jogo é conhecido, então o que está esperando? Chame seus amigos mais proxímos para uma rodada de 'Eu nunca'.</comment>
+  </data>
+  <data name="PasadenaTitle.Text" xml:space="preserve">
+    <value>#NeverEver</value>
+    <comment>#EuNunca</comment>
+  </data>
+  <data name="RatePopupCancelButton" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="RatePopupRateButton" xml:space="preserve">
+    <value>Tasa de 5 estrellas</value>
+  </data>
+  <data name="RatePopupTitle" xml:space="preserve">
+    <value>Valorar esta aplicación</value>
+  </data>
+  <data name="RatePupupContent" xml:space="preserve">
+    <value>Sus comentarios me ayudan a mejorar esta aplicación. Si te gusta, califique con 5 estrellas por lo que, así, sigo a crear actualizaciones y nuevas funciones.</value>
+    <comment>Seu feedback ajuda a melhorar este aplicativo. Se você gosta dele, por favor, avalie-o com cinco estrelas para que eu continue trabalhando em novas funções e atualizações</comment>
+  </data>
+  <data name="RateThisApp.Content" xml:space="preserve">
+    <value>Valorar esta aplicación</value>
+  </data>
+  <data name="RioDescription.Text" xml:space="preserve">
+    <value>Ya sabes, a la derecha en su teléfono, donde la antorcha olímpica va a ser en Brasil.</value>
+  </data>
+  <data name="RioTitle.Text" xml:space="preserve">
+    <value>Tocha Olímpica</value>
+  </data>
+  <data name="SendAFeedback.Content" xml:space="preserve">
+    <value>Enviar una respuesta</value>
+  </data>
+  <data name="VersionApp" xml:space="preserve">
+    <value>Versión de la aplicación: </value>
+  </data>
+  <data name="VersionCore" xml:space="preserve">
+    <value>Versión de la base: </value>
+    <comment>Versão</comment>
+  </data>
+</root>

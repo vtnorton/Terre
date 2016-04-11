@@ -1,0 +1,205 @@
+﻿<Page
+    x:Class="ProjectNice.Views.Help"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjectNice.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Pivot x:Name="Main">
+            <PivotItem Margin="0,-50,0,0" Background="Blue" x:Name="Page1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="5*"></RowDefinition>
+                        <RowDefinition Height="3*"></RowDefinition>
+                        <RowDefinition Height="20"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="1" Source="/Images/Help/Page1.png"></Image>
+                    <TextBlock Margin="15" x:Uid="SetUpNewNumber" Text="Lorem" TextWrapping="Wrap" Grid.Row="2" TextAlignment="Center" FontSize="21" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    </TextBlock>
+                    <!-- Set up new numbers -->
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <HyperlinkButton Click="Page1_Click" Grid.Column="1" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="1" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+
+                        <HyperlinkButton Click="Page4_Click" Grid.Column="2" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="0.7" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+
+                        <HyperlinkButton Click="Page5_Click" Grid.Column="3" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="0.7" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+
+                        <HyperlinkButton Click="Page6_Click" Grid.Column="4" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="0.7" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+                    </Grid>
+                </Grid>
+            </PivotItem>
+            <PivotItem Margin="0,-50,0,0" Background="Orange" x:Name="Page4">
+                <!-- Feedback -->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="5*"></RowDefinition>
+                        <RowDefinition Height="3*"></RowDefinition>
+                        <RowDefinition Height="20"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="1" Source="/Images/Help/Page4.png"></Image>
+                    <Grid Grid.Row="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="50"></RowDefinition>
+                            <RowDefinition Height="20"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock Margin="15" x:Uid="SendFeedback" TextWrapping="Wrap" Grid.Row="0" TextAlignment="Center" FontSize="21" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        Please send me you feedback about this app. I am going to fix everybug and I will listen your ideias in how to make this app better.
+                        </TextBlock>
+                        <Button x:Uid="SendFeedbackBtn" x:Name="SendFeedback" Click="SendFeedback_Click" Grid.Row="1" Content="Send feedback" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <HyperlinkButton Click="Page1_Click" Grid.Column="1" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="0.7" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+
+                        <HyperlinkButton Click="Page4_Click" Grid.Column="2" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="1" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+
+                        <HyperlinkButton Click="Page5_Click" Grid.Column="3" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="0.7" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+
+                        <HyperlinkButton Click="Page6_Click" Grid.Column="4" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="0.7" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+                    </Grid>
+                </Grid>
+            </PivotItem>
+            <PivotItem Margin="0,-50,0,0" Background="DeepPink" x:Name="Page5">
+                <!-- Rate in the store -->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="5*"></RowDefinition>
+                        <RowDefinition Height="3*"></RowDefinition>
+                        <RowDefinition Height="20"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="1" Source="/Images/Help/Page5.png"></Image>
+                    <Grid Grid.Row="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="50"></RowDefinition>
+                            <RowDefinition Height="20"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock Margin="15" x:Uid="RateInTheStore" TextWrapping="Wrap" Grid.Row="0" TextAlignment="Center" FontSize="21" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        Make someone happy by rating this app in the store. ;)
+                        </TextBlock>
+                        <Button x:Name="RateIt" x:Uid="RateIt" Click="RateIt_Click" Grid.Row="1" Content="Rate it and make someone happy" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <HyperlinkButton Click="Page1_Click" Grid.Column="1" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="0.7" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+
+                        <HyperlinkButton Click="Page4_Click" Grid.Column="2" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="0.7" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+
+                        <HyperlinkButton Click="Page5_Click" Grid.Column="3" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="1" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+
+                        <HyperlinkButton Click="Page6_Click" Grid.Column="4" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="0.7" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+                    </Grid>
+                </Grid>
+            </PivotItem>
+            <PivotItem Margin="0,-50,0,0" Background="Firebrick" x:Name="Page6">
+                <!-- Other apps and get to know me better -->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="5*"></RowDefinition>
+                        <RowDefinition Height="3*"></RowDefinition>
+                        <RowDefinition Height="20"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="1" Source="/Images/Help/Page6.png"></Image>
+                    <Grid Grid.Row="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="50"></RowDefinition>
+                            <RowDefinition Height="20"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock Margin="15" x:Uid="GetToKnowMe" TextWrapping="Wrap" Grid.Row="0" TextAlignment="Center" FontSize="21" VerticalAlignment="Center" HorizontalAlignment="Center">
+                            Get to know me and my other apps by visiting my website.
+                        </TextBlock>
+                        <Button x:Uid="GoToSite" x:Name="GoToSite" Click="GoToSite_Click" Grid.Row="1" Content="Visit my website" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="20"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <HyperlinkButton Click="Page1_Click" Grid.Column="1" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="0.7" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+
+                        <HyperlinkButton Click="Page4_Click" Grid.Column="2" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="0.7" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+
+                        <HyperlinkButton Click="Page5_Click" Grid.Column="3" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="0.7" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+
+                        <HyperlinkButton Click="Page6_Click" Grid.Column="4" Padding="0" Margin="2.5,0,0,0">
+                            <Ellipse Fill="White" Opacity="1" Width="15" Height="15"></Ellipse>
+                        </HyperlinkButton>
+                    </Grid>
+                </Grid>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>

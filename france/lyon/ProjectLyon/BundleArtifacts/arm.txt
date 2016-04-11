@@ -1,0 +1,6 @@
+MainPackage=F:\terre\france\lyon\Lyon\ProjectLyon\bin\ARM\Release\ProjectLyon_2.1.2.0_ARM.appx
+SymbolPackage=F:\packages\delta\ProjectLyon_2.1.0\ProjectLyon_2.1.2.0_Test\ProjectLyon_2.1.2.0_ARM.appxsym
+ResourcePack=F:\terre\france\lyon\Lyon\ProjectLyon\bin\ARM\Release\ProjectLyon_2.1.2.0_scale-100.appx
+ResourcePack=F:\terre\france\lyon\Lyon\ProjectLyon\bin\ARM\Release\ProjectLyon_2.1.2.0_scale-125.appx
+ResourcePack=F:\terre\france\lyon\Lyon\ProjectLyon\bin\ARM\Release\ProjectLyon_2.1.2.0_scale-150.appx
+ResourcePack=F:\terre\france\lyon\Lyon\ProjectLyon\bin\ARM\Release\ProjectLyon_2.1.2.0_scale-400.appx

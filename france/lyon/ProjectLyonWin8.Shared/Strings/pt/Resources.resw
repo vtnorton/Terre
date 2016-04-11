@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtAbout.Text" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="txtBand.Text" xml:space="preserve">
+    <value>Banda de Microsoft</value>
+  </data>
+  <data name="txtHelp.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="txtHome.Text" xml:space="preserve">
+    <value>Página Inicial</value>
+  </data>
+  <data name="txtSettings.Text" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Calcular e converte facilmente minutos, transformando-se em horas, dias, ou até mesmo anos ou segundos. Aplicativo perfeito para aqueles que gostam de fazer série de maratonas e preciso saber quantos episódios você pode assistir até sua próxima consulta, ou você vai ao cinema e você quer comer algo mais tarde, mas não pode perder o horário do ônibus. Não perca tempo contando!</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Calculador de tempo de</value>
+  </data>
+  <data name="GetToKnowMe.Text" xml:space="preserve">
+    <value>Te conhecer eu e meus outros apps, visitando meu site.</value>
+  </data>
+  <data name="GoToSite.Content" xml:space="preserve">
+    <value>Visite o meu site</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="HourAnd" xml:space="preserve">
+    <value>Hora e</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Horas</value>
+  </data>
+  <data name="HoursAnd" xml:space="preserve">
+    <value>Horas e</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>Minuto</value>
+  </data>
+  <data name="MinuteAnd" xml:space="preserve">
+    <value>Minutos e</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Minutos</value>
+  </data>
+  <data name="MinutesAnd" xml:space="preserve">
+    <value>Minutos e</value>
+  </data>
+  <data name="MSBand.Text" xml:space="preserve">
+    <value>Você pode conectar este app com Microsoft Band 2, e ele estará com você onde quer que vá.</value>
+  </data>
+  <data name="RateInTheStore.Text" xml:space="preserve">
+    <value>Fazer alguém feliz por popularidade este app na loja. ;)</value>
+  </data>
+  <data name="RateIt.Content" xml:space="preserve">
+    <value>Avaliá-lo e fazer alguém feliz</value>
+  </data>
+  <data name="Second" xml:space="preserve">
+    <value>Segundo</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>Segundos</value>
+  </data>
+  <data name="Sendfeedback.Text" xml:space="preserve">
+    <value>Por favor envie você feedback sobre este app. Vou corrigir cada bug e escutarei suas ideias em como fazer este app melhor.</value>
+  </data>
+  <data name="SendFeedbackBtn.Content" xml:space="preserve">
+    <value>Enviar comentários</value>
+  </data>
+  <data name="SetUpNewNumber.Text" xml:space="preserve">
+    <value>Fazer uma conta normal usando minutos e que, quando você obter o resultado, ele será exibido como horas. Incrível, certo?</value>
+  </data>
+  <data name="Timer.Text" xml:space="preserve">
+    <value>Você pode definir um temporizador para alterar o número de cada segundo, ou você pode definir quantos segundos Esperem até escolher um novo número.</value>
+  </data>
+</root>

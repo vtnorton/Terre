@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Combinação de verbos regulares e irregulares de nossa língua portuguesa em todos os tempos (presente, imperfeito, presente perfeito, passado mais-que-perfeito, futuro, futuro do presente, o presente indicativo condicional, pretérito imperfeito do modo subjuntivo, futuro do modo subjuntivo, imperativo, infinitivo e gerúndio).</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Conjugar</value>
+  </data>
+  <data name="Step1.Text" xml:space="preserve">
+    <value>Basta digite o verbo desejado e pressione "conjugar"! Pedaço de bolo ;)</value>
+  </data>
+  <data name="ErroNotAVerbDescription" xml:space="preserve">
+    <value>Por favor, digite-o no modo infinito. Por favor, insira um verbo válido.</value>
+  </data>
+  <data name="ErroNotAVerbTitle" xml:space="preserve">
+    <value>A coisa que você inseriu não é um verbo</value>
+  </data>
+  <data name="ErroNotRegularVerbDescription" xml:space="preserve">
+    <value>Ainda não tem suporte para o verbo irregular. Em breve!</value>
+  </data>
+  <data name="ErroNotRegularVerbTitle" xml:space="preserve">
+    <value>Verbos irregulares ainda não é avalible.</value>
+  </data>
+  <data name="TextboxField" xml:space="preserve">
+    <value>Insira aqui o verbo</value>
+  </data>
+  <data name="txtStudentNotes" xml:space="preserve">
+    <value>A idéia desta aplicação é ser totalmente confiáveis, e eu sei que há um longo caminho para chegar lá, então, se você ver qualquer combinação de erro, por favor avise logo que possível porque alguns alunos aparecem no teste com este aplicativo e eles podem acabar indo mal no teste. (Eu não posso fazer nada para eles parar de usar durante o teste)</value>
+  </data>
+  <data name="ThisAppDescription.Text" xml:space="preserve">
+    <value>Combinação de verbos regulares e irregulares de nossa língua portuguesa em todos os tempos (presente, imperfeito, presente perfeito, passado mais-que-perfeito, futuro, futuro do presente, o presente indicativo condicional, pretérito imperfeito do modo subjuntivo, futuro do modo subjuntivo, imperativo, infinitivo e gerúndio).</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="ThisAppName.Text" xml:space="preserve">
+    <value>Conjugar</value>
+  </data>
+</root>

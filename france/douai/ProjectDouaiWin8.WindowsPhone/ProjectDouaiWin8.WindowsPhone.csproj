@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{444CCE6D-1172-41CF-A507-29F0752BC98C}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectDouaiWin8</RootNamespace>
+    <AssemblyName>ProjectDouaiWin8.WindowsPhone</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{76F1466A-8B6D-4E39-A767-685A06062A39};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SynthesizeLinkMetadata>true</SynthesizeLinkMetadata>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>F:\packages\delta\ProjectDouai_2.1.1\</AppxPackageDir>
+    <AppxBundlePlatforms>arm</AppxBundlePlatforms>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>en-US</MultilingualFallbackLanguage>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\..\..\..\..\core\alpha\CoreWin10\Code\ColorBrush.cs">
+      <Link>Code\ColorBrush.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\..\..\core\alpha\CoreWin10\Code\LocalizedStrings.cs">
+      <Link>Code\LocalizedStrings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\..\..\core\alpha\CoreWin10\Code\RateApp.cs">
+      <Link>Code\RateApp.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\..\..\core\alpha\Core\CoreWin8\CoreWin8.WindowsPhone\Views\About.xaml.cs">
+      <Link>Views\About.xaml.cs</Link>
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Code\AppCode.cs">
+      <Link>Code\AppCode.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Code\Verbo.cs">
+      <Link>Code\Verbo.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Information.cs">
+      <Link>Information.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Abaular.cs">
+      <Link>Irregulares\Abaular.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Abolir.cs">
+      <Link>Irregulares\Abolir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Abster.cs">
+      <Link>Irregulares\Abster.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Acudir.cs">
+      <Link>Irregulares\Acudir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Adequar.cs">
+      <Link>Irregulares\Adequar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Advertir.cs">
+      <Link>Irregulares\Advertir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Advir.cs">
+      <Link>Irregulares\Advir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Agredir.cs">
+      <Link>Irregulares\Agredir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Aguar.cs">
+      <Link>Irregulares\Aguar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Aguerrir.cs">
+      <Link>Irregulares\Aguerrir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Ajuizar.cs">
+      <Link>Irregulares\Ajuizar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Amiudar.cs">
+      <Link>Irregulares\Amiudar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Ansiar.cs">
+      <Link>Irregulares\Ansiar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Antever.cs">
+      <Link>Irregulares\Antever.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Antiquar.cs">
+      <Link>Irregulares\Antiquar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Apaniguar.cs">
+      <Link>Irregulares\Apaniguar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Apaziguar.cs">
+      <Link>Irregulares\Apaziguar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Aprazer.cs">
+      <Link>Irregulares\Aprazer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Arguir.cs">
+      <Link>Irregulares\Arguir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Arruinar.cs">
+      <Link>Irregulares\Arruinar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Assentir.cs">
+      <Link>Irregulares\Assentir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Augir.cs">
+      <Link>Irregulares\Augir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Averiguar.cs">
+      <Link>Irregulares\Averiguar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Avir.cs">
+      <Link>Irregulares\Avir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\BemQuerer.cs">
+      <Link>Irregulares\BemQuerer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Boiar.cs">
+      <Link>Irregulares\Boiar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Bulir.cs">
+      <Link>Irregulares\Bulir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Caber.cs">
+      <Link>Irregulares\Caber.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Cerzir.cs">
+      <Link>Irregulares\Cerzir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Cobir.cs">
+      <Link>Irregulares\Cobir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Coibir.cs">
+      <Link>Irregulares\Coibir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Colorir.cs">
+      <Link>Irregulares\Colorir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Comedir.cs">
+      <Link>Irregulares\Comedir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Comerciar.cs">
+      <Link>Irregulares\Comerciar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Compelir.cs">
+      <Link>Irregulares\Compelir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Competir.cs">
+      <Link>Irregulares\Competir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Comprazer.cs">
+      <Link>Irregulares\Comprazer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Concernir.cs">
+      <Link>Irregulares\Concernir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Conseguir.cs">
+      <Link>Irregulares\Conseguir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Consentir.cs">
+      <Link>Irregulares\Consentir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Construir.cs">
+      <Link>Irregulares\Construir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Consumir.cs">
+      <Link>Irregulares\Consumir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Conter.cs">
+      <Link>Irregulares\Conter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Contiguar.cs">
+      <Link>Irregulares\Contiguar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Contravir.cs">
+      <Link>Irregulares\Contravir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Convir.cs">
+      <Link>Irregulares\Convir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Corroer.cs">
+      <Link>Irregulares\Corroer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Crer.cs">
+      <Link>Irregulares\Crer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Cuspir.cs">
+      <Link>Irregulares\Cuspir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Dar.cs">
+      <Link>Irregulares\Dar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Deflectir.cs">
+      <Link>Irregulares\Deflectir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Demolir.cs">
+      <Link>Irregulares\Demolir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Denegrir.cs">
+      <Link>Irregulares\Denegrir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Desaguar.cs">
+      <Link>Irregulares\Desaguar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Desavir.cs">
+      <Link>Irregulares\Desavir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Descaber.cs">
+      <Link>Irregulares\Descaber.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Descer.cs">
+      <Link>Irregulares\Descer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Descobrir.cs">
+      <Link>Irregulares\Descobrir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Desimpedir.cs">
+      <Link>Irregulares\Desimpedir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Desmentir.cs">
+      <Link>Irregulares\Desmentir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Desmiudar.cs">
+      <Link>Irregulares\Desmiudar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Despedir.cs">
+      <Link>Irregulares\Despedir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Despir.cs">
+      <Link>Irregulares\Despir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Desprazer.cs">
+      <Link>Irregulares\Desprazer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Desquerer.cs">
+      <Link>Irregulares\Desquerer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Destruir.cs">
+      <Link>Irregulares\Destruir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Deter.cs">
+      <Link>Irregulares\Deter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Devir.cs">
+      <Link>Irregulares\Devir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Discernir.cs">
+      <Link>Irregulares\Discernir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Divergir.cs">
+      <Link>Irregulares\Divergir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Divertir.cs">
+      <Link>Irregulares\Divertir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Doer.cs">
+      <Link>Irregulares\Doer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Dormir.cs">
+      <Link>Irregulares\Dormir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Eclodir.cs">
+      <Link>Irregulares\Eclodir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Empedernir.cs">
+      <Link>Irregulares\Empedernir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Encobrir.cs">
+      <Link>Irregulares\Encobrir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Engolir.cs">
+      <Link>Irregulares\Engolir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Enraizar.cs">
+      <Link>Irregulares\Enraizar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Entreter.cs">
+      <Link>Irregulares\Entreter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Entupir.cs">
+      <Link>Irregulares\Entupir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Enviuvar.cs">
+      <Link>Irregulares\Enviuvar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Equivaler.cs">
+      <Link>Irregulares\Equivaler.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Esmiucar.cs">
+      <Link>Irregulares\Esmiucar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Espavorir.cs">
+      <Link>Irregulares\Espavorir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Estar.cs">
+      <Link>Irregulares\Estar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Estiar.cs">
+      <Link>Irregulares\Estiar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Europeizar.cs">
+      <Link>Irregulares\Europeizar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Expedir.cs">
+      <Link>Irregulares\Expedir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Expelir.cs">
+      <Link>Irregulares\Expelir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Explodir.cs">
+      <Link>Irregulares\Explodir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Flectir.cs">
+      <Link>Irregulares\Flectir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Fremir.cs">
+      <Link>Irregulares\Fremir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Fugir.cs">
+      <Link>Irregulares\Fugir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Fulgir.cs">
+      <Link>Irregulares\Fulgir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Haver.cs">
+      <Link>Irregulares\Haver.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Hebraizar.cs">
+      <Link>Irregulares\Hebraizar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Homogeneizar.cs">
+      <Link>Irregulares\Homogeneizar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Impedir.cs">
+      <Link>Irregulares\Impedir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Impelir.cs">
+      <Link>Irregulares\Impelir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Incendiar.cs">
+      <Link>Irregulares\Incendiar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Inflectir.cs">
+      <Link>Irregulares\Inflectir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Instruir.cs">
+      <Link>Irregulares\Instruir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Intermediar.cs">
+      <Link>Irregulares\Intermediar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Intervir.cs">
+      <Link>Irregulares\Intervir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Investir.cs">
+      <Link>Irregulares\Investir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Ir.cs">
+      <Link>Irregulares\Ir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Jazer.cs">
+      <Link>Irregulares\Jazer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Judaizar.cs">
+      <Link>Irregulares\Judaizar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Ler.cs">
+      <Link>Irregulares\Ler.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Licenciar.cs">
+      <Link>Irregulares\Licenciar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Malquerer.cs">
+      <Link>Irregulares\Malquerer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Manter.cs">
+      <Link>Irregulares\Manter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Mediar.cs">
+      <Link>Irregulares\Mediar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Medir.cs">
+      <Link>Irregulares\Medir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Mentir.cs">
+      <Link>Irregulares\Mentir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Minguar.cs">
+      <Link>Irregulares\Minguar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Moer.cs">
+      <Link>Irregulares\Moer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Mugir.cs">
+      <Link>Irregulares\Mugir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Multicolorir.cs">
+      <Link>Irregulares\Multicolorir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Negociar.cs">
+      <Link>Irregulares\Negociar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Nevar.cs">
+      <Link>Irregulares\Nevar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Obliquar.cs">
+      <Link>Irregulares\Obliquar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Obsequiar.cs">
+      <Link>Irregulares\Obsequiar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Obstruir.cs">
+      <Link>Irregulares\Obstruir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Obter.cs">
+      <Link>Irregulares\Obter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Odiar.cs">
+      <Link>Irregulares\Odiar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Orvalhar.cs">
+      <Link>Irregulares\Orvalhar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Ouvir.cs">
+      <Link>Irregulares\Ouvir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Parar.cs">
+      <Link>Irregulares\Parar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Parir.cs">
+      <Link>Irregulares\Parir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Pedir.cs">
+      <Link>Irregulares\Pedir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Perder.cs">
+      <Link>Irregulares\Perder.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Perseguir.cs">
+      <Link>Irregulares\Perseguir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Plebeizar.cs">
+      <Link>Irregulares\Plebeizar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Poder.cs">
+      <Link>Irregulares\Poder.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Polir.cs">
+      <Link>Irregulares\Polir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Por.cs">
+      <Link>Irregulares\Por.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Premiar.cs">
+      <Link>Irregulares\Premiar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Premir.cs">
+      <Link>Irregulares\Premir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Pressentir.cs">
+      <Link>Irregulares\Pressentir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Prevenir.cs">
+      <Link>Irregulares\Prevenir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Prever.cs">
+      <Link>Irregulares\Prever.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Progredir.cs">
+      <Link>Irregulares\Progredir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Proibir.cs">
+      <Link>Irregulares\Proibir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Prosseguir.cs">
+      <Link>Irregulares\Prosseguir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Prover.cs">
+      <Link>Irregulares\Prover.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Provir.cs">
+      <Link>Irregulares\Provir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Querer.cs">
+      <Link>Irregulares\Querer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Rebolir.cs">
+      <Link>Irregulares\Rebolir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Rebulir.cs">
+      <Link>Irregulares\Rebulir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Reflectir.cs">
+      <Link>Irregulares\Reflectir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Refulgir.cs">
+      <Link>Irregulares\Refulgir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Regredir.cs">
+      <Link>Irregulares\Regredir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Relampejar.cs">
+      <Link>Irregulares\Relampejar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Remir.cs">
+      <Link>Irregulares\Remir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Remoer.cs">
+      <Link>Irregulares\Remoer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Repelir.cs">
+      <Link>Irregulares\Repelir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Repetir.cs">
+      <Link>Irregulares\Repetir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Requerer.cs">
+      <Link>Irregulares\Requerer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Ressentir.cs">
+      <Link>Irregulares\Ressentir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Reter.cs">
+      <Link>Irregulares\Reter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Reunir.cs">
+      <Link>Irregulares\Reunir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Rever.cs">
+      <Link>Irregulares\Rever.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Revestir.cs">
+      <Link>Irregulares\Revestir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Revir.cs">
+      <Link>Irregulares\Revir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Rir.cs">
+      <Link>Irregulares\Rir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Roer.cs">
+      <Link>Irregulares\Roer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Rugir.cs">
+      <Link>Irregulares\Rugir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Saber.cs">
+      <Link>Irregulares\Saber.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Sacudir.cs">
+      <Link>Irregulares\Sacudir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Saraivar.cs">
+      <Link>Irregulares\Saraivar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Saudar.cs">
+      <Link>Irregulares\Saudar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Seguir.cs">
+      <Link>Irregulares\Seguir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Sentir.cs">
+      <Link>Irregulares\Sentir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Ser.cs">
+      <Link>Irregulares\Ser.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Servir.cs">
+      <Link>Irregulares\Servir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Sorrir.cs">
+      <Link>Irregulares\Sorrir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Sortir.cs">
+      <Link>Irregulares\Sortir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Subir.cs">
+      <Link>Irregulares\Subir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Sumir.cs">
+      <Link>Irregulares\Sumir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Suster.cs">
+      <Link>Irregulares\Suster.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Ter.cs">
+      <Link>Irregulares\Ter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Tossir.cs">
+      <Link>Irregulares\Tossir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Transgredir.cs">
+      <Link>Irregulares\Transgredir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Trazer.cs">
+      <Link>Irregulares\Trazer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Trovejar.cs">
+      <Link>Irregulares\Trovejar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Tugir.cs">
+      <Link>Irregulares\Tugir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Valer.cs">
+      <Link>Irregulares\Valer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Ventar.cs">
+      <Link>Irregulares\Ventar.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Ver.cs">
+      <Link>Irregulares\Ver.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Vestir.cs">
+      <Link>Irregulares\Vestir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Vir.cs">
+      <Link>Irregulares\Vir.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Irregulares\Viuvar.cs">
+      <Link>Irregulares\Viuvar.cs</Link>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Conjulgado.xaml.cs">
+      <DependentUpon>Conjulgado.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Help.xaml.cs">
+      <DependentUpon>Help.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\..\..\..\..\..\core\alpha\CoreWin10\Images\Douai.png">
+      <Link>Images\Douai.png</Link>
+    </Content>
+    <Content Include="..\..\..\..\..\..\..\core\alpha\CoreWin10\Images\Help\Page4.png">
+      <Link>Images\Help\Page4.png</Link>
+    </Content>
+    <Content Include="..\..\..\..\..\..\..\core\alpha\CoreWin10\Images\Help\Page5.png">
+      <Link>Images\Help\Page5.png</Link>
+    </Content>
+    <Content Include="..\..\..\..\..\..\..\core\alpha\CoreWin10\Images\Help\Page6.png">
+      <Link>Images\Help\Page6.png</Link>
+    </Content>
+    <Content Include="..\..\..\..\..\..\..\core\alpha\CoreWin10\Images\LasVegas.png">
+      <Link>Images\LasVegas.png</Link>
+    </Content>
+    <Content Include="..\..\..\..\..\..\..\core\alpha\CoreWin10\Images\Lyon.png">
+      <Link>Images\Lyon.png</Link>
+    </Content>
+    <Content Include="..\..\..\..\..\..\..\core\alpha\CoreWin10\Images\Nice.png">
+      <Link>Images\Nice.png</Link>
+    </Content>
+    <Content Include="..\..\..\..\..\..\..\core\alpha\CoreWin10\Images\Pasadena.png">
+      <Link>Images\Pasadena.png</Link>
+    </Content>
+    <Content Include="..\..\..\..\..\..\..\core\alpha\CoreWin10\Images\Rio.png">
+      <Link>Images\Rio.png</Link>
+    </Content>
+    <Content Include="..\..\..\..\..\..\core\alpha\CoreWin10\Images\Apps.png">
+      <Link>Images\Apps.png</Link>
+    </Content>
+    <Content Include="..\..\Images\Help\Page1.png">
+      <Link>Images\Help\Page1.png</Link>
+    </Content>
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Logo.scale-140.png" />
+    <Content Include="Assets\Logo.scale-240.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-140.png" />
+    <Content Include="Assets\SmallLogo.scale-240.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-240.png" />
+    <Content Include="Assets\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\Square71x71Logo.scale-140.png" />
+    <Content Include="Assets\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-140.png" />
+    <Content Include="Assets\StoreLogo.scale-240.png" />
+    <Content Include="Assets\WideLogo.scale-100.png" />
+    <Content Include="Assets\WideLogo.scale-140.png" />
+    <Content Include="Assets\WideLogo.scale-240.png" />
+    <None Include="Package.StoreAssociation.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="..\..\..\..\..\..\..\core\alpha\Core\CoreWin8\CoreWin8.WindowsPhone\Views\About.xaml">
+      <Link>Views\About.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Conjulgado.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Help.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\core\alpha\Core\bin\Release\Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=1.2.3.490, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.ApplicationInsights.1.2.3\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights.Extensibility.Windows, Version=1.1.1.482, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.ApplicationInsights.WindowsApps.1.1.1\lib\wpa81\Microsoft.ApplicationInsights.Extensibility.Windows.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights.PersistenceChannel, Version=1.2.3.490, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.ApplicationInsights.PersistenceChannel.1.2.3\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.PersistenceChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="UniversalRateReminder, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b2d2ee1bf4d541d5, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\UniversalRateReminder.2.0.0\lib\portable-netcore451+wpa81\UniversalRateReminder.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.AdMediator81, Version=1.0">
+      <Name>Ad Mediator SDK for Windows Phone 8.1 XAML</Name>
+    </SDKReference>
+    <SDKReference Include="Microsoft.VCLibs, Version=12.0">
+      <Name>Microsoft Visual C++ 2013 Runtime Package for Windows Phone</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetPlatformIdentifier)' == '' ">
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+  </PropertyGroup>
+  <Import Project="..\ProjectDouaiWin8.Shared\ProjectDouaiWin8.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

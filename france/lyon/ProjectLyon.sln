@@ -1,0 +1,135 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectLyon", "ProjectLyon\ProjectLyon.csproj", "{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectLyonWin8", "ProjectLyonWin8", "{AFF9562C-3D2E-4B36-BD89-4781624B9B94}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ProjectLyonWin8.Shared", "ProjectLyonWin8\ProjectLyonWin8.Shared\ProjectLyonWin8.Shared.shproj", "{7B1C1891-DA01-454D-B370-DBB434585F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectLyonWin8.Windows", "ProjectLyonWin8\ProjectLyonWin8.Windows\ProjectLyonWin8.Windows.csproj", "{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectLyonWin8.WindowsPhone", "ProjectLyonWin8\ProjectLyonWin8.WindowsPhone\ProjectLyonWin8.WindowsPhone.csproj", "{35A379D4-A172-447B-A2BB-29D888D4BA17}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ProjectLyonWin8\ProjectLyonWin8.Shared\ProjectLyonWin8.Shared.projitems*{35a379d4-a172-447b-a2bb-29d888d4ba17}*SharedItemsImports = 4
+		ProjectLyonWin8\ProjectLyonWin8.Shared\ProjectLyonWin8.Shared.projitems*{5eaa0461-251f-4f5f-bcd1-95d5986cdb85}*SharedItemsImports = 4
+		ProjectLyonWin8\ProjectLyonWin8.Shared\ProjectLyonWin8.Shared.projitems*{7b1c1891-da01-454d-b370-dbb434585f8a}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Debug|ARM.Build.0 = Debug|ARM
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Debug|ARM.Deploy.0 = Debug|ARM
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Debug|x64.ActiveCfg = Debug|x64
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Debug|x64.Build.0 = Debug|x64
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Debug|x64.Deploy.0 = Debug|x64
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Debug|x86.ActiveCfg = Debug|x86
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Debug|x86.Build.0 = Debug|x86
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Debug|x86.Deploy.0 = Debug|x86
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Release|Any CPU.ActiveCfg = Release|x86
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Release|ARM.ActiveCfg = Release|ARM
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Release|ARM.Build.0 = Release|ARM
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Release|ARM.Deploy.0 = Release|ARM
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Release|x64.ActiveCfg = Release|x64
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Release|x64.Build.0 = Release|x64
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Release|x64.Deploy.0 = Release|x64
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Release|x86.ActiveCfg = Release|x86
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Release|x86.Build.0 = Release|x86
+		{9C5FFBE1-34C2-4F1B-BF1C-9F8B8E548FB2}.Release|x86.Deploy.0 = Release|x86
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Debug|ARM.Build.0 = Debug|ARM
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Debug|ARM.Deploy.0 = Debug|ARM
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Debug|x64.ActiveCfg = Debug|x64
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Debug|x64.Build.0 = Debug|x64
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Debug|x64.Deploy.0 = Debug|x64
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Debug|x86.ActiveCfg = Debug|x86
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Debug|x86.Build.0 = Debug|x86
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Debug|x86.Deploy.0 = Debug|x86
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Release|ARM.ActiveCfg = Release|ARM
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Release|ARM.Build.0 = Release|ARM
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Release|ARM.Deploy.0 = Release|ARM
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Release|x64.ActiveCfg = Release|x64
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Release|x64.Build.0 = Release|x64
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Release|x64.Deploy.0 = Release|x64
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Release|x86.ActiveCfg = Release|x86
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Release|x86.Build.0 = Release|x86
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85}.Release|x86.Deploy.0 = Release|x86
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Debug|ARM.ActiveCfg = Debug|ARM
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Debug|ARM.Build.0 = Debug|ARM
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Debug|ARM.Deploy.0 = Debug|ARM
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Debug|x64.Build.0 = Debug|Any CPU
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Debug|x86.ActiveCfg = Debug|x86
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Debug|x86.Build.0 = Debug|x86
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Debug|x86.Deploy.0 = Debug|x86
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Release|ARM.ActiveCfg = Release|ARM
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Release|ARM.Build.0 = Release|ARM
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Release|ARM.Deploy.0 = Release|ARM
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Release|x64.ActiveCfg = Release|Any CPU
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Release|x64.Build.0 = Release|Any CPU
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Release|x64.Deploy.0 = Release|Any CPU
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Release|x86.ActiveCfg = Release|x86
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Release|x86.Build.0 = Release|x86
+		{35A379D4-A172-447B-A2BB-29D888D4BA17}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B1C1891-DA01-454D-B370-DBB434585F8A} = {AFF9562C-3D2E-4B36-BD89-4781624B9B94}
+		{5EAA0461-251F-4F5F-BCD1-95D5986CDB85} = {AFF9562C-3D2E-4B36-BD89-4781624B9B94}
+		{35A379D4-A172-447B-A2BB-29D888D4BA17} = {AFF9562C-3D2E-4B36-BD89-4781624B9B94}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://vtnorton.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ProjectLyon\\ProjectLyon.csproj
+		SccProjectName1 = ProjectLyon
+		SccLocalPath1 = ProjectLyon
+		SccProjectUniqueName2 = ProjectLyonWin8\\ProjectLyonWin8.Shared\\ProjectLyonWin8.Shared.shproj
+		SccProjectTopLevelParentUniqueName2 = ProjectLyon.sln
+		SccProjectName2 = ProjectLyonWin8/ProjectLyonWin8.Shared
+		SccLocalPath2 = ProjectLyonWin8\\ProjectLyonWin8.Shared
+		SccProjectUniqueName3 = ProjectLyonWin8\\ProjectLyonWin8.Shared\\ProjectLyonWin8.Shared.projitems
+		SccProjectTopLevelParentUniqueName3 = ProjectLyon.sln
+		SccProjectName3 = ProjectLyonWin8/ProjectLyonWin8.Shared
+		SccLocalPath3 = ProjectLyonWin8\\ProjectLyonWin8.Shared
+		SccProjectUniqueName4 = ProjectLyonWin8\\ProjectLyonWin8.Windows\\ProjectLyonWin8.Windows.csproj
+		SccProjectTopLevelParentUniqueName4 = ProjectLyon.sln
+		SccProjectName4 = ProjectLyonWin8/ProjectLyonWin8.Windows
+		SccLocalPath4 = ProjectLyonWin8\\ProjectLyonWin8.Windows
+		SccProjectUniqueName5 = ProjectLyonWin8\\ProjectLyonWin8.WindowsPhone\\ProjectLyonWin8.WindowsPhone.csproj
+		SccProjectTopLevelParentUniqueName5 = ProjectLyon.sln
+		SccProjectName5 = ProjectLyonWin8/ProjectLyonWin8.WindowsPhone
+		SccLocalPath5 = ProjectLyonWin8\\ProjectLyonWin8.WindowsPhone
+	EndGlobalSection
+EndGlobal

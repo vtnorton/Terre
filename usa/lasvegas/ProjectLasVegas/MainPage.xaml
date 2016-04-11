@@ -1,0 +1,144 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjectLasVegas"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:UI="using:Microsoft.Advertising.WinRT.UI"
+    x:Class="ProjectLasVegas.MainPage"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Storyboard x:Name="spinalone">
+            <DoubleAnimation To="360" RepeatBehavior="Forever" 
+         Storyboard.TargetName="alonebottle"
+         Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" />
+
+        </Storyboard>
+        <Storyboard x:Name="spinatclass">
+            <DoubleAnimation To="360" RepeatBehavior="Forever" 
+         Storyboard.TargetName="atclassbottle"
+         Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" />
+        </Storyboard>
+        <Storyboard x:Name="spincouple">
+            <DoubleAnimation To="360" RepeatBehavior="Forever" 
+         Storyboard.TargetName="couplebottle"
+         Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" />
+        </Storyboard>
+        <Storyboard x:Name="spindrunks">
+            <DoubleAnimation To="360" RepeatBehavior="Forever" 
+         Storyboard.TargetName="drunksbottle"
+         Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" />
+        </Storyboard>
+        <Storyboard x:Name="spinfamily">
+            <DoubleAnimation To="360" RepeatBehavior="Forever" 
+         Storyboard.TargetName="familybottle"
+         Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" />
+        </Storyboard>
+        <Storyboard x:Name="spinfriends">
+            <DoubleAnimation To="360" RepeatBehavior="Forever" 
+         Storyboard.TargetName="friendsbottle"
+         Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" />
+        </Storyboard>
+        <Storyboard x:Name="spinsquare">
+            <DoubleAnimation To="360" RepeatBehavior="Forever" 
+         Storyboard.TargetName="squarebottle"
+         Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" />
+        </Storyboard>
+        <Storyboard x:Name="spinthebests">
+            <DoubleAnimation To="360" RepeatBehavior="Forever" 
+         Storyboard.TargetName="thebestsbottle"
+         Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" />
+        </Storyboard>
+    </Page.Resources>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/Bottles/Table.png" AlignmentX="Center" AlignmentY="Center"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Pivot>
+                <PivotItem x:Name="Alone" Header="sozinho">
+                    <Grid>
+                        <Image x:Name="alonebottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" 
+                                   Source="Assets/Bottles/Alone.png" 
+                                   PointerPressed="alonebottle_PointerPressed">
+                            <Image.RenderTransform>
+                                <RotateTransform></RotateTransform>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Name="AtClass" Header="em sala de aula">
+                    <Grid>
+                        <Image x:Name="atclassbottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/AtClass.png" PointerPressed="atclassbottle_PointerPressed">
+                            <Image.RenderTransform>
+                                <RotateTransform></RotateTransform>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Name="Couple" Header="casais">
+                    <Grid>
+                        <Image x:Name="couplebottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/Couple.png" PointerPressed="couplebottle_PointerPressed">
+                            <Image.RenderTransform>
+                                <RotateTransform></RotateTransform>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Name="Drunks" Header="bêbados">
+                    <Grid>
+                        <Image x:Name="drunksbottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/Drunks.png" PointerPressed="drunksbottle_PointerPressed">
+                            <Image.RenderTransform>
+                                <RotateTransform></RotateTransform>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Name="Family" Header="familía">
+                    <Grid>
+                        <Image x:Name="familybottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/Family.png" PointerPressed="familybottle_PointerPressed">
+                            <Image.RenderTransform>
+                                <RotateTransform></RotateTransform>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Name="Friends" Header="amigos">
+                    <Grid>
+                        <Image x:Name="friendsbottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/Friends.png" PointerPressed="friendsbottle_PointerPressed">
+                            <Image.RenderTransform>
+                                <RotateTransform></RotateTransform>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Name="Square" Header="na praça">
+                    <Grid>
+                        <Image x:Name="squarebottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/Square.png" PointerPressed="squarebottle_PointerPressed">
+                            <Image.RenderTransform>
+                                <RotateTransform></RotateTransform>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Name="TheBests" Header="com as bests">
+                    <Grid>
+                        <Image x:Name="thebestsbottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/TheBests.png" PointerPressed="thebestsbottle_PointerPressed">
+                            <Image.RenderTransform>
+                                <RotateTransform></RotateTransform>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Grid>
+                </PivotItem>
+            </Pivot>
+        </Grid>
+        <Grid Grid.Row="1">
+            <UI:AdControl x:Name="Ad" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center" Width="300"/>
+        </Grid>
+    </Grid>
+</Page>

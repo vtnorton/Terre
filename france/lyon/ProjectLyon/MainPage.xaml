@@ -1,0 +1,69 @@
+﻿<Page
+    x:Class="ProjectLyon.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjectLyon"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:UI="using:Microsoft.Advertising.WinRT.UI"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="105"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid CompositeMode="SourceOver" Margin="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="txtConta" TextWrapping="Wrap" Text="" FontSize="20" Grid.Row="0" Foreground="Gray" TextAlignment="Right"/>
+                <TextBlock VerticalAlignment="Bottom" x:Name="txtResult" TextWrapping="Wrap" Text="" FontSize="42" Grid.Row="1" Foreground="White" TextAlignment="Right"/>
+            </Grid>
+
+        </Grid>
+        <Grid Grid.Row="1" CompositeMode="SourceOver">
+            <UI:AdControl x:Name="Ad" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center" Width="300"/>
+        </Grid>
+        <Grid Grid.Row="2" CompositeMode="SourceOver" Background="#1b1b1b">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Click="btnCleanLast_Click" x:Name="btnCleanLast" Content="CE" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="0" Grid.Column="0"/>
+            <Button Click="btnClean_Click" x:Name="btnClean" Content="C" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="0" Grid.Column="1"/>
+            <Button Click="btnDeleteLast_Click" FontFamily="Segoe MDL2 Assets" Content="&#xE750;" x:Name="btnDeleteLast" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="0" Grid.Column="2"/>
+            <Button Click="btnDividir_Click" x:Name="btnDividir" Content="÷" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="0" Grid.Column="3"/>
+            <Button Click="btn7_Click" x:Name="btn7" Content="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" Grid.Column="0"/>
+            <Button Click="btn8_Click" x:Name="btn8" Content="8" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" Grid.Column="1"/>
+            <Button Click="btn9_Click" x:Name="btn9" Content="9" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" Grid.Column="2"/>
+            <Button Click="btnMultiply_Click" x:Name="btnMultiply" Content="X" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" Grid.Column="3"/>
+            <Button Click="btn4_Click" x:Name="btn4" Content="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2" Grid.Column="0"/>
+            <Button Click="btn5_Click" x:Name="btn5" Content="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2" Grid.Column="1"/>
+            <Button Click="btn6_Click" x:Name="btn6" Content="6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2" Grid.Column="2"/>
+            <Button Click="btnMenos_Click" x:Name="btnMenos" Content="-" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2" Grid.Column="3"/>
+            <Button Click="btn1_Click" x:Name="btn1" Content="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="3" Grid.Column="0"/>
+            <Button Click="btn2_Click" x:Name="btn2" Content="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="3" Grid.Column="1"/>
+            <Button Click="btn3_Click" x:Name="btn3" Content="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="3" Grid.Column="2"/>
+            <Button Click="btnSoma_Click" x:Name="btnSoma" Content="+" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="3" Grid.Column="3"/>
+            <Button Click="btnMais10min_Click" x:Name="btnMais10min" Content="+10 min" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="4" Grid.Column="0"/>
+            <Button Click="btnZero_Click" x:Name="btnZero" Content="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="4" Grid.Column="1"/>
+            <Button Click="btnMenos10Min_Click" x:Name="btnMenos10Min" Content="-10 min" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="4" Grid.Column="2"/>
+            <Button Click="btnEquals_Click" x:Name="btnEquals" Content="=" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="4" Grid.Column="3"/>
+
+        </Grid>
+    </Grid>
+
+</Page>

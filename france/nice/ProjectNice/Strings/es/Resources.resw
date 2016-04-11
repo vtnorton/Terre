@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtAbout.Text" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="txtBand.Text" xml:space="preserve">
+    <value>Banda de Microsoft</value>
+  </data>
+  <data name="txtHelp.Text" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="txtHome.Text" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="txtSettings.Text" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="ErroIgualValueDescription" xml:space="preserve">
+    <value>Los valores ingresados son iguales. Por favor cambiar uno de estos valores. O cambiar el comando para permitir valores decimales.</value>
+  </data>
+  <data name="ErroIgualValueTitle" xml:space="preserve">
+    <value>Los valores ingresados son iguales.</value>
+  </data>
+  <data name="ErroMinDescription" xml:space="preserve">
+    <value>El valor mínimo es mayor que el valor máximo. Por favor arreglarlo!</value>
+  </data>
+  <data name="ErroMinTitle" xml:space="preserve">
+    <value>Valor mínimo es mayor que máximo.</value>
+  </data>
+  <data name="ErroFormatExeptionDescription" xml:space="preserve">
+    <value>Por favor, compruebe el número escrito, causar algo salió mal. Asegúrese de que usted ha utilizado sólo uno "."o",". Ambos ("."o",") no está permitido.</value>
+  </data>
+  <data name="ErroFormatExeptionTitle" xml:space="preserve">
+    <value>El formato es incorrecto</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>No es raras ocasiones donde tenemos que dar a que alguien con esta aplicación es fácil. Sólo tiene que añadir los números de pista que se elaborará y hará el trabajo por usted. Pruébalo.</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>42 al azar</value>
+  </data>
+  <data name="GetToKnowMe.Text" xml:space="preserve">
+    <value>Conozca a mí y a mis otras aplicaciones visitando mi sitio Web.</value>
+  </data>
+  <data name="GoToSite.Content" xml:space="preserve">
+    <value>Visite mi sitio web</value>
+  </data>
+  <data name="MSBand.Text" xml:space="preserve">
+    <value>Usted puede conectar esta aplicación con Microsoft banda 2, y estará contigo dondequiera que vayas.</value>
+  </data>
+  <data name="RateInTheStore.Text" xml:space="preserve">
+    <value>Hacer a alguien feliz por valorar esta app en la tienda. ;)</value>
+  </data>
+  <data name="RateIt.Content" xml:space="preserve">
+    <value>Votar y hacer alguien feliz</value>
+  </data>
+  <data name="SendFeedbackBtn.Content" xml:space="preserve">
+    <value>Enviar comentarios</value>
+  </data>
+  <data name="Sendfeedback.Text" xml:space="preserve">
+    <value>Por favor enviarme información sobre esta aplicación. Voy a arreglar cada error y escucharé tus ideas en cómo mejorar esta aplicación.</value>
+  </data>
+  <data name="SetUpNewNumber.Text" xml:space="preserve">
+    <value>Se puede definir un valor mínimo y un valor máximo. 
+Algunos ejemplos para usted: 4, 16.2342, 8.15, 108.54</value>
+  </data>
+  <data name="Timer.Text" xml:space="preserve">
+    <value>Se puede establecer un temporizador para el cambio de número cada segundo o puede definir cuántos segundos esperan hasta elegir un nuevo número.</value>
+  </data>
+</root>

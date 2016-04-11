@@ -1,0 +1,103 @@
+﻿<Page
+    x:Class="ProjectNice.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjectNice"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:UI="using:Microsoft.Advertising.WinRT.UI"
+    mc:Ignorable="d">
+    <!--TODO: back button to exit settings and options pane -->
+    <Grid x:Name="bgDark" Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" x:Name="gridResults">
+            <Grid.RowDefinitions>
+                <!--<RowDefinition Height="*"/>-->
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="100"/>
+                <!--<RowDefinition Height="*"/>-->
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="60"/>
+                <!--<RowDefinition Height="20"/>-->
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Margin="4, 10, 4, 10" TextAlignment="Center" x:Name="txtSortedNumbers" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" TextWrapping="WrapWholeWords"/>
+            <TextBlock Grid.Row="1" x:Name="TelaNumeroSorteado" FontSize="100" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White">
+    			<Run Text="42"/>
+            </TextBlock>
+            <Grid Grid.Row="2">
+                <Grid CompositeMode="SourceOver" Margin="0,25,0,25">
+                    <UI:AdControl x:Name="Ad" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center" Width="320"/>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <HyperlinkButton Grid.Column="3" x:Name="txtClean" Foreground="White" FontSize="25" Width="50" Height="50" FontFamily="Segoe MDL2 Assets" Content="&#xE711;" Click="txtClean_Click" PointerMoved="txtClean_PointerMoved" PointerExited="txtClean_PointerExited">
+                    <HyperlinkButton.ContentTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}" />
+                        </DataTemplate>
+                    </HyperlinkButton.ContentTemplate>
+                </HyperlinkButton>
+                <HyperlinkButton Grid.Column="5" x:Name="txtSort" Foreground="White" FontSize="50" Width="60" Height="60" FontFamily="Segoe MDL2 Assets" Content="&#xE710;" Click="Button_Click" PointerMoved="txtSort_PointerMoved" PointerExited="txtSort_PointerExited">
+                    <HyperlinkButton.ContentTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}" />
+                        </DataTemplate>
+                    </HyperlinkButton.ContentTemplate>
+                </HyperlinkButton>
+                <HyperlinkButton Grid.Column="7" x:Name="txtSettings" Foreground="White" FontSize="25" Width="50" Height="50" FontFamily="Segoe MDL2 Assets" Content="&#xE713;" Click="txtSettings_Click" PointerMoved="txtSettings_PointerMoved" PointerExited="txtSettings_PointerExited">
+                    <HyperlinkButton.ContentTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}" />
+                        </DataTemplate>
+                    </HyperlinkButton.ContentTemplate>
+                </HyperlinkButton>
+            </Grid>
+        </Grid>
+        <Grid x:Name="gridOptions" Grid.Row="2" Background="#3c3c3c" Padding="15,10,15,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="195"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Column="0" Grid.Row="0">
+                <TextBox TextChanged="Min_TextChanged" x:Name="Min" Height="23" VerticalAlignment="Center" Width="100" PlaceholderText="Min (0)" InputScope="Number" Text=""/>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="0">
+                <TextBox TextChanged="Min_TextChanged" x:Name="Max" Height="23" VerticalAlignment="Center" Width="100" PlaceholderText="Max (100)" InputScope="Number" Text=""/>
+            </Grid>
+            <Grid Grid.Row="2" Grid.ColumnSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="65"/>
+                    <RowDefinition Height="65"/>
+                    <RowDefinition Height="65"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <ToggleSwitch Grid.Row="0" Grid.ColumnSpan="1" Header="Números decimais" x:Name="rptDecimalNumbers" VerticalAlignment="Center" HorizontalAlignment="Center"></ToggleSwitch>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

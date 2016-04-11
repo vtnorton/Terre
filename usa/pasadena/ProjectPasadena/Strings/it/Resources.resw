@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtAbout.Text" xml:space="preserve">
+    <value>Informazioni su</value>
+  </data>
+  <data name="txtBand.Text" xml:space="preserve">
+    <value>Microsoft Band</value>
+  </data>
+  <data name="txtHelp.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="txtHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="txtSettings.Text" xml:space="preserve">
+    <value>impostazioni</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Un gioco può distruggere anche da rafforzare amicizie. Prendere la bevanda più forte, o che è più vicino a voi e il famoso 'I mai mai', giocherà dove ogni volta che hai fatto qualcosa mostrato sullo schermo si dovrebbe bere un sorso. La regola è semplice, il gioco è conosciuto, quindi cosa aspettate? Chiama i tuoi amici più vicini per un giro di 'I mai mai'.</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>#NeverEver</value>
+  </data>
+  <data name="GetToKnowMe.Text" xml:space="preserve">
+    <value>Vieni a conoscere me e le mie altre applicazioni visitando il mio sito Web.</value>
+  </data>
+  <data name="GoToSite.Content" xml:space="preserve">
+    <value>Visita il mio sito</value>
+  </data>
+  <data name="RateInTheStore.Text" xml:space="preserve">
+    <value>Rendere qualcuno felice di valutare questa app store. ;)</value>
+  </data>
+  <data name="RateIt.Content" xml:space="preserve">
+    <value>Votare e fare felice qualcuno</value>
+  </data>
+  <data name="Sendfeedback.Text" xml:space="preserve">
+    <value>Vi prego di inviarmi feedback circa questo app. Ho intenzione di correggere ogni bug e ascolterò il tuo ideias in come rendere questa app migliore.</value>
+  </data>
+  <data name="SendFeedbackBtn.Content" xml:space="preserve">
+    <value>Commenti e suggerimenti</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Andare in un bar, o semplicemente prendere il vostro drink e andare al passaggio 2.</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Per ogni cosa che hai fatto, e che sta mostrando sullo schermo, bere.</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Così semplice!</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Successivo</value>
+  </data>
+  <data name="ToStart.Text" xml:space="preserve">
+    <value>Per iniziare clicca in avanti!</value>
+  </data>
+</root>
