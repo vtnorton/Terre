@@ -1,5 +1,5 @@
 ﻿using Core.Shared;
-using ProjectRio.Code;
+using CoreWin10.Code;
 using System;
 using Windows.System;
 using Windows.UI.Xaml;

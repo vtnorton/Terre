@@ -117,11 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AboutTheDev.Text" xml:space="preserve">
-    <value>Windows developer (C#, .Net, XAML and SQL Server), social media and web master. Work for myself. Read my social accounts and you gonna discover more who I am.</value>
-  </data>
   <data name="DouaiDescription.Text" xml:space="preserve">
     <value>Combining regular and irregular verbs of our Portuguese language in all tenses (Present, Imperfect, Perfect Present, more-than-perfect past, future, future of this, the present conditional, imperfect subjunctive tense, future subjunctive, imperative , infinitive and gerund).</value>
+    <comment>Conjugue verbos regulares e irregulares da nossa língua portuguesa em todos os tempos verbais (Presente, Pretérito imperfeito, Pretérito perfeito, pretérito mais-que-perfeito, futuro, futuro do presente, presente do conjuntivo, pretérito imperfeito do conjuntivo, futuro do conjuntivo, imperativo, infinitivo e gerúndio). *** Por favor, não use esse aplicativo para colar na prova, ou use, mas por sua conta em risco ***</comment>
   </data>
   <data name="DouaiTitle.Text" xml:space="preserve">
     <value>Conjugar</value>
@@ -138,14 +136,23 @@
   <data name="FollowTwitter.Content" xml:space="preserve">
     <value>Follow me on Twitter</value>
   </data>
+  <data name="GetToKnowMe.Text" xml:space="preserve">
+    <value>Get to know me and my other apps by visiting my website.</value>
+  </data>
+  <data name="GoToSite.Content" xml:space="preserve">
+    <value>Visit my website</value>
+  </data>
   <data name="LasVegasDescription.Text" xml:space="preserve">
-    <value>Those who never played such a game like this or have never heard that throw the first stone! The best game of truth and consequence that the Windows Store has seen so far, has several bottles according to the occasion (in family, in the square, between friends, drunk, with the bests , alone,in the classroom and among couples) , with questions and pre-defined challenges is fun in the right esste application!</value>
+    <value>Those who never played such a game like this or have never heard that throw the first stone! The best game of truth and consequence that the Windows Store has seen so far, has several bottles according to the occasion (in family, in the square, between friends, drunk, with the bests , alone,in the classroom and among couples) , with questions and pre-defined challenges is fun in these application!</value>
+    <comment>Quem nunca jogou um jogo desses ou nunca ouviu falar, que jogue a primeira pedra? O melhor jogo de verdade e consequência que a Windows Store já viu, possui diversas garrafas de acordo com a ocasião (em família, na praça, entre amigos, entre bêbados, com as bests, sozinho, em sala de aula e entre casais), com perguntas e desafios pre definidos é diversão na certa esste aplicativo!</comment>
   </data>
   <data name="LasVegasTitle.Text" xml:space="preserve">
     <value>#TrueOrDare</value>
+    <comment>#VerdadeOuConsequência</comment>
   </data>
   <data name="LyonDescription.Text" xml:space="preserve">
     <value>Calculate and converts easily minutes, turning in hours, days, or even years or seconds. Perfect app for those who like to do marathons series and need to know how many episodes you can watch up to your next appointment, or you going to the movies and you want to eat something later, but can not miss the bus schedule. Do not waste time counting!</value>
+    <comment>Calcule e converta com facilidade minutos, transforando em horas, dias, anos ou até segundos. Aplicativo perfeito para você que gosta de fazer maratonas de séries e precisa saber quantos episódios você pode assistir até o seu próximo compromisso, ou para você que vai ao cinema e pretende comer algo depois, mas não pode perder o horário do ônibus. Não perca mais contando o tempo!</comment>
   </data>
   <data name="LyonTitle.Text" xml:space="preserve">
     <value>Time calculator</value>
@@ -155,9 +162,11 @@
   </data>
   <data name="MiameTitle.Text" xml:space="preserve">
     <value>M!xer</value>
+    <comment>M!xer</comment>
   </data>
   <data name="NiceDescription.Text" xml:space="preserve">
     <value>Isn't rare occasions where we need to give away someone with this application is easy. Just add the track numbers to be drawn and it will do the work for you. Try it.</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
   </data>
   <data name="NiceTitle.Text" xml:space="preserve">
     <value>Random 42</value>
@@ -167,9 +176,17 @@
   </data>
   <data name="PasadenaDescription.Text" xml:space="preserve">
     <value>A game can destroy as well as to strengthen friendships. Take stronger drink, or that is closer to you, and will play the famous 'I Never ever' , where every time you've done something shown on the screen you should drink a sip. The rule is simple, the game is known, then what are you waiting? Call your closest friends for a round of 'I never ever'.</value>
+    <comment>Um jogo capaz de destruir como também de fortalecer amizades. Pegue a bebida mais forte, ou a que esteja mais perto de você, e venha jogar o famoso 'Eu Nunca', onde toda vez que você já fez algo mostrado na tela você deve beber um gole. A regra é simples, o jogo é conhecido, então o que está esperando? Chame seus amigos mais proxímos para uma rodada de 'Eu nunca'.</comment>
   </data>
   <data name="PasadenaTitle.Text" xml:space="preserve">
     <value>#NeverEver</value>
+    <comment>#EuNunca</comment>
+  </data>
+  <data name="RateInTheStore.Text" xml:space="preserve">
+    <value>Make someone happy by rating this app in the store. ;)</value>
+  </data>
+  <data name="RateIt.Content" xml:space="preserve">
+    <value>Rate it and make someone happy</value>
   </data>
   <data name="RatePopupCancelButton" xml:space="preserve">
     <value>No, thanks</value>
@@ -182,6 +199,7 @@
   </data>
   <data name="RatePupupContent" xml:space="preserve">
     <value>Your feedback help me improve this app. If you like it, please, rate with 5 star so, that way, I continue to create new functions and updates.</value>
+    <comment>Seu feedback ajuda a melhorar este aplicativo. Se você gosta dele, por favor, avalie-o com cinco estrelas para que eu continue trabalhando em novas funções e atualizações</comment>
   </data>
   <data name="RateThisApp.Content" xml:space="preserve">
     <value>Rate this app</value>
@@ -195,10 +213,56 @@
   <data name="SendAFeedback.Content" xml:space="preserve">
     <value>Send a feedback</value>
   </data>
+  <data name="Sendfeedback.Text" xml:space="preserve">
+    <value>Please send me you feedback about this app. I am going to fix every bug and I will listen your ideias in how to make this app better.</value>
+  </data>
+  <data name="SendFeedbackBtn.Content" xml:space="preserve">
+    <value>Send feedback</value>
+  </data>
+  <data name="txtAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="txtBand.Text" xml:space="preserve">
+    <value>Microsoft Band</value>
+  </data>
+  <data name="txtHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="txtHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="txtSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
   <data name="VersionApp" xml:space="preserve">
     <value>App version: </value>
   </data>
   <data name="VersionCore" xml:space="preserve">
     <value>Core version: </value>
+    <comment>Versão</comment>
+  </data>
+  <data name="txtDev.Text" xml:space="preserve">
+    <value>the dev</value>
+  </data>
+  <data name="txtOtherApps.Text" xml:space="preserve">
+    <value>other apps</value>
+  </data>
+  <data name="txtThisApp.Text" xml:space="preserve">
+    <value>this app</value>
+  </data>
+  <data name="wtxtAbout.Label" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="wtxtHome.Label" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="wtxtSettings.Label" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="YappDescription.Text" xml:space="preserve">
+    <value>This app is produced and distributed by Y'APP. Read more about on the site.</value>
+  </data>
+  <data name="YappSite.Content" xml:space="preserve">
+    <value>Y'APP's site</value>
   </data>
 </root>

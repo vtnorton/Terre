@@ -117,82 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="txtAbout.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="txtBand.Text" xml:space="preserve">
-    <value>Microsoft Band</value>
-  </data>
-  <data name="txtHelp.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="txtHome.Text" xml:space="preserve">
-    <value>Home</value>
-  </data>
-  <data name="txtSettings.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Now you can know, right in your phone, where the Olympic torch is going to be in Brazil.</value>
   </data>
   <data name="AppName" xml:space="preserve">
     <value>Tocha Olímpica</value>
   </data>
-  <data name="GetToKnowMe.Text" xml:space="preserve">
-    <value>Get to know me and my other apps by visiting my website.</value>
+  <data name="ThisAppDescription.Text" xml:space="preserve">
+    <value>Now you can know, right in your phone, where the Olympic torch is going to be in Brazil.</value>
   </data>
-  <data name="GoToSite.Content" xml:space="preserve">
-    <value>Visit my website</value>
-  </data>
-  <data name="Hour" xml:space="preserve">
-    <value>Hour</value>
-  </data>
-  <data name="HourAnd" xml:space="preserve">
-    <value>Hour and</value>
-  </data>
-  <data name="Hours" xml:space="preserve">
-    <value>Hours</value>
-  </data>
-  <data name="HoursAnd" xml:space="preserve">
-    <value>Hours and</value>
-  </data>
-  <data name="Minute" xml:space="preserve">
-    <value>Minute</value>
-  </data>
-  <data name="MinuteAnd" xml:space="preserve">
-    <value>Minute and</value>
-  </data>
-  <data name="Minutes" xml:space="preserve">
-    <value>Minutes</value>
-  </data>
-  <data name="MinutesAnd" xml:space="preserve">
-    <value>Minutes and</value>
-  </data>
-  <data name="MSBand.Text" xml:space="preserve">
-    <value>You can connect this app with Microsoft Band 2, and it will be with you everywhere you go.</value>
-  </data>
-  <data name="RateInTheStore.Text" xml:space="preserve">
-    <value>Make someone happy by rating this app in the store. ;)</value>
-  </data>
-  <data name="RateIt.Content" xml:space="preserve">
-    <value>Rate it and make someone happy</value>
-  </data>
-  <data name="Second" xml:space="preserve">
-    <value>Second</value>
-  </data>
-  <data name="Seconds" xml:space="preserve">
-    <value>Seconds</value>
-  </data>
-  <data name="Sendfeedback.Text" xml:space="preserve">
-    <value>Please send me you feedback about this app. I am going to fix every bug and I will listen your ideias in how to make this app better.</value>
-  </data>
-  <data name="SendFeedbackBtn.Content" xml:space="preserve">
-    <value>Send feedback</value>
-  </data>
-  <data name="SetUpNewNumber.Text" xml:space="preserve">
-    <value>Make a normal account using minutes and than, when you get the result, it will appear as hours. Awesome, right?</value>
-  </data>
-  <data name="Timer.Text" xml:space="preserve">
-    <value>You can set a timer for changing number every second or you can define how many seconds wait until choose a new number.</value>
+  <data name="ThisAppName.Text" xml:space="preserve">
+    <value>Tocha Olímpica</value>
   </data>
 </root>
