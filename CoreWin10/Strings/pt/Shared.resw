@@ -13,32 +13,32 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DouaiDescription.Text" xml:space="preserve">
-    <value>Conjugue verbos regulares e irregulares da nossa língua portuguesa em todos os tempos verbais (Presente, Pretérito imperfeito, Pretérito perfeito, pretérito mais-que-perfeito, futuro, futuro do presente, presente do conjuntivo, pretérito imperfeito do conjuntivo, futuro do conjuntivo, imperativo, infinitivo e gerúndio). *** Por favor, não use esse aplicativo para colar na prova, ou use, mas por sua conta em risco ***</value>
+    <value>Combinação de verbos regulares e irregulares de nossa língua portuguesa em todos os tempos (presente, imperfeito, presente perfeito, passado mais-que-perfeito, futuro, futuro do presente, o presente indicativo condicional, pretérito imperfeito do modo subjuntivo, futuro do modo subjuntivo, imperativo, infinitivo e gerúndio).</value>
     <comment>Conjugue verbos regulares e irregulares da nossa língua portuguesa em todos os tempos verbais (Presente, Pretérito imperfeito, Pretérito perfeito, pretérito mais-que-perfeito, futuro, futuro do presente, presente do conjuntivo, pretérito imperfeito do conjuntivo, futuro do conjuntivo, imperativo, infinitivo e gerúndio). *** Por favor, não use esse aplicativo para colar na prova, ou use, mas por sua conta em risco ***</comment>
   </data>
   <data name="DouaiTitle.Text" xml:space="preserve">
     <value>Conjugar</value>
   </data>
   <data name="DownloadIt.Content" xml:space="preserve">
-    <value>Download</value>
+    <value>Baixar este app</value>
   </data>
   <data name="FeedbackEmailContent" xml:space="preserve">
     <value>Ei, aqui está alguns dos meus pensamentos sobre seu app, e como você pode melhorá-lo: </value>
   </data>
   <data name="FeedbackEmailTitle" xml:space="preserve">
-    <value>Feedback</value>
+    <value>Feedback sobre o </value>
   </data>
   <data name="FollowTwitter.Content" xml:space="preserve">
     <value>Siga-me no Twitter</value>
   </data>
   <data name="GetToKnowMe.Text" xml:space="preserve">
-    <value>Me conheça e veja meus outros apps, visitando meu site.</value>
+    <value>Te conhecer eu e meus outros apps, visitando meu site.</value>
   </data>
   <data name="GoToSite.Content" xml:space="preserve">
     <value>Visite o meu site</value>
   </data>
   <data name="LasVegasDescription.Text" xml:space="preserve">
-    <value>Quem nunca jogou um jogo desses ou nunca ouviu falar, que jogue a primeira pedra? O melhor jogo de verdade e consequência que a Windows Store já viu, possui diversas garrafas de acordo com a ocasião (em família, na praça, entre amigos, entre bêbados, com as bests, sozinho, em sala de aula e entre casais), com perguntas e desafios pre definidos é diversão na certa esste aplicativo!</value>
+    <value>Aqueles que nunca jogaram um jogo tão assim... ou nunca ouviu falar que atire a primeira pedra! O melhor jogo da verdade e consequência que a loja do Windows tem visto até agora, tem várias garrafas de acordo com a ocasião (na família, na praça, entre amigos, bêbados, com as melhores marcas, sozinhos, na sala de aula e entre casais), com perguntas e desafios pré-definidos é divertido nesses aplicativo!</value>
     <comment>Quem nunca jogou um jogo desses ou nunca ouviu falar, que jogue a primeira pedra? O melhor jogo de verdade e consequência que a Windows Store já viu, possui diversas garrafas de acordo com a ocasião (em família, na praça, entre amigos, entre bêbados, com as bests, sozinho, em sala de aula e entre casais), com perguntas e desafios pre definidos é diversão na certa esste aplicativo!</comment>
   </data>
   <data name="LasVegasTitle.Text" xml:space="preserve">
@@ -50,27 +50,27 @@
     <comment>Calcule e converta com facilidade minutos, transforando em horas, dias, anos ou até segundos. Aplicativo perfeito para você que gosta de fazer maratonas de séries e precisa saber quantos episódios você pode assistir até o seu próximo compromisso, ou para você que vai ao cinema e pretende comer algo depois, mas não pode perder o horário do ônibus. Não perca mais contando o tempo!</comment>
   </data>
   <data name="LyonTitle.Text" xml:space="preserve">
-    <value>Calculador de tempo</value>
+    <value>Calculador de tempo de</value>
   </data>
   <data name="MiameDescription.Text" xml:space="preserve">
     <value>Um ser escrito</value>
   </data>
   <data name="MiameTitle.Text" xml:space="preserve">
-    <value>M!xer</value>
+    <value>M! xer</value>
     <comment>M!xer</comment>
   </data>
   <data name="NiceDescription.Text" xml:space="preserve">
-    <value>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</value>
+    <value>Não raras ocasiões onde precisamos doar a que alguém com este aplicativo é fácil. Basta adicionar os números de faixas para serem desenhados e fará o trabalho para você. Experimentá-lo.</value>
     <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
   </data>
   <data name="NiceTitle.Text" xml:space="preserve">
-    <value>Random 42</value>
+    <value>42 aleatório</value>
   </data>
   <data name="OpenSite.Content" xml:space="preserve">
-    <value>Entre no meu site</value>
+    <value>Vá ao meu site</value>
   </data>
   <data name="PasadenaDescription.Text" xml:space="preserve">
-    <value>Um jogo capaz de destruir como também de fortalecer amizades. Pegue a bebida mais forte, ou a que esteja mais perto de você, e venha jogar o famoso 'Eu Nunca', onde toda vez que você já fez algo mostrado na tela você deve beber um gole. A regra é simples, o jogo é conhecido, então o que está esperando? Chame seus amigos mais proxímos para uma rodada de 'Eu nunca'.</value>
+    <value>Um jogo pode destruir, bem como para fortalecer amizades. Tomar a bebida mais forte, ou que está mais perto de você e vai jogar o famoso 'Eu nunca', onde cada vez que você tenha feito algo mostrado no ecrã você deve beber um gole. A regra é simples, o jogo é conhecido e, em seguida, o que você está esperando? Chame seus amigos para uma rodada de 'Eu nunca'.</value>
     <comment>Um jogo capaz de destruir como também de fortalecer amizades. Pegue a bebida mais forte, ou a que esteja mais perto de você, e venha jogar o famoso 'Eu Nunca', onde toda vez que você já fez algo mostrado na tela você deve beber um gole. A regra é simples, o jogo é conhecido, então o que está esperando? Chame seus amigos mais proxímos para uma rodada de 'Eu nunca'.</comment>
   </data>
   <data name="PasadenaTitle.Text" xml:space="preserve">
@@ -78,16 +78,16 @@
     <comment>#EuNunca</comment>
   </data>
   <data name="RateInTheStore.Text" xml:space="preserve">
-    <value>Faça alguém feliz e avalie este aplicativo na loja. ;)</value>
+    <value>Fazer alguém feliz por popularidade este app na loja. ;)</value>
   </data>
   <data name="RateIt.Content" xml:space="preserve">
-    <value>Avalie e faça alguém feliz</value>
+    <value>Avaliá-lo e fazer alguém feliz</value>
   </data>
   <data name="RatePopupCancelButton" xml:space="preserve">
     <value>Não, obrigado</value>
   </data>
   <data name="RatePopupRateButton" xml:space="preserve">
-    <value>5 estrelas</value>
+    <value>Taxa 5 estrelas</value>
   </data>
   <data name="RatePopupTitle" xml:space="preserve">
     <value>Classificar este aplicativo</value>
@@ -118,7 +118,7 @@
     <value>Sobre</value>
   </data>
   <data name="txtBand.Text" xml:space="preserve">
-    <value>Microsoft Band</value>
+    <value>Banda de Microsoft</value>
   </data>
   <data name="txtHelp.Text" xml:space="preserve">
     <value>Ajuda</value>
@@ -153,5 +153,11 @@
   </data>
   <data name="wtxtSettings.Label" xml:space="preserve">
     <value>Configurações</value>
+  </data>
+  <data name="YappDescription.Text" xml:space="preserve">
+    <value>Este app é produzido e distribuído pela Y'APP. Leia mais sobre o site.</value>
+  </data>
+  <data name="YappSite.Content" xml:space="preserve">
+    <value>Site de Y'APP</value>
   </data>
 </root>

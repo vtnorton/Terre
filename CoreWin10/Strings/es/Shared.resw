@@ -64,7 +64,7 @@
     <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
   </data>
   <data name="NiceTitle.Text" xml:space="preserve">
-    <value>Random 42</value>
+    <value>42 al azar</value>
   </data>
   <data name="OpenSite.Content" xml:space="preserve">
     <value>Ir a mi sitio web</value>
@@ -117,6 +117,9 @@
   <data name="txtAbout.Text" xml:space="preserve">
     <value>Acerca de</value>
   </data>
+  <data name="txtBand.Text" xml:space="preserve">
+    <value>Banda de Microsoft</value>
+  </data>
   <data name="txtHelp.Text" xml:space="preserve">
     <value>Ayuda</value>
   </data>
@@ -150,5 +153,11 @@
   </data>
   <data name="wtxtSettings.Label" xml:space="preserve">
     <value>Configuración</value>
+  </data>
+  <data name="YappDescription.Text" xml:space="preserve">
+    <value>Esta aplicación es producida y distribuida por Y'APP. Leer más sobre en el sitio.</value>
+  </data>
+  <data name="YappSite.Content" xml:space="preserve">
+    <value>Sitio de Y'APP</value>
   </data>
 </root>

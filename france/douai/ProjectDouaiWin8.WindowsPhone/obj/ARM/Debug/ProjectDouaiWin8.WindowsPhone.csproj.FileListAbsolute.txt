@@ -57,3 +57,4 @@ F:\terre\france\douai\ProjectDouaiWin8.WindowsPhone\obj\ARM\Debug\qualifiers.txt
 F:\terre\france\douai\ProjectDouaiWin8.WindowsPhone\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 F:\terre\france\douai\ProjectDouaiWin8.WindowsPhone\obj\ARM\Debug\UniversalRateReminder.pri.xml
 F:\terre\france\douai\ProjectDouaiWin8.WindowsPhone\obj\ARM\Debug\ProjectArchitectures.txt
+F:\Terre\france\douai\ProjectDouaiWin8.WindowsPhone\obj\ARM\Debug\ProjectDouaiWin8.WindowsPhone.csprojResolveAssemblyReference.cache

@@ -13,32 +13,32 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DouaiDescription.Text" xml:space="preserve">
-    <value>La combinación de verbos regulares e irregulares de la lengua portuguesa en todos tiempos verbales (presente, imperfecto, presente perfecto, pasado más que perfecto, futuro, futuro de esta, presente tiempo verbal del condicional, imperfecto de subjuntivo, futuro subjuntivo, imperativo, infinitivo y gerundio).</value>
+    <value>La combinazione di verbi regolari e irregolari della nostra lingua portoghese in tutti i tempi verbali (presente, imperfetto, perfetto presente, più-che-perfetto passato, futuro, futuro di questo, indicativo presente congiuntivo condizionale, imperfetto, futuro congiuntivo, imperativo, infinito e gerundio).</value>
     <comment>Conjugue verbos regulares e irregulares da nossa língua portuguesa em todos os tempos verbais (Presente, Pretérito imperfeito, Pretérito perfeito, pretérito mais-que-perfeito, futuro, futuro do presente, presente do conjuntivo, pretérito imperfeito do conjuntivo, futuro do conjuntivo, imperativo, infinitivo e gerúndio). *** Por favor, não use esse aplicativo para colar na prova, ou use, mas por sua conta em risco ***</comment>
   </data>
   <data name="DouaiTitle.Text" xml:space="preserve">
     <value>Conjugar</value>
   </data>
   <data name="DownloadIt.Content" xml:space="preserve">
-    <value>Descargar esta aplicación</value>
+    <value>Scarica questa applicazione</value>
   </data>
   <data name="FeedbackEmailContent" xml:space="preserve">
-    <value>Bueno, aquí es algunas de mis reflexiones sobre su aplicación, y cómo se puede mejorar: </value>
+    <value>Ehi, ecco alcuni dei miei pensieri su app e come si può migliorare: </value>
   </data>
   <data name="FeedbackEmailTitle" xml:space="preserve">
-    <value>Comentarios sobre </value>
+    <value>Feedback su </value>
   </data>
   <data name="FollowTwitter.Content" xml:space="preserve">
-    <value>Sígueme en Twitter</value>
+    <value>Seguimi su Twitter</value>
   </data>
   <data name="GetToKnowMe.Text" xml:space="preserve">
-    <value>Conozca a mí y a mis otras aplicaciones visitando mi sitio Web.</value>
+    <value>Vieni a conoscere me e le mie altre applicazioni visitando il mio sito Web.</value>
   </data>
   <data name="GoToSite.Content" xml:space="preserve">
-    <value>Visite mi sitio web</value>
+    <value>Visita il mio sito</value>
   </data>
   <data name="LasVegasDescription.Text" xml:space="preserve">
-    <value>Los que nunca jugaron un juego como esto o nunca han escuchado tire la primera piedra! El mejor juego de la verdad y la consecuencia que la Windows Store ha visto hasta ahora, tiene varias botellas según la ocasión (en familia, en la Plaza, entre amigos, borrachos, con los mejores, solos, en el aula y entre parejas), con preguntas y desafíos predefinidos es divertido en estas aplicaciones!</value>
+    <value>Chi ha mai giocato un gioco come questo o non avete mai sentito che scagli la prima pietra! Il miglior gioco di verità e di conseguenza che il Windows Store ha visto finora, ha diverse bottiglie secondo l'occasione (nella famiglia, nella piazza, tra amici, ubriachi, con i migliori, da solo, in aula e tra le coppie), con domande e sfide pre-definite è divertente in queste applicazioni!</value>
     <comment>Quem nunca jogou um jogo desses ou nunca ouviu falar, que jogue a primeira pedra? O melhor jogo de verdade e consequência que a Windows Store já viu, possui diversas garrafas de acordo com a ocasião (em família, na praça, entre amigos, entre bêbados, com as bests, sozinho, em sala de aula e entre casais), com perguntas e desafios pre definidos é diversão na certa esste aplicativo!</comment>
   </data>
   <data name="LasVegasTitle.Text" xml:space="preserve">
@@ -46,31 +46,31 @@
     <comment>#VerdadeOuConsequência</comment>
   </data>
   <data name="LyonDescription.Text" xml:space="preserve">
-    <value>Calcular y convierte fácilmente minutos, convirtiendo en horas, días o incluso años o segundos. La aplicación perfecta para aquellos que les gusta hacer maratones series y necesito saber cuántos episodios se puede ver hasta la siguiente cita, o ir al cine y usted quiere comer algo más tarde, pero no puede faltar el horario del autobús. No pierdas el tiempo contando!</value>
+    <value>Calcolare e converte facilmente minuti, girando in ore, giorni, o anche anni o secondi. Applicazione perfetta per coloro che amano fare serie di maratone e bisogno di sapere quanti episodi si può guardare fino al prossimo appuntamento, o andare al cinema e si vuole mangiare qualcosa più tardi, ma non può mancare l'orario degli autobus. Non perdete il conteggio del tempo!</value>
     <comment>Calcule e converta com facilidade minutos, transforando em horas, dias, anos ou até segundos. Aplicativo perfeito para você que gosta de fazer maratonas de séries e precisa saber quantos episódios você pode assistir até o seu próximo compromisso, ou para você que vai ao cinema e pretende comer algo depois, mas não pode perder o horário do ônibus. Não perca mais contando o tempo!</comment>
   </data>
   <data name="LyonTitle.Text" xml:space="preserve">
-    <value>Calculadora de tiempo</value>
+    <value>Calcolatore di tempo</value>
   </data>
   <data name="MiameDescription.Text" xml:space="preserve">
-    <value>Un escrito de ser</value>
+    <value>Un ser escrito</value>
   </data>
   <data name="MiameTitle.Text" xml:space="preserve">
     <value>M! xer</value>
     <comment>M!xer</comment>
   </data>
   <data name="NiceDescription.Text" xml:space="preserve">
-    <value>No es raras ocasiones donde tenemos que dar a que alguien con esta aplicación es fácil. Sólo tiene que añadir los números de pista que se elaborará y hará el trabajo por usted. Pruébalo.</value>
+    <value>Non rare occasioni in cui dobbiamo dare via che qualcuno con questa applicazione è facile. Basta aggiungere i numeri di pista deve essere disegnato e farà il lavoro per voi. Provatelo.</value>
     <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
   </data>
   <data name="NiceTitle.Text" xml:space="preserve">
-    <value>Random 42</value>
+    <value>42 casuale</value>
   </data>
   <data name="OpenSite.Content" xml:space="preserve">
-    <value>Ir a mi sitio web</value>
+    <value>Vai al mio sito Web</value>
   </data>
   <data name="PasadenaDescription.Text" xml:space="preserve">
-    <value>Un juego puede destruir, así como para fortalecer amistades. Tomar la bebida más fuerte, o que está más cerca de usted y el famoso 'yo nunca', jugará donde cada vez que has hecho algo en la pantalla se debe beber un sorbo. La regla es simple, el juego es conocido, entonces ¿qué esperas? Llame a sus amigos más cercanos para una ronda de' nunca jamás'.</value>
+    <value>Un gioco può distruggere anche da rafforzare amicizie. Prendere la bevanda più forte, o che è più vicino a voi e il famoso 'I mai mai', giocherà dove ogni volta che hai fatto qualcosa mostrato sullo schermo si dovrebbe bere un sorso. La regola è semplice, il gioco è conosciuto, quindi cosa aspettate? Chiama i tuoi amici più vicini per un giro di 'I mai mai'.</value>
     <comment>Um jogo capaz de destruir como também de fortalecer amizades. Pegue a bebida mais forte, ou a que esteja mais perto de você, e venha jogar o famoso 'Eu Nunca', onde toda vez que você já fez algo mostrado na tela você deve beber um gole. A regra é simples, o jogo é conhecido, então o que está esperando? Chame seus amigos mais proxímos para uma rodada de 'Eu nunca'.</comment>
   </data>
   <data name="PasadenaTitle.Text" xml:space="preserve">
@@ -78,80 +78,86 @@
     <comment>#EuNunca</comment>
   </data>
   <data name="RateInTheStore.Text" xml:space="preserve">
-    <value>Hacer a alguien feliz por valorar esta app en la tienda. ;)</value>
+    <value>Rendere qualcuno felice di valutare questa app store. ;)</value>
   </data>
   <data name="RateIt.Content" xml:space="preserve">
-    <value>Votar y hacer alguien feliz</value>
+    <value>Votare e fare felice qualcuno</value>
   </data>
   <data name="RatePopupCancelButton" xml:space="preserve">
-    <value>No</value>
+    <value>No, grazie</value>
   </data>
   <data name="RatePopupRateButton" xml:space="preserve">
-    <value>Tasa de 5 estrellas</value>
+    <value>Tasso 5 stelle</value>
   </data>
   <data name="RatePopupTitle" xml:space="preserve">
-    <value>Valorar esta aplicación</value>
+    <value>Valuta l'app</value>
   </data>
   <data name="RatePupupContent" xml:space="preserve">
-    <value>Sus comentarios me ayudan a mejorar esta aplicación. Si te gusta, califique con 5 estrellas por lo que, así, sigo a crear actualizaciones y nuevas funciones.</value>
+    <value>Il tuo feedback mi aiutare a migliorare questa applicazione. Se ti piace, per favore, vota con 5 stelle quindi, in questo modo, continuare a creare aggiornamenti e nuove funzioni.</value>
     <comment>Seu feedback ajuda a melhorar este aplicativo. Se você gosta dele, por favor, avalie-o com cinco estrelas para que eu continue trabalhando em novas funções e atualizações</comment>
   </data>
   <data name="RateThisApp.Content" xml:space="preserve">
-    <value>Valorar esta aplicación</value>
+    <value>Valuta l'app</value>
   </data>
   <data name="RioDescription.Text" xml:space="preserve">
-    <value>Ya sabes, a la derecha en su teléfono, donde la antorcha olímpica va a ser en Brasil.</value>
+    <value>Ora è possibile sapere, proprio nel tuo telefono, dove la torcia olimpica sta per essere in Brasile.</value>
   </data>
   <data name="RioTitle.Text" xml:space="preserve">
     <value>Tocha Olímpica</value>
   </data>
   <data name="SendAFeedback.Content" xml:space="preserve">
-    <value>Enviar una respuesta</value>
+    <value>Invia un feedback</value>
   </data>
   <data name="Sendfeedback.Text" xml:space="preserve">
-    <value>Por favor enviarme información sobre esta aplicación. Voy a arreglar cada error y escucharé tus ideas en cómo mejorar esta aplicación.</value>
+    <value>Vi prego di inviarmi feedback circa questo app. Ho intenzione di correggere ogni bug e ascolterò il tuo ideias in come rendere questa app migliore.</value>
   </data>
   <data name="SendFeedbackBtn.Content" xml:space="preserve">
-    <value>Enviar comentarios</value>
+    <value>Commenti e suggerimenti</value>
   </data>
   <data name="txtAbout.Text" xml:space="preserve">
-    <value>Acerca de</value>
+    <value>Informazioni su</value>
   </data>
   <data name="txtBand.Text" xml:space="preserve">
-    <value>Banda de Microsoft</value>
+    <value>Microsoft Band</value>
   </data>
   <data name="txtHelp.Text" xml:space="preserve">
-    <value>Ayuda</value>
+    <value>?</value>
   </data>
   <data name="txtHome.Text" xml:space="preserve">
-    <value>Inicio</value>
+    <value>Home</value>
   </data>
   <data name="txtSettings.Text" xml:space="preserve">
-    <value>Configuración</value>
+    <value>impostazioni</value>
   </data>
   <data name="VersionApp" xml:space="preserve">
-    <value>Versión de la aplicación: </value>
+    <value>Versione dell'applicazione: </value>
   </data>
   <data name="VersionCore" xml:space="preserve">
-    <value>Versión de la base: </value>
+    <value>Versione di base: </value>
     <comment>Versão</comment>
   </data>
   <data name="txtDev.Text" xml:space="preserve">
-    <value>la dev</value>
+    <value>il dev</value>
   </data>
   <data name="txtOtherApps.Text" xml:space="preserve">
-    <value>otras aplicaciones</value>
+    <value>altre applicazioni</value>
   </data>
   <data name="txtThisApp.Text" xml:space="preserve">
-    <value>esta aplicación</value>
+    <value>questa applicazione</value>
   </data>
   <data name="wtxtAbout.Label" xml:space="preserve">
-    <value>Acerca de</value>
+    <value>Informazioni su</value>
   </data>
   <data name="wtxtHome.Label" xml:space="preserve">
-    <value>Inicio</value>
+    <value>Home</value>
   </data>
   <data name="wtxtSettings.Label" xml:space="preserve">
-    <value>Configuración</value>
+    <value>impostazioni</value>
+  </data>
+  <data name="YappDescription.Text" xml:space="preserve">
+    <value>Questa app è prodotto e distribuito da Y'APP. Saperne di più sul sito.</value>
+  </data>
+  <data name="YappSite.Content" xml:space="preserve">
+    <value>Sito di Y'APP</value>
   </data>
 </root>

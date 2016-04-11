@@ -23,22 +23,4 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en-US\Resources.resw" />
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en-US\Shared.resw" />
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\es\Resources.resw" />
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\es\Shared.resw" />
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\fr\Resources.resw" />
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\fr\Shared.resw" />
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\it\Resources.resw" />
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\it\Shared.resw" />
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\pt\Resources.resw" />
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\pt\Shared.resw" />
-  </ItemGroup>
-  <ItemGroup>
-    <XliffResource Include="$(MSBuildThisFileDirectory)MultilingualResources\ProjectDouaiWin8.Shared.es.xlf" />
-    <XliffResource Include="$(MSBuildThisFileDirectory)MultilingualResources\ProjectDouaiWin8.Shared.fr.xlf" />
-    <XliffResource Include="$(MSBuildThisFileDirectory)MultilingualResources\ProjectDouaiWin8.Shared.it.xlf" />
-    <XliffResource Include="$(MSBuildThisFileDirectory)MultilingualResources\ProjectDouaiWin8.Shared.pt.xlf" />
-  </ItemGroup>
 </Project>

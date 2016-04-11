@@ -1,23 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectDouai", "ProjectDouai.csproj", "{B7C42882-D379-4BD9-8967-32610FCA8B52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectDouai", "ProjectDouai\ProjectDouai.csproj", "{B7C42882-D379-4BD9-8967-32610FCA8B52}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectDouaiWin8", "ProjectDouaiWin8", "{2A927829-9B61-47AC-874E-35C0D90E4884}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ProjectDouaiWin8.Shared", "ProjectDouaiWin8\ProjectDouaiWin8.Shared\ProjectDouaiWin8.Shared.shproj", "{E53B91F8-7307-463D-92AF-E17D441BE9CE}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ProjectDouaiWin8.Shared", "ProjectDouaiWin8.Shared\ProjectDouaiWin8.Shared.shproj", "{E53B91F8-7307-463D-92AF-E17D441BE9CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectDouaiWin8.Windows", "ProjectDouaiWin8\ProjectDouaiWin8.Windows\ProjectDouaiWin8.Windows.csproj", "{CF69D936-3468-489B-AC27-770DB6472C77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectDouaiWin8.Windows", "ProjectDouaiWin8.Windows\ProjectDouaiWin8.Windows.csproj", "{CF69D936-3468-489B-AC27-770DB6472C77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectDouaiWin8.WindowsPhone", "ProjectDouaiWin8\ProjectDouaiWin8.WindowsPhone\ProjectDouaiWin8.WindowsPhone.csproj", "{444CCE6D-1172-41CF-A507-29F0752BC98C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectDouaiWin8.WindowsPhone", "ProjectDouaiWin8.WindowsPhone\ProjectDouaiWin8.WindowsPhone.csproj", "{444CCE6D-1172-41CF-A507-29F0752BC98C}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		ProjectDouaiWin8\ProjectDouaiWin8.Shared\ProjectDouaiWin8.Shared.projitems*{cf69d936-3468-489b-ac27-770db6472c77}*SharedItemsImports = 4
-		ProjectDouaiWin8\ProjectDouaiWin8.Shared\ProjectDouaiWin8.Shared.projitems*{e53b91f8-7307-463d-92af-e17d441be9ce}*SharedItemsImports = 13
-		ProjectDouaiWin8\ProjectDouaiWin8.Shared\ProjectDouaiWin8.Shared.projitems*{444cce6d-1172-41cf-a507-29f0752bc98c}*SharedItemsImports = 4
+		ProjectDouaiWin8.Shared\ProjectDouaiWin8.Shared.projitems*{cf69d936-3468-489b-ac27-770db6472c77}*SharedItemsImports = 4
+		ProjectDouaiWin8.Shared\ProjectDouaiWin8.Shared.projitems*{e53b91f8-7307-463d-92af-e17d441be9ce}*SharedItemsImports = 13
+		ProjectDouaiWin8.Shared\ProjectDouaiWin8.Shared.projitems*{444cce6d-1172-41cf-a507-29f0752bc98c}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,29 +106,5 @@ Global
 		{E53B91F8-7307-463D-92AF-E17D441BE9CE} = {2A927829-9B61-47AC-874E-35C0D90E4884}
 		{CF69D936-3468-489B-AC27-770DB6472C77} = {2A927829-9B61-47AC-874E-35C0D90E4884}
 		{444CCE6D-1172-41CF-A507-29F0752BC98C} = {2A927829-9B61-47AC-874E-35C0D90E4884}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://vtnorton.visualstudio.com/defaultcollection
-		SccProjectUniqueName0 = ProjectDouai.csproj
-		SccLocalPath0 = .
-		SccLocalPath1 = .
-		SccProjectUniqueName2 = ProjectDouaiWin8\\ProjectDouaiWin8.Shared\\ProjectDouaiWin8.Shared.projitems
-		SccProjectTopLevelParentUniqueName2 = ProjectDouai.sln
-		SccProjectName2 = ProjectDouaiWin8/ProjectDouaiWin8.Shared
-		SccLocalPath2 = ProjectDouaiWin8\\ProjectDouaiWin8.Shared
-		SccProjectUniqueName3 = ProjectDouaiWin8\\ProjectDouaiWin8.Shared\\ProjectDouaiWin8.Shared.shproj
-		SccProjectTopLevelParentUniqueName3 = ProjectDouai.sln
-		SccProjectName3 = ProjectDouaiWin8/ProjectDouaiWin8.Shared
-		SccLocalPath3 = ProjectDouaiWin8\\ProjectDouaiWin8.Shared
-		SccProjectUniqueName4 = ProjectDouaiWin8\\ProjectDouaiWin8.Windows\\ProjectDouaiWin8.Windows.csproj
-		SccProjectTopLevelParentUniqueName4 = ProjectDouai.sln
-		SccProjectName4 = ProjectDouaiWin8/ProjectDouaiWin8.Windows
-		SccLocalPath4 = ProjectDouaiWin8\\ProjectDouaiWin8.Windows
-		SccProjectUniqueName5 = ProjectDouaiWin8\\ProjectDouaiWin8.WindowsPhone\\ProjectDouaiWin8.WindowsPhone.csproj
-		SccProjectTopLevelParentUniqueName5 = ProjectDouai.sln
-		SccProjectName5 = ProjectDouaiWin8/ProjectDouaiWin8.WindowsPhone
-		SccLocalPath5 = ProjectDouaiWin8\\ProjectDouaiWin8.WindowsPhone
 	EndGlobalSection
 EndGlobal

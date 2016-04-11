@@ -97,65 +97,75 @@
     <Prefer32Bit>true</Prefer32Bit>
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
-  <PropertyGroup Label="MultilingualAppToolkit">
-    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
-    <MultilingualFallbackLanguage>en-US</MultilingualFallbackLanguage>
-  </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <Content Include="..\..\..\..\..\core\alpha\CoreWin10\Images\Apps.png">
+    <Content Include="..\..\..\CoreWin10\Images\Apps.png">
       <Link>Images\Apps.png</Link>
     </Content>
-    <Content Include="..\..\..\..\..\core\alpha\CoreWin10\Images\Douai.png">
+    <Content Include="..\..\..\CoreWin10\Images\Douai.png">
       <Link>Images\Douai.png</Link>
     </Content>
-    <Content Include="..\..\..\..\..\core\alpha\CoreWin10\Images\Help\Page4.png">
+    <Content Include="..\..\..\CoreWin10\Images\Help\Page4.png">
       <Link>Images\Help\Page4.png</Link>
     </Content>
-    <Content Include="..\..\..\..\..\core\alpha\CoreWin10\Images\Help\Page5.png">
+    <Content Include="..\..\..\CoreWin10\Images\Help\Page5.png">
       <Link>Images\Help\Page5.png</Link>
     </Content>
-    <Content Include="..\..\..\..\..\core\alpha\CoreWin10\Images\Help\Page6.png">
+    <Content Include="..\..\..\CoreWin10\Images\Help\Page6.png">
       <Link>Images\Help\Page6.png</Link>
     </Content>
-    <Content Include="..\..\..\..\..\core\alpha\CoreWin10\Images\LasVegas.png">
+    <Content Include="..\..\..\CoreWin10\Images\LasVegas.png">
       <Link>Images\LasVegas.png</Link>
     </Content>
-    <Content Include="..\..\..\..\..\core\alpha\CoreWin10\Images\Lyon.png">
+    <Content Include="..\..\..\CoreWin10\Images\Lyon.png">
       <Link>Images\Lyon.png</Link>
     </Content>
-    <Content Include="..\..\..\..\..\core\alpha\CoreWin10\Images\Nice.png">
+    <Content Include="..\..\..\CoreWin10\Images\Nice.png">
       <Link>Images\Nice.png</Link>
     </Content>
-    <Content Include="..\..\..\..\..\core\alpha\CoreWin10\Images\Pasadena.png">
+    <Content Include="..\..\..\CoreWin10\Images\Pasadena.png">
       <Link>Images\Pasadena.png</Link>
     </Content>
-    <Content Include="..\..\..\..\..\core\alpha\CoreWin10\Images\Rio.png">
+    <Content Include="..\..\..\CoreWin10\Images\Rio.png">
       <Link>Images\Rio.png</Link>
     </Content>
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <PRIResource Include="Strings\es\Shared.resw" />
-    <PRIResource Include="Strings\pt\Shared.resw" />
-    <PRIResource Include="Strings\it\Shared.resw" />
-    <PRIResource Include="Strings\fr\Shared.resw" />
-    <PRIResource Include="Strings\en-US\Shared.resw" />
+    <PRIResource Include="..\..\..\CoreWin10\Strings\en-US\Shared.resw">
+      <Link>Strings\en-US\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\es\Shared.resw">
+      <Link>Strings\es\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\fr\Shared.resw">
+      <Link>Strings\fr\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\it\Shared.resw">
+      <Link>Strings\it\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\pt\Shared.resw">
+      <Link>Strings\pt\Shared.resw</Link>
+    </PRIResource>
     <None Include="project.json" />
     <None Include="ProjectDouai_StoreKey.pfx" />
     <PRIResource Include="Strings\en-US\Resources.resw" />
+    <PRIResource Include="Strings\es\Resources.resw" />
+    <PRIResource Include="Strings\fr\Resources.resw" />
+    <PRIResource Include="Strings\it\Resources.resw" />
+    <PRIResource Include="Strings\pt\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\..\core\alpha\CoreWin10\Code\ColorBrush.cs">
+    <Compile Include="..\..\..\CoreWin10\Code\ColorBrush.cs">
       <Link>Code\ColorBrush.cs</Link>
     </Compile>
-    <Compile Include="..\..\..\..\..\core\alpha\CoreWin10\Code\LocalizedStrings.cs">
+    <Compile Include="..\..\..\CoreWin10\Code\LocalizedStrings.cs">
       <Link>Code\LocalizedStrings.cs</Link>
     </Compile>
-    <Compile Include="..\..\..\..\..\core\alpha\CoreWin10\Code\RateApp.cs">
+    <Compile Include="..\..\..\CoreWin10\Code\RateApp.cs">
       <Link>Code\RateApp.cs</Link>
     </Compile>
-    <Compile Include="..\..\..\..\..\core\alpha\CoreWin10\Views\About.xaml.cs">
+    <Compile Include="..\..\..\CoreWin10\Views\About.xaml.cs">
       <Link>Views\About.xaml.cs</Link>
       <DependentUpon>About.xaml</DependentUpon>
     </Compile>
@@ -428,7 +438,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="..\..\..\..\..\core\alpha\CoreWin10\Views\About.xaml">
+    <Page Include="..\..\..\CoreWin10\Views\About.xaml">
       <Link>Views\About.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -467,25 +477,13 @@
   <ItemGroup>
     <Reference Include="Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\core\alpha\Core\bin\Release\Core.dll</HintPath>
+      <HintPath>..\..\..\Core\bin\Release\Core.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <XliffResource Include="MultilingualResources\ProjectDouai.es.xlf" />
-    <XliffResource Include="MultilingualResources\ProjectDouai.fr.xlf" />
-    <XliffResource Include="MultilingualResources\ProjectDouai.it.xlf" />
-    <XliffResource Include="MultilingualResources\ProjectDouai.pt.xlf">
-      <SubType>Designer</SubType>
-    </XliffResource>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
-  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" />
-  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" Label="MultilingualAppToolkit">
-    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
-  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

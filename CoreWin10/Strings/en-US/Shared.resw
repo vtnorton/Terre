@@ -259,10 +259,10 @@
   <data name="wtxtSettings.Label" xml:space="preserve">
     <value>Settings</value>
   </data>
-  <data name="YappSite.Content" xml:space="preserve">
-    <value>Y'APP's site</value>
-  </data>
   <data name="YappDescription.Text" xml:space="preserve">
     <value>This app is produced and distributed by Y'APP. Read more about on the site.</value>
+  </data>
+  <data name="YappSite.Content" xml:space="preserve">
+    <value>Y'APP's site</value>
   </data>
 </root>

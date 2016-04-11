@@ -219,3 +219,4 @@ F:\terre\france\douai\ProjectDouai\obj\ARM\Debug\qualifiers.txt.intermediate
 F:\terre\france\douai\ProjectDouai\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 F:\terre\france\douai\ProjectDouai\obj\ARM\Debug\UniversalRateReminder.pri.xml
 F:\terre\france\douai\ProjectDouai\obj\ARM\Debug\ProjectArchitectures.txt
+F:\Terre\france\douai\ProjectDouai\bin\ARM\Debug\ApplicationInsights.config
