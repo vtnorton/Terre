@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Strings\en-US\Shared.resw</FileName>
+    <Checksum>14012381821665322421460127614516871158179</Checksum>
+    <ModifiedTime>2016-03-04T23:48:55.8706098</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\en-US\Resources.resw</FileName>
+    <Checksum>67577591251871342272011151772062108419416</Checksum>
+    <ModifiedTime>2016-03-04T23:48:55.9836586</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\ProjectRio.en.xlf</FileName>
+    <Checksum>503219551345819122922996225771122234229</Checksum>
+    <ModifiedTime>2016-03-04T23:48:55.5329956-03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\en\Shared.resw</FileName>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2016-04-11T16:54:47.9302137-03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\en\Resources.resw</FileName>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2016-04-11T16:54:47.9302137-03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>
