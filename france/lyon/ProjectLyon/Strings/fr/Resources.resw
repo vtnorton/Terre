@@ -12,4 +12,83 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="txtAbout.Text" xml:space="preserve">
+    <value>À propos de</value>
+  </data>
+  <data name="txtBand.Text" xml:space="preserve">
+    <value>Bande de Microsoft</value>
+  </data>
+  <data name="txtHelp.Text" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="txtHome.Text" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="txtSettings.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Calculer et convertit facilement minutes, en heures, jours, ou même années ou secondes. Application idéale pour ceux qui aiment se faire série de marathons et besoin de savoir combien d'épisodes vous pouvez regarder jusqu'à votre prochain rendez-vous, ou vous allez au cinéma et vous envie de manger quelque chose plus tard, mais ne pouvez pas manquer les horaires de bus. Ne perdez pas de temps de comptage !</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Calculateur de temps</value>
+  </data>
+  <data name="GetToKnowMe.Text" xml:space="preserve">
+    <value>Faire connaissance avec moi et mes autres applications en visitant mon site.</value>
+  </data>
+  <data name="GoToSite.Content" xml:space="preserve">
+    <value>Visitez mon site Web</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>Heure</value>
+  </data>
+  <data name="HourAnd" xml:space="preserve">
+    <value>Heure et</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>heures</value>
+  </data>
+  <data name="HoursAnd" xml:space="preserve">
+    <value>Heures et</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minute</value>
+  </data>
+  <data name="MinuteAnd" xml:space="preserve">
+    <value>Minute et</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="MinutesAnd" xml:space="preserve">
+    <value>Minutes et</value>
+  </data>
+  <data name="MSBand.Text" xml:space="preserve">
+    <value>Vous pouvez vous connecter à cette application Microsoft bande 2, et il sera avec vous partout où que vous allez.</value>
+  </data>
+  <data name="RateInTheStore.Text" xml:space="preserve">
+    <value>Rendre quelqu'un heureux par cette application dans le magasin de notation. ;)</value>
+  </data>
+  <data name="RateIt.Content" xml:space="preserve">
+    <value>Notez-le et rendre quelqu'un heureux</value>
+  </data>
+  <data name="Second" xml:space="preserve">
+    <value>Seconde</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>Secondes</value>
+  </data>
+  <data name="Sendfeedback.Text" xml:space="preserve">
+    <value>S'il vous plaît envoyez-moi vous commentaires sur cette application. Je vais pour corriger tous les bogues et j'écouterai vos ideias dans Comment améliorer cette application.</value>
+  </data>
+  <data name="SendFeedbackBtn.Content" xml:space="preserve">
+    <value>Envoyer des commentaires</value>
+  </data>
+  <data name="SetUpNewNumber.Text" xml:space="preserve">
+    <value>Faire un compte normal à l'aide des minutes et que, quand vous obtenez le résultat, il apparaîtra comme heures. Awesome, droit ?</value>
+  </data>
+  <data name="Timer.Text" xml:space="preserve">
+    <value>Vous pouvez régler une minuterie pour modifier le nombre par seconde ou vous pouvez définir le nombre de secondes attendre jusqu'en choisir un nouveau numéro.</value>
+  </data>
 </root>

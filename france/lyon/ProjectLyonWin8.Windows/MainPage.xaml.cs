@@ -1,5 +1,6 @@
 ﻿using Core;
-using ProjectLyonWin8.Code;
+using CoreWin8.Views;
+using ProjectLyon.Code;
 using ProjectLyonWin8.Views;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;

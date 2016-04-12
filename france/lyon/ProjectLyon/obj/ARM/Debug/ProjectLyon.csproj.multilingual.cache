@@ -2,99 +2,99 @@
 <ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CacheFile>
     <FileName>Strings\en-US\Shared.resw</FileName>
-    <Checksum>19445231789119274250127252174924620990180</Checksum>
-    <ModifiedTime>2016-04-07T23:55:38.0084565</ModifiedTime>
+    <Checksum>208225432072287158167211923913914111414425</Checksum>
+    <ModifiedTime>2016-03-04T23:31:30.0529377</ModifiedTime>
     <CacheFileType>NeutralResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\en-US\Resources.resw</FileName>
-    <Checksum>1992217720711785107211631783310412779162168</Checksum>
-    <ModifiedTime>2016-04-07T23:55:38.0019561</ModifiedTime>
+    <Checksum>1575949232021841171270203173151412124427</Checksum>
+    <ModifiedTime>2016-03-04T23:31:30.0373137</ModifiedTime>
     <CacheFileType>NeutralResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
-    <FileName>MultilingualResources\ProjectLyon.es.xlf</FileName>
-    <Checksum>13334208229384818319523514211324818321324040</Checksum>
-    <ModifiedTime>2016-04-07T23:55:37.9560244-03:00</ModifiedTime>
-    <CacheFileType>XliffResource</CacheFileType>
-    <WarningMessage />
-  </CacheFile>
-  <CacheFile>
-    <FileName>Strings\es\Shared.resw</FileName>
-    <Checksum>677925332102718339266613718650171150182</Checksum>
-    <ModifiedTime>2016-04-08T10:16:25.7538791-03:00</ModifiedTime>
-    <CacheFileType>LanguageResource</CacheFileType>
-    <WarningMessage />
-  </CacheFile>
-  <CacheFile>
-    <FileName>Strings\es\Resources.resw</FileName>
-    <Checksum>16825119512217147162170641968024299442338</Checksum>
-    <ModifiedTime>2016-04-08T10:16:25.7493959-03:00</ModifiedTime>
-    <CacheFileType>LanguageResource</CacheFileType>
-    <WarningMessage />
-  </CacheFile>
-  <CacheFile>
     <FileName>MultilingualResources\ProjectLyon.fr.xlf</FileName>
-    <Checksum>14711344160182237197112193704747140818688</Checksum>
-    <ModifiedTime>2016-04-07T23:55:37.9615231-03:00</ModifiedTime>
+    <Checksum>5266442071541761463523816438014314185133</Checksum>
+    <ModifiedTime>2016-04-12T00:14:17.8516565-03:00</ModifiedTime>
     <CacheFileType>XliffResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\fr\Shared.resw</FileName>
-    <Checksum>9010121185121282002555653938753173221111</Checksum>
-    <ModifiedTime>2016-04-08T10:16:26.0279287-03:00</ModifiedTime>
+    <Checksum>200204485411162452108792361041748203176</Checksum>
+    <ModifiedTime>2016-04-12T00:15:07.8524048-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\fr\Resources.resw</FileName>
-    <Checksum>2267925415347746024425142250694120314020</Checksum>
-    <ModifiedTime>2016-04-08T10:16:26.0244289-03:00</ModifiedTime>
+    <Checksum>5539184511704423249171190991972231411078</Checksum>
+    <ModifiedTime>2016-04-12T00:15:07.8524048-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>MultilingualResources\ProjectLyon.it.xlf</FileName>
-    <Checksum>3215521520917812107615966343620015314175</Checksum>
-    <ModifiedTime>2016-04-07T23:55:37.9670364-03:00</ModifiedTime>
+    <Checksum>268943111724116122079129197120862513162</Checksum>
+    <ModifiedTime>2016-04-12T00:14:20.4611877-03:00</ModifiedTime>
     <CacheFileType>XliffResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\it\Shared.resw</FileName>
-    <Checksum>1871442711713722207177851112138646669</Checksum>
-    <ModifiedTime>2016-04-08T10:16:26.3016689-03:00</ModifiedTime>
+    <Checksum>10221011513875675017367391532153115218137</Checksum>
+    <ModifiedTime>2016-04-12T00:15:08.2024024-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\it\Resources.resw</FileName>
-    <Checksum>22639215132061741461362418925423810314111394</Checksum>
-    <ModifiedTime>2016-04-08T10:16:26.2969254-03:00</ModifiedTime>
+    <Checksum>24243153150131228601331738819687913104252</Checksum>
+    <ModifiedTime>2016-04-12T00:15:08.2024024-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>MultilingualResources\ProjectLyon.pt.xlf</FileName>
-    <Checksum>8971410871108132162691876478181935814</Checksum>
-    <ModifiedTime>2016-04-07T23:55:37.9725389-03:00</ModifiedTime>
+    <Checksum>24261104778414523024720312210949167108118224</Checksum>
+    <ModifiedTime>2016-04-12T00:14:16.8000105-03:00</ModifiedTime>
     <CacheFileType>XliffResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\pt\Shared.resw</FileName>
-    <Checksum>110221235236144180111220111943118918148117122</Checksum>
-    <ModifiedTime>2016-04-08T10:16:26.587434-03:00</ModifiedTime>
+    <Checksum>2819742114157772951253160236182183123134160</Checksum>
+    <ModifiedTime>2016-04-12T00:15:08.5224019-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\pt\Resources.resw</FileName>
-    <Checksum>5911239641268519077421301792065218823770</Checksum>
-    <ModifiedTime>2016-04-08T10:16:26.5839352-03:00</ModifiedTime>
+    <Checksum>14277212397169146856416113916018080149214</Checksum>
+    <ModifiedTime>2016-04-12T00:15:08.5224019-03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\ProjectLyon.es.xlf</FileName>
+    <Checksum>14518919919215710215727203491761557844163209</Checksum>
+    <ModifiedTime>2016-04-12T00:14:17.4670643-03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\es\Shared.resw</FileName>
+    <Checksum>205244932212242302311677613422310123824445126</Checksum>
+    <ModifiedTime>2016-04-12T00:15:07.5169036-03:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\es\Resources.resw</FileName>
+    <Checksum>19217417817612113391821220915024924622214863</Checksum>
+    <ModifiedTime>2016-04-12T00:15:07.5169036-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>

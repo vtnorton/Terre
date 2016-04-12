@@ -1,4 +1,5 @@
-﻿using Jace;
+﻿using CoreWin10.Code;
+using Jace;
 
 namespace ProjectLyon.Code
 {

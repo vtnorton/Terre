@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="60181VTNORTON.Calculadoradetempo" Publisher="CN=A1BAD918-0EE3-4743-84A7-20C7B6052F9A" Version="2.2.0.0" ProcessorArchitecture="arm" />
+  <Identity Name="60181VTNORTON.Calculadoradetempo" Publisher="CN=A1BAD918-0EE3-4743-84A7-20C7B6052F9A" Version="2.1.2.0" ProcessorArchitecture="arm" />
   <mp:PhoneIdentity PhoneProductId="6d44c60c-2633-4bac-8e07-173c00cb85bc" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Calculadora de tempo</DisplayName>
@@ -39,8 +39,7 @@
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="purple" />
         <uap:InitialRotationPreference>
-          <uap:Rotation Preference="portrait" />
-          <uap:Rotation Preference="portraitFlipped" />
+          <uap:Rotation Preference="landscape" />
         </uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>

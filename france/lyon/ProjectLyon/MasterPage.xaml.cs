@@ -1,4 +1,5 @@
-﻿using Windows.UI;
+﻿using CoreWin10.Views;
+using Windows.UI;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -76,7 +77,7 @@ namespace ProjectLyon
 
         private void btnAbout_Click(object sender, TappedRoutedEventArgs e)
         {
-            ContentFrame.Navigate(typeof(Views.About));
+            ContentFrame.Navigate(typeof(About));
             ResetAll();
             FillColorAbout();
             Selected = 7;

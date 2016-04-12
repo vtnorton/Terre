@@ -20,13 +20,13 @@
                     <RowDefinition Height="25"></RowDefinition>
                     <RowDefinition Height="50"></RowDefinition>
                 </Grid.RowDefinitions>
-                <TextBlock x:ConnectionId='20' x:Name="txtConta" TextWrapping="Wrap" Text="" FontSize="20" Grid.Row="0" Foreground="Gray" TextAlignment="Right"/>
-                <TextBlock x:ConnectionId='21' VerticalAlignment="Bottom" x:Name="txtResult" TextWrapping="Wrap" Text="" FontSize="42" Grid.Row="1" Foreground="White" TextAlignment="Right"/>
+                <TextBlock x:ConnectionId='22' x:Name="txtConta" TextWrapping="Wrap" Text="" FontSize="20" Grid.Row="0" Foreground="Gray" TextAlignment="Right"/>
+                <TextBlock x:ConnectionId='23' VerticalAlignment="Bottom" x:Name="txtResult" TextWrapping="Wrap" Text="" FontSize="42" Grid.Row="1" Foreground="White" TextAlignment="Right"/>
             </Grid>
 
         </Grid>
         <Grid Grid.Row="1" CompositeMode="SourceOver">
-            <UI:AdControl x:ConnectionId='19' x:Name="Ad" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center" Width="300"/>
+            <UI:AdControl x:ConnectionId='21' x:Name="Ad" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center" Width="300"/>
         </Grid>
         <Grid Grid.Row="2" CompositeMode="SourceOver" Background="#1b1b1b">
             <Grid.RowDefinitions>
@@ -58,10 +58,10 @@
             <Button x:ConnectionId='14'                    x:Name="btn2" Content="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="3" Grid.Column="1"/>
             <Button x:ConnectionId='15'                    x:Name="btn3" Content="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="3" Grid.Column="2"/>
             <Button x:ConnectionId='16'                       x:Name="btnSoma" Content="+" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="3" Grid.Column="3"/>
-            <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="4" Grid.Column="0"/>
-            <Button x:ConnectionId='17'                       x:Name="btnZero" Content="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="4" Grid.Column="1"/>
-            <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="4" Grid.Column="2"/>
-            <Button x:ConnectionId='18'                         x:Name="btnEquals" Content="=" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="4" Grid.Column="3"/>
+            <Button x:ConnectionId='17'                            x:Name="btnMais10min" Content="+10 min" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="4" Grid.Column="0"/>
+            <Button x:ConnectionId='18'                       x:Name="btnZero" Content="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="4" Grid.Column="1"/>
+            <Button x:ConnectionId='19'                             x:Name="btnMenos10Min" Content="-10 min" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="4" Grid.Column="2"/>
+            <Button x:ConnectionId='20'                         x:Name="btnEquals" Content="=" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="4" Grid.Column="3"/>
 
         </Grid>
     </Grid>

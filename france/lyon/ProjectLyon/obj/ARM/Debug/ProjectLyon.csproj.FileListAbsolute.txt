@@ -216,3 +216,4 @@ F:\Terre\france\lyon\ProjectLyon\obj\ARM\Debug\qualifiers.txt.intermediate
 F:\Terre\france\lyon\ProjectLyon\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 F:\Terre\france\lyon\ProjectLyon\obj\ARM\Debug\UniversalRateReminder.pri.xml
 F:\Terre\france\lyon\ProjectLyon\obj\ARM\Debug\ProjectArchitectures.txt
+F:\Terre\france\lyon\ProjectLyon\bin\ARM\Debug\ApplicationInsights.config

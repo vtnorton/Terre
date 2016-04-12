@@ -1,12 +1,6 @@
 ﻿using Core;
 using Core.Shared;
 using CoreWin10.Code;
-//using ProjectLasVegas;
-//using ProjectPasadena;
-using ProjectDouai;
-//using ProjectLyon;
-//using ProjectNice;
-//using ProjectRio;
 using System;
 using Windows.System;
 using Windows.UI.Xaml;

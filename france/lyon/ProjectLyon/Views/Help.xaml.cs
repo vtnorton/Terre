@@ -1,4 +1,5 @@
 ﻿using Core.Shared;
+using CoreWin10.Code;
 using ProjectLyon.Code;
 using System;
 using Windows.System;

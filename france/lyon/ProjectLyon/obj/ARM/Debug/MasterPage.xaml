@@ -39,7 +39,7 @@
             <StackPanel Background="#1b1b1b">
                 <StackPanel Background="Purple" Orientation="Horizontal">
                     <StackPanel Orientation="Horizontal" Background="Purple" >
-                        <Button x:ConnectionId='18'  x:Name="btnMenu" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                        <Button x:ConnectionId='26'  x:Name="btnMenu" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
                                 Width="50" Height="50"                      ></Button>
                     </StackPanel>
                 </StackPanel>
@@ -50,8 +50,8 @@
                             <ColumnDefinition Width="45"></ColumnDefinition>
                             <ColumnDefinition Width="250"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
-                        <Grid x:ConnectionId='15' Grid.Column="0" x:Name="gridHome" Background="Transparent"></Grid>
-                        <HyperlinkButton x:ConnectionId='16' Grid.Column="1" x:Name="btnHome" Foreground="White"  FontFamily="Segoe MDL2 Assets" Content="&#xE10F;"
+                        <Grid x:ConnectionId='23' Grid.Column="0" x:Name="gridHome" Background="Transparent"></Grid>
+                        <HyperlinkButton x:ConnectionId='24' Grid.Column="1" x:Name="btnHome" Foreground="White"  FontFamily="Segoe MDL2 Assets" Content="&#xE10F;"
                         Width="45" Height="50" Background="Transparent">
                             <HyperlinkButton.ContentTemplate>
                                 <DataTemplate>
@@ -59,18 +59,18 @@
                                 </DataTemplate>
                             </HyperlinkButton.ContentTemplate>
                         </HyperlinkButton>
-                        <TextBlock x:ConnectionId='17' Grid.Column="2" x:Name="txtHome" x:Uid="/Shared/txtHome" Text="Home" FontSize="18" Foreground="White" VerticalAlignment="Center" />
+                        <TextBlock x:ConnectionId='25' Grid.Column="2" x:Name="txtHome" x:Uid="txtHome" Text="Home" FontSize="18" Foreground="White" VerticalAlignment="Center" />
                     </Grid>
                 </StackPanel>
-                <StackPanel x:ConnectionId='7' x:Name="stpHelp"                        Orientation="Horizontal"                                                                          >
+                <StackPanel x:ConnectionId='7' x:Name="stpBand"                                                                                                   Orientation="Horizontal">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="5"></ColumnDefinition>
                             <ColumnDefinition Width="45"></ColumnDefinition>
                             <ColumnDefinition Width="250"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
-                        <Grid x:ConnectionId='12' Grid.Column="0" x:Name="gridHelp" Background="Transparent"></Grid>
-                        <HyperlinkButton x:ConnectionId='13' Grid.Column="1" x:Name="btnHelp" Foreground="White"  FontFamily="Segoe MDL2 Assets" Content="&#xE897;"
+                        <Grid x:ConnectionId='20' Grid.Column="0" x:Name="gridBand" Background="Transparent"></Grid>
+                        <HyperlinkButton x:ConnectionId='21' Grid.Column="1" x:Name="btnBand" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE735;"
                         Width="45" Height="50" Background="Transparent">
                             <HyperlinkButton.ContentTemplate>
                                 <DataTemplate>
@@ -78,18 +78,18 @@
                                 </DataTemplate>
                             </HyperlinkButton.ContentTemplate>
                         </HyperlinkButton>
-                        <TextBlock x:ConnectionId='14' Grid.Column="2" x:Name="txtHelp" x:Uid="/Shared/txtHelp" Text="Help" FontSize="18" Foreground="White" VerticalAlignment="Center" />
+                        <TextBlock x:ConnectionId='22' Grid.Column="2" x:Name="txtBand" x:Uid="txtBand" Text="Microsoft Band" FontSize="18" Foreground="White" VerticalAlignment="Center" />
                     </Grid>
                 </StackPanel>
-                <StackPanel x:ConnectionId='8' x:Name="stpAbout"                         Orientation="Horizontal"                                                                            >
+                <StackPanel x:ConnectionId='8' x:Name="stpSetting"                            Orientation="Horizontal"                                                                                >
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="5"></ColumnDefinition>
                             <ColumnDefinition Width="45"></ColumnDefinition>
                             <ColumnDefinition Width="250"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
-                        <Grid x:ConnectionId='9' Grid.Column="0" x:Name="gridAbout" Background="Transparent"></Grid>
-                        <HyperlinkButton x:ConnectionId='10' Grid.Column="1" x:Name="btnAbout" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE171;"
+                        <Grid x:ConnectionId='17' Grid.Column="0" x:Name="gridSettings" Background="Transparent"></Grid>
+                        <HyperlinkButton x:ConnectionId='18' Grid.Column="1" x:Name="btnSettings" Foreground="White"  FontFamily="Segoe MDL2 Assets" Content="&#59155;"
                         Width="45" Height="50" Background="Transparent">
                             <HyperlinkButton.ContentTemplate>
                                 <DataTemplate>
@@ -97,24 +97,62 @@
                                 </DataTemplate>
                             </HyperlinkButton.ContentTemplate>
                         </HyperlinkButton>
-                        <TextBlock x:ConnectionId='11' Grid.Column="2" x:Name="txtAbout" x:Uid="/Shared/txtAbout" Text="About" FontSize="18" Foreground="White" VerticalAlignment="Center" />
+                        <TextBlock x:ConnectionId='19' Grid.Column="2" x:Name="txtSettings" x:Uid="txtSettings" Text="Settings" FontSize="18" Foreground="White" VerticalAlignment="Center" />
+                    </Grid>
+                </StackPanel>
+                <StackPanel x:ConnectionId='9' x:Name="stpHelp"                        Orientation="Horizontal"                                                                          >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="5"></ColumnDefinition>
+                            <ColumnDefinition Width="45"></ColumnDefinition>
+                            <ColumnDefinition Width="250"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid x:ConnectionId='14' Grid.Column="0" x:Name="gridHelp" Background="Transparent"></Grid>
+                        <HyperlinkButton x:ConnectionId='15' Grid.Column="1" x:Name="btnHelp" Foreground="White"  FontFamily="Segoe MDL2 Assets" Content="&#xE897;"
+                        Width="45" Height="50" Background="Transparent">
+                            <HyperlinkButton.ContentTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding}" />
+                                </DataTemplate>
+                            </HyperlinkButton.ContentTemplate>
+                        </HyperlinkButton>
+                        <TextBlock x:ConnectionId='16' Grid.Column="2" x:Name="txtHelp" x:Uid="txtHelp" Text="Help" FontSize="18" Foreground="White" VerticalAlignment="Center" />
+                    </Grid>
+                </StackPanel>
+                <StackPanel x:ConnectionId='10' x:Name="stpAbout"                         Orientation="Horizontal"                                                                            >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="5"></ColumnDefinition>
+                            <ColumnDefinition Width="45"></ColumnDefinition>
+                            <ColumnDefinition Width="250"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid x:ConnectionId='11' Grid.Column="0" x:Name="gridAbout" Background="Transparent"></Grid>
+                        <HyperlinkButton x:ConnectionId='12' Grid.Column="1" x:Name="btnAbout" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE171;"
+                        Width="45" Height="50" Background="Transparent">
+                            <HyperlinkButton.ContentTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding}" />
+                                </DataTemplate>
+                            </HyperlinkButton.ContentTemplate>
+                        </HyperlinkButton>
+                        <TextBlock x:ConnectionId='13' Grid.Column="2" x:Name="txtAbout" x:Uid="txtAbout" Text="About" FontSize="18" Foreground="White" VerticalAlignment="Center" />
                     </Grid>
                 </StackPanel>
             </StackPanel>
         </SplitView.Pane>
         <SplitView.Content>
-            <Grid x:ConnectionId='19' x:Name="mainFrame">
+            <Grid x:ConnectionId='27' x:Name="mainFrame">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50"></RowDefinition>
                     <RowDefinition Height="*"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid Background="Purple" Grid.Row="0">
                     <StackPanel Orientation="Horizontal">
-                        <Button x:ConnectionId='21'  x:Name="btnMenu2" Visibility="Collapsed" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                        <Button x:ConnectionId='29'  x:Name="btnMenu2" Visibility="Collapsed" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
                                 Width="50" Height="50"                      ></Button>
                     </StackPanel>
                 </Grid>
-                <Frame x:ConnectionId='20' Grid.Row="1" x:Name="frameBody"></Frame>
+                <Frame x:ConnectionId='28' Grid.Row="1" x:Name="frameBody"></Frame>
             </Grid>
         </SplitView.Content>
     </SplitView>
