@@ -1,1 +1,0 @@
-F:\Terre\france\nice\ProjectNiceWIn8\ProjectNiceWIn8.Windows\ProjectNiceWIn8.Windows.csproj;arm

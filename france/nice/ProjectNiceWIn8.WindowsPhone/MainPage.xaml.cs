@@ -1,6 +1,7 @@
 ﻿using Core;
 using Core.Methods;
-using ProjectNiceWIn8.Code;
+using CoreWin10.Code;
+using CoreWin8.Views;
 using ProjectNiceWIn8.Views;
 using System;
 using Windows.UI;

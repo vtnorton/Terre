@@ -111,6 +111,22 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\CoreWin10\Code\ColorBrush.cs">
+      <Link>Code\ColorBrush.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CoreWin10\Code\LocalizedStrings.cs">
+      <Link>Code\LocalizedStrings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CoreWin10\Code\RateApp.cs">
+      <Link>Code\RateApp.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CoreWin8\CoreWin8.Windows\Views\About.xaml.cs">
+      <Link>Views\About.xaml.cs</Link>
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\ProjectNice\Information.cs">
+      <Link>Information.cs</Link>
+    </Compile>
     <Compile Include="Common\NavigationHelper.cs" />
     <Compile Include="Common\ObservableDictionary.cs" />
     <Compile Include="Common\RelayCommand.cs" />
@@ -119,9 +135,6 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\About.xaml.cs">
-      <DependentUpon>About.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\Help.xaml.cs">
       <DependentUpon>Help.xaml</DependentUpon>
     </Compile>
@@ -130,11 +143,80 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\pt\Shared.resw">
+      <Link>Strings\pt\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\it\Shared.resw">
+      <Link>Strings\it\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\fr\Shared.resw">
+      <Link>Strings\fr\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\es\Shared.resw">
+      <Link>Strings\es\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\en-US\Shared.resw">
+      <Link>Strings\en-US\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\ProjectNice\Strings\pt\Resources.resw">
+      <Link>Strings\pt\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\ProjectNice\Strings\it\Resources.resw">
+      <Link>Strings\it\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\ProjectNice\Strings\fr\Resources.resw">
+      <Link>Strings\fr\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\ProjectNice\Strings\es\Resources.resw">
+      <Link>Strings\es\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\ProjectNice\Strings\en-US\Resources.resw">
+      <Link>Strings\en-US\Resources.resw</Link>
+    </PRIResource>
     <None Include="packages.config" />
     <None Include="ProjectNiceWIn8.Windows_StoreKey.pfx" />
     <None Include="ProjectNiceWIn8.Windows_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\..\..\CoreWin10\Images\Apps.png">
+      <Link>Images\Apps.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Douai.png">
+      <Link>Images\Douai.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Help\Page4.png">
+      <Link>Images\Help\Page4.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Help\Page5.png">
+      <Link>Images\Help\Page5.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Help\Page6.png">
+      <Link>Images\Help\Page6.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\LasVegas.png">
+      <Link>Images\LasVegas.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Lyon.png">
+      <Link>Images\Lyon.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Nice.png">
+      <Link>Images\Nice.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Pasadena.png">
+      <Link>Images\Pasadena.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Rio.png">
+      <Link>Images\Rio.png</Link>
+    </Content>
+    <Content Include="..\ProjectNice\Images\Help\Page1.png">
+      <Link>Images\Help\Page1.png</Link>
+    </Content>
+    <Content Include="..\ProjectNice\Images\Help\Page2.png">
+      <Link>Images\Help\Page2.png</Link>
+    </Content>
+    <Content Include="..\ProjectNice\Images\Help\Page3.png">
+      <Link>Images\Help\Page3.png</Link>
+    </Content>
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\Logo.scale-140.png" />
     <Content Include="Assets\Logo.scale-180.png" />
@@ -168,13 +250,14 @@
     <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="MainPage.xaml">
+    <Page Include="..\..\..\CoreWin8\CoreWin8.Windows\Views\About.xaml">
+      <Link>Views\About.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\About.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Help.xaml">
       <SubType>Designer</SubType>
@@ -184,10 +267,10 @@
   <ItemGroup>
     <Reference Include="Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\core\alpha\Core\bin\Release\Core.dll</HintPath>
+      <HintPath>..\..\..\Core\bin\Release\Core.dll</HintPath>
     </Reference>
     <Reference Include="UniversalRateReminder, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b2d2ee1bf4d541d5, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\UniversalRateReminder.2.0.0\lib\portable-netcore451+wpa81\UniversalRateReminder.dll</HintPath>
+      <HintPath>..\packages\UniversalRateReminder.2.0.0\lib\portable-netcore451+wpa81\UniversalRateReminder.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
@@ -199,6 +282,7 @@
       <Name>Microsoft Visual C++ 2013 Runtime Package for Windows</Name>
     </SDKReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>

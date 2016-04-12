@@ -1,6 +1,6 @@
 ﻿using Core;
 using Core.Methods;
-using ProjectNice.Code;
+using CoreWin10.Code;
 using System;
 using Windows.UI;
 using Windows.UI.Popups;

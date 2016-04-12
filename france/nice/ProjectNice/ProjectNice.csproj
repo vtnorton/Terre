@@ -97,40 +97,81 @@
     <Prefer32Bit>true</Prefer32Bit>
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
-  <PropertyGroup Label="MultilingualAppToolkit">
-    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
-    <MultilingualFallbackLanguage>en-US</MultilingualFallbackLanguage>
-  </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="..\..\..\CoreWin10\Images\Apps.png">
+      <Link>Images\Apps.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Douai.png">
+      <Link>Images\Douai.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Help\Page4.png">
+      <Link>Images\Help\Page4.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Help\Page5.png">
+      <Link>Images\Help\Page5.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Help\Page6.png">
+      <Link>Images\Help\Page6.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\LasVegas.png">
+      <Link>Images\LasVegas.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Lyon.png">
+      <Link>Images\Lyon.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Nice.png">
+      <Link>Images\Nice.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Pasadena.png">
+      <Link>Images\Pasadena.png</Link>
+    </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Rio.png">
+      <Link>Images\Rio.png</Link>
+    </Content>
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="project.json" />
-    <PRIResource Include="Strings\fr\Resources.resw" />
-    <PRIResource Include="Strings\fr\Shared.resw" />
-    <PRIResource Include="Strings\it\Resources.resw" />
-    <PRIResource Include="Strings\it\Shared.resw" />
-    <PRIResource Include="Strings\pt\Resources.resw" />
-    <PRIResource Include="Strings\pt\Shared.resw" />
-    <PRIResource Include="Strings\es\Resources.resw" />
-    <PRIResource Include="Strings\es\Shared.resw" />
-    <None Include="Views\BandTileLayout.msbtl">
-      <Generator>MSBandLayoutCodeGenerator</Generator>
-      <LastGenOutput>BandTileLayout.cs</LastGenOutput>
-    </None>
-    <PRIResource Include="Strings\en-US\Shared.resw">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\en-US\Shared.resw">
+      <Link>Strings\en-US\Shared.resw</Link>
     </PRIResource>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\es\Shared.resw">
+      <Link>Strings\es\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\fr\Shared.resw">
+      <Link>Strings\fr\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\it\Shared.resw">
+      <Link>Strings\it\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\..\..\CoreWin10\Strings\pt\Shared.resw">
+      <Link>Strings\pt\Shared.resw</Link>
+    </PRIResource>
+    <None Include="project.json" />
+    <PRIResource Include="Strings\pt\Resources.resw" />
+    <PRIResource Include="Strings\it\Resources.resw" />
+    <PRIResource Include="Strings\fr\Resources.resw" />
+    <PRIResource Include="Strings\es\Resources.resw" />
     <PRIResource Include="Strings\en-US\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\CoreWin10\Code\ColorBrush.cs">
+      <Link>Code\ColorBrush.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CoreWin10\Code\LocalizedStrings.cs">
+      <Link>Code\LocalizedStrings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CoreWin10\Code\RateApp.cs">
+      <Link>Code\RateApp.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CoreWin10\Views\About.xaml.cs">
+      <Link>Views\About.xaml.cs</Link>
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Code\ColorBrush.cs" />
-    <Compile Include="Code\LocalizedStrings.cs" />
-    <Compile Include="Code\RateApp.cs" />
+    <Compile Include="Information.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -138,17 +179,6 @@
       <DependentUpon>MasterPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\About.xaml.cs">
-      <DependentUpon>About.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\AddToBand.xaml.cs">
-      <DependentUpon>AddToBand.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\BandTileLayout.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BandTileLayout.msbtl</DependentUpon>
-    </Compile>
     <Compile Include="Views\Help.xaml.cs">
       <DependentUpon>Help.xaml</DependentUpon>
     </Compile>
@@ -196,18 +226,9 @@
     <Content Include="Assets\Wide310x150Logo.scale-125.png" />
     <Content Include="Assets\Wide310x150Logo.scale-150.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <Content Include="Images\Douai.png" />
     <Content Include="Images\Help\Page1.png" />
     <Content Include="Images\Help\Page2.png" />
     <Content Include="Images\Help\Page3.png" />
-    <Content Include="Images\Help\Page4.png" />
-    <Content Include="Images\Help\Page5.png" />
-    <Content Include="Images\Help\Page6.png" />
-    <Content Include="Images\LasVegas.png" />
-    <Content Include="Images\Lyon.png" />
-    <Content Include="Images\Nice.png" />
-    <Content Include="Images\Pasadena.png" />
-    <Content Include="Images\Rio.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -221,19 +242,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="..\..\..\CoreWin10\Views\About.xaml">
+      <Link>Views\About.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="MasterPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\About.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\AddToBand.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -251,27 +269,17 @@
     </SDKReference>
   </ItemGroup>
   <ItemGroup>
-    <XliffResource Include="MultilingualResources\ProjectNice.en.xlf" />
-    <XliffResource Include="MultilingualResources\ProjectNice.es.xlf" />
-    <XliffResource Include="MultilingualResources\ProjectNice.fr.xlf" />
-    <XliffResource Include="MultilingualResources\ProjectNice.it.xlf" />
-    <XliffResource Include="MultilingualResources\ProjectNice.pt.xlf" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\core\alpha\Core\bin\Release\Core.dll</HintPath>
+      <HintPath>..\..\..\Core\bin\Release\Core.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <Import Project="$(XamlSpyInstallPath)MSBuild\FirstFloor.XamlSpy.WinRT.targets" Condition="'$(XamlSpyInstallPath)' != '' and '$(Configuration)' == 'DEBUG'" />
-  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" />
-  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" Label="MultilingualAppToolkit">
-    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
-  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

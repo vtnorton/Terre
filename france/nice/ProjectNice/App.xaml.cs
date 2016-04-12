@@ -1,5 +1,5 @@
 ﻿using Core;
-using ProjectNice.Code;
+using CoreWin10.Code;
 using System;
 using UniversalRateReminder;
 using Windows.ApplicationModel;

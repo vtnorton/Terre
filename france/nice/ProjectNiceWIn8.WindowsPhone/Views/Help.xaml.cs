@@ -1,5 +1,6 @@
 ﻿using Core.Shared;
-using ProjectNiceWIn8.Code;
+using CoreWin10.Code;
+using CoreWin8.Views;
 using System;
 using Windows.System;
 using Windows.UI.Xaml;

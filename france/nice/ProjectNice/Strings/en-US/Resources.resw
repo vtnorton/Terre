@@ -185,4 +185,11 @@ Some examples for you: 4, 8.15, 16.2342, 108.54</value>
   <data name="Timer.Text" xml:space="preserve">
     <value>You can set a timer for changing number every second or you can define how many seconds wait until choose a new number.</value>
   </data>
+  <data name="ThisAppDescription.Text" xml:space="preserve">
+    <value>Isn't rare occasions where we need to give away someone with this application is easy. Just add the track numbers to be drawn and it will do the work for you. Try it.</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="ThisAppName.Text" xml:space="preserve">
+    <value>Random 42</value>
+  </data>
 </root>
