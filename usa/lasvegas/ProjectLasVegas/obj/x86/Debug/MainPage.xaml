@@ -61,7 +61,7 @@
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <Pivot>
-                <PivotItem x:ConnectionId='10' x:Name="Alone" x:Uid="Alone" Header="sozinho">
+                <PivotItem x:ConnectionId='10' x:Name="Alone" Header="sozinho">
                     <Grid>
                         <Image x:ConnectionId='25' x:Name="alonebottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" 
                                    Source="Assets/Bottles/Alone.png" 
@@ -72,7 +72,7 @@
                         </Image>
                     </Grid>
                 </PivotItem>
-                <PivotItem x:ConnectionId='11' x:Name="AtClass" x:Uid="AtClass" Header="em sala de aula">
+                <PivotItem x:ConnectionId='11' x:Name="AtClass" Header="em sala de aula">
                     <Grid>
                         <Image x:ConnectionId='24' x:Name="atclassbottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/AtClass.png"                                              >
                             <Image.RenderTransform>
@@ -81,7 +81,7 @@
                         </Image>
                     </Grid>
                 </PivotItem>
-                <PivotItem x:ConnectionId='12' x:Name="Couple" x:Uid="Couple" Header="casais">
+                <PivotItem x:ConnectionId='12' x:Name="Couple" Header="casais">
                     <Grid>
                         <Image x:ConnectionId='23' x:Name="couplebottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/Couple.png"                                             >
                             <Image.RenderTransform>
@@ -90,7 +90,7 @@
                         </Image>
                     </Grid>
                 </PivotItem>
-                <PivotItem x:ConnectionId='13' x:Name="Drunks" x:Uid="Drunks" Header="bêbados">
+                <PivotItem x:ConnectionId='13' x:Name="Drunks" Header="bêbados">
                     <Grid>
                         <Image x:ConnectionId='22' x:Name="drunksbottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/Drunks.png"                                             >
                             <Image.RenderTransform>
@@ -99,7 +99,7 @@
                         </Image>
                     </Grid>
                 </PivotItem>
-                <PivotItem x:ConnectionId='14' x:Name="Family" x:Uid="Family" Header="familía">
+                <PivotItem x:ConnectionId='14' x:Name="Family" Header="familía">
                     <Grid>
                         <Image x:ConnectionId='21' x:Name="familybottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/Family.png"                                             >
                             <Image.RenderTransform>
@@ -108,7 +108,7 @@
                         </Image>
                     </Grid>
                 </PivotItem>
-                <PivotItem x:ConnectionId='15' x:Name="Friends" x:Uid="Friends" Header="amigos">
+                <PivotItem x:ConnectionId='15' x:Name="Friends" Header="amigos">
                     <Grid>
                         <Image x:ConnectionId='20' x:Name="friendsbottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/Friends.png"                                              >
                             <Image.RenderTransform>
@@ -117,7 +117,7 @@
                         </Image>
                     </Grid>
                 </PivotItem>
-                <PivotItem x:ConnectionId='16' x:Name="Square" x:Uid="Square" Header="na praça">
+                <PivotItem x:ConnectionId='16' x:Name="Square" Header="na praça">
                     <Grid>
                         <Image x:ConnectionId='19' x:Name="squarebottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/Square.png"                                             >
                             <Image.RenderTransform>
@@ -126,7 +126,7 @@
                         </Image>
                     </Grid>
                 </PivotItem>
-                <PivotItem x:ConnectionId='17' x:Name="TheBests" x:Uid="TheBests" Header="com as bests">
+                <PivotItem x:ConnectionId='17' x:Name="TheBests" Header="com as bests">
                     <Grid>
                         <Image x:ConnectionId='18' x:Name="thebestsbottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/TheBests.png"                                               >
                             <Image.RenderTransform>

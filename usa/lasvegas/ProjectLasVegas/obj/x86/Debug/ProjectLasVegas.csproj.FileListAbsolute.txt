@@ -233,3 +233,4 @@ F:\Terre\usa\lasvegas\ProjectLasVegas\obj\x86\Debug\qualifiers.txt.intermediate
 F:\Terre\usa\lasvegas\ProjectLasVegas\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 F:\Terre\usa\lasvegas\ProjectLasVegas\obj\x86\Debug\UniversalRateReminder.pri.xml
 F:\Terre\usa\lasvegas\ProjectLasVegas\obj\x86\Debug\ProjectArchitectures.txt
+F:\Terre\usa\lasvegas\ProjectLasVegas\bin\x86\Debug\ApplicationInsights.config

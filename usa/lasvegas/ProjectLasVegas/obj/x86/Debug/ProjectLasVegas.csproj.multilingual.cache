@@ -2,100 +2,107 @@
 <ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CacheFile>
     <FileName>Strings\en-US\Shared.resw</FileName>
-    <Checksum>19445231789119274250127252174924620990180</Checksum>
-    <ModifiedTime>2016-04-07T23:55:38.9825115</ModifiedTime>
+    <Checksum>208225432072287158167211923913914111414425</Checksum>
+    <ModifiedTime>2016-03-04T23:20:23.6549301</ModifiedTime>
     <CacheFileType>NeutralResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\en-US\Resources.resw</FileName>
-    <Checksum>103516919018922519814256106179345113589</Checksum>
-    <ModifiedTime>2016-04-07T23:55:38.9765112</ModifiedTime>
+    <Checksum>57168128174785851961222215184731853354</Checksum>
+    <ModifiedTime>2016-03-04T23:20:24.2255442</ModifiedTime>
     <CacheFileType>NeutralResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>MultilingualResources\ProjectLasVegas.es.xlf</FileName>
-    <Checksum>4727377159525492061315325183136196185</Checksum>
-    <ModifiedTime>2016-04-07T23:55:38.9389864-03:00</ModifiedTime>
+    <Checksum>2338819721716314111141141223871714191236209</Checksum>
+    <ModifiedTime>2016-03-04T23:20:22.4075365-03:00</ModifiedTime>
     <CacheFileType>XliffResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\es\Shared.resw</FileName>
-    <Checksum>68251311872055242199174219017443697584</Checksum>
-    <ModifiedTime>2016-04-08T10:55:20.2267962-03:00</ModifiedTime>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2016-04-12T00:33:22.0617619-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\es\Resources.resw</FileName>
-    <Checksum>545025056652112051613857154013814219898</Checksum>
-    <ModifiedTime>2016-04-08T10:55:20.2227968-03:00</ModifiedTime>
+    <Checksum>1402162031052421551941497922938207216233134126</Checksum>
+    <ModifiedTime>2016-04-12T00:33:22.069262-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>MultilingualResources\ProjectLasVegas.fr.xlf</FileName>
-    <Checksum>248916617259183132128092134891873115120</Checksum>
-    <ModifiedTime>2016-04-07T23:55:38.9444885-03:00</ModifiedTime>
+    <Checksum>1672495413125460382818025221916182739210</Checksum>
+    <ModifiedTime>2016-03-04T23:20:23.4606757-03:00</ModifiedTime>
     <CacheFileType>XliffResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\fr\Shared.resw</FileName>
-    <Checksum>1788851541261191951958493246163816610523</Checksum>
-    <ModifiedTime>2016-04-08T10:55:20.4904785-03:00</ModifiedTime>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2016-04-12T00:33:22.3658147-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\fr\Resources.resw</FileName>
-    <Checksum>2021691058670144871209402715017223022925</Checksum>
-    <ModifiedTime>2016-04-08T10:55:20.4869909-03:00</ModifiedTime>
+    <Checksum>351391397814719059571692161098659149560</Checksum>
+    <ModifiedTime>2016-04-12T00:33:22.3708138-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>MultilingualResources\ProjectLasVegas.it.xlf</FileName>
-    <Checksum>1582142351961365691142032202439243173138</Checksum>
-    <ModifiedTime>2016-04-07T23:55:38.9506021-03:00</ModifiedTime>
+    <Checksum>16791923224144226931192361459813516318584</Checksum>
+    <ModifiedTime>2016-03-04T23:20:23.1200726-03:00</ModifiedTime>
     <CacheFileType>XliffResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\it\Shared.resw</FileName>
-    <Checksum>58242341171666351861451534254103277</Checksum>
-    <ModifiedTime>2016-04-08T10:55:20.7490288-03:00</ModifiedTime>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2016-04-12T00:33:22.7328506-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\it\Resources.resw</FileName>
-    <Checksum>19101192361321518313715121115120622454126145</Checksum>
-    <ModifiedTime>2016-04-08T10:55:20.7450261-03:00</ModifiedTime>
+    <Checksum>7720610720914724763177732418884114159251131</Checksum>
+    <ModifiedTime>2016-04-12T00:33:22.7378493-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>MultilingualResources\ProjectLasVegas.pt.xlf</FileName>
-    <Checksum>1971351621544612013525519218291242614519175</Checksum>
-    <ModifiedTime>2016-04-07T23:55:38.9566024-03:00</ModifiedTime>
+    <Checksum>24074881621261612182446337226250178123386</Checksum>
+    <ModifiedTime>2016-03-04T23:20:23.6098921-03:00</ModifiedTime>
     <CacheFileType>XliffResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\pt\Shared.resw</FileName>
-    <Checksum>110221235236144180111220111943118918148117122</Checksum>
-    <ModifiedTime>2016-04-08T10:55:21.0186535-03:00</ModifiedTime>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2016-04-12T00:33:23.1034684-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\pt\Resources.resw</FileName>
-    <Checksum>145851002139996210194235186341491186752</Checksum>
-    <ModifiedTime>2016-04-08T10:55:21.0146555-03:00</ModifiedTime>
+    <Checksum>6421425177161532451461978982214054247</Checksum>
+    <ModifiedTime>2016-04-12T00:33:23.1079707-03:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\ProjectLasVegas.en.xlf</FileName>
+    <Checksum>12122210431029460781245925147225243125221</Checksum>
+    <ModifiedTime>2016-03-04T23:20:22.1020602-03:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
 </ArrayOfCacheFile>

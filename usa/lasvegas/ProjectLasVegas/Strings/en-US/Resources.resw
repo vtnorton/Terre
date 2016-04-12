@@ -166,4 +166,11 @@
   <data name="Step3" xml:space="preserve">
     <value>That simple!</value>
   </data>
+  <data name="ThisAppDescription.Text" xml:space="preserve">
+    <value>Those who never played such a game like this or have never heard that throw the first stone! The best game of truth and consequence that the Windows Store has seen so far, has several bottles according to the occasion (in family, in the square, between friends, drunk, with the bests , alone,in the classroom and among couples) , with questions and pre-defined challenges is fun in the right esste application!</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="ThisAppName.Text" xml:space="preserve">
+    <value>#TrueOrDare</value>
+  </data>
 </root>

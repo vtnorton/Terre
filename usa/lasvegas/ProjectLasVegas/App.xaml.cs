@@ -1,5 +1,5 @@
 ﻿using Core;
-using ProjectLasVegas.Code;
+using CoreWin10.Code;
 using System;
 using UniversalRateReminder;
 using Windows.ApplicationModel;

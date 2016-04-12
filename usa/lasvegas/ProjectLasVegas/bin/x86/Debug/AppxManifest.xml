@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="60181VTNORTON.TrueOrDare" Publisher="CN=A1BAD918-0EE3-4743-84A7-20C7B6052F9A" Version="2.1.2.0" ProcessorArchitecture="x86" />
+  <Identity Name="60181VTNORTON.TrueOrDare" Publisher="CN=A1BAD918-0EE3-4743-84A7-20C7B6052F9A" Version="2.0.1.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="ca96a154-64f5-441f-ae4c-1849dc8b9796" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>#TrueOrDare</DisplayName>

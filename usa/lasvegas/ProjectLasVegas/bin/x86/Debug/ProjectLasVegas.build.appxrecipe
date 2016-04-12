@@ -582,6 +582,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Terre\usa\lasvegas\ProjectLasVegas\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Terre\usa\lasvegas\ProjectLasVegas\Data\Dare\pt-br\Alone.txt">
       <PackagePath>Data\Dare\pt-br\Alone.txt</PackagePath>
     </AppxPackagedFile>

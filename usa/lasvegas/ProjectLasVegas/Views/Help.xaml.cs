@@ -1,5 +1,5 @@
 ﻿using Core.Shared;
-using ProjectLasVegas.Code;
+using CoreWin10.Code;
 using System;
 using Windows.System;
 using Windows.UI.Xaml;
