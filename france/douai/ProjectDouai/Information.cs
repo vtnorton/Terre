@@ -1,6 +1,4 @@
-﻿using Core;
-
-namespace ProjectDouai
+﻿namespace Core
 {
     public class Information
     {
