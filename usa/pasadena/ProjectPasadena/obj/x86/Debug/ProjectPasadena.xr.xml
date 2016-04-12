@@ -15,8 +15,6 @@
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Margin" />
       <RootProperty Name="CompositeMode" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />

@@ -12,4 +12,66 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="txtAbout.Text" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="txtBand.Text" xml:space="preserve">
+    <value>Banda de Microsoft</value>
+  </data>
+  <data name="txtHelp.Text" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="txtHome.Text" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="txtSettings.Text" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Un juego puede destruir, así como para fortalecer amistades. Tomar la bebida más fuerte, o que está más cerca de usted y el famoso 'yo nunca', jugará donde cada vez que has hecho algo en la pantalla se debe beber un sorbo. La regla es simple, el juego es conocido, entonces ¿qué esperas? Llame a sus amigos más cercanos para una ronda de' nunca jamás'.</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>#NeverEver</value>
+  </data>
+  <data name="GetToKnowMe.Text" xml:space="preserve">
+    <value>Conozca a mí y a mis otras aplicaciones visitando mi sitio Web.</value>
+  </data>
+  <data name="GoToSite.Content" xml:space="preserve">
+    <value>Visite mi sitio web</value>
+  </data>
+  <data name="RateInTheStore.Text" xml:space="preserve">
+    <value>Hacer a alguien feliz por valorar esta app en la tienda. ;)</value>
+  </data>
+  <data name="RateIt.Content" xml:space="preserve">
+    <value>Votar y hacer alguien feliz</value>
+  </data>
+  <data name="Sendfeedback.Text" xml:space="preserve">
+    <value>Por favor enviarme información sobre esta aplicación. Voy a arreglar cada error y escucharé tus ideas en cómo mejorar esta aplicación.</value>
+  </data>
+  <data name="SendFeedbackBtn.Content" xml:space="preserve">
+    <value>Enviar comentarios</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Ir a un bar, o simplemente recoger su bebida y vaya al paso 2.</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Por todo lo que hiciste, y está mostrando en la pantalla, beber.</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Así de simple!</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>PRÓXIMO</value>
+  </data>
+  <data name="ToStart.Text" xml:space="preserve">
+    <value>Para iniciar, haga clic en siguiente.</value>
+  </data>
+  <data name="ThisAppDescription.Text" xml:space="preserve">
+    <value>Un juego puede destruir, así como para fortalecer amistades. Tomar la bebida más fuerte, o que está más cerca de usted y el famoso 'yo nunca', jugará donde cada vez que has hecho algo en la pantalla se debe beber un sorbo. La regla es simple, el juego es conocido, entonces ¿qué esperas? Llame a sus amigos más cercanos para una ronda de' nunca jamás'.</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="ThisAppName.Text" xml:space="preserve">
+    <value>#NeverEver</value>
+  </data>
 </root>

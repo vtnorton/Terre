@@ -1,5 +1,4 @@
 AlternateForm=UNPLATED
-Language=PT-BR
 Scale=200
 Scale=400
 Scale=150

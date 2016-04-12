@@ -59,7 +59,7 @@
                                 </DataTemplate>
                             </HyperlinkButton.ContentTemplate>
                         </HyperlinkButton>
-                        <TextBlock x:ConnectionId='17' Grid.Column="2" x:Name="txtHome" x:Uid="/Shared/txtHome" Text="Home" FontSize="18" Foreground="White" VerticalAlignment="Center" />
+                        <TextBlock x:ConnectionId='17' Grid.Column="2" x:Name="txtHome" x:Uid="txtHome" Text="Home" FontSize="18" Foreground="White" VerticalAlignment="Center" />
                     </Grid>
                 </StackPanel>
                 <StackPanel x:ConnectionId='7' x:Name="stpHelp"                        Orientation="Horizontal"                                                                          >
@@ -78,7 +78,7 @@
                                 </DataTemplate>
                             </HyperlinkButton.ContentTemplate>
                         </HyperlinkButton>
-                        <TextBlock x:ConnectionId='14' Grid.Column="2" x:Name="txtHelp" x:Uid="/Shared/txtHelp" Text="Help" FontSize="18" Foreground="White" VerticalAlignment="Center" />
+                        <TextBlock x:ConnectionId='14' Grid.Column="2" x:Name="txtHelp" x:Uid="txtHelp" Text="Help" FontSize="18" Foreground="White" VerticalAlignment="Center" />
                     </Grid>
                 </StackPanel>
                 <StackPanel x:ConnectionId='8' x:Name="stpAbout"                         Orientation="Horizontal"                                                                            >
@@ -97,7 +97,7 @@
                                 </DataTemplate>
                             </HyperlinkButton.ContentTemplate>
                         </HyperlinkButton>
-                        <TextBlock x:ConnectionId='11' Grid.Column="2" x:Name="txtAbout" x:Uid="/Shared/txtAbout" Text="About" FontSize="18" Foreground="White" VerticalAlignment="Center" />
+                        <TextBlock x:ConnectionId='11' Grid.Column="2" x:Name="txtAbout" x:Uid="txtAbout" Text="About" FontSize="18" Foreground="White" VerticalAlignment="Center" />
                     </Grid>
                 </StackPanel>
             </StackPanel>

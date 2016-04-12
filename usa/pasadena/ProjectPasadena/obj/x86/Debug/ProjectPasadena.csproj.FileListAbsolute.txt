@@ -1,4 +1,4 @@
-F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Data\pt-br\NeverEver.txt
+F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\ApplicationInsights.config
 F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Views\About.xbf
 F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\App.xbf
 F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\MainPage.xbf
@@ -13,8 +13,10 @@ F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Core\AppxManifest.xml
 F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Core\ProjectPasadena.exe
 F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\ProjectPasadena.build.appxrecipe
 F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Microsoft.AdMediator.Core.dll
-F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Microsoft.AdMediator.Universal.dll
-F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Microsoft.AdMediator.Universal.MicrosoftAdvertising.dll
+F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Microsoft.AdMediator.Windows81.dll
+F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Microsoft.AdMediator.Windows81.MicrosoftAdvertising.dll
+F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Microsoft.Advertising.winmd
+F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Microsoft.Advertising.xml
 F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Microsoft.ApplicationInsights.dll
 F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Microsoft.ApplicationInsights.PersistenceChannel.dll
 F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\Microsoft.ApplicationInsights.Extensibility.Windows.dll

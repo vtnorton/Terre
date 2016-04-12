@@ -172,4 +172,11 @@
   <data name="ToStart.Text" xml:space="preserve">
     <value>To start, click in next!</value>
   </data>
+  <data name="ThisAppDescription.Text" xml:space="preserve">
+    <value>A game can destroy as well as to strengthen friendships. Take stronger drink, or that is closer to you, and will play the famous 'I Never ever' , where every time you've done something shown on the screen you should drink a sip. The rule is simple, the game is known, then what are you waiting? Call your closest friends for a round of 'I never ever'.</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="ThisAppName.Text" xml:space="preserve">
+    <value>#NeverEver</value>
+  </data>
 </root>

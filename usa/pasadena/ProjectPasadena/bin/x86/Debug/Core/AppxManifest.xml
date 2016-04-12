@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="60181VTNORTON.NeverEver" Publisher="CN=A1BAD918-0EE3-4743-84A7-20C7B6052F9A" Version="2.1.7.0" ProcessorArchitecture="x86" />
+  <Identity Name="60181VTNORTON.NeverEver" Publisher="CN=A1BAD918-0EE3-4743-84A7-20C7B6052F9A" Version="2.0.3.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="32c1cd7f-fc61-4412-aca1-d727b6c0ae4f" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>#NeverEver</DisplayName>
@@ -16,13 +16,12 @@
   </Properties>
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />
-    <PackageDependency Name="Microsoft.Advertising.Xaml" MinVersion="10.0.1603.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
     <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.23918.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.120.00.Debug.Universal" MinVersion="12.0.30501.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
     <PackageDependency Name="Microsoft.NET.CoreRuntime.1.0" MinVersion="1.0.23430.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
-    <Resource Language="PT-BR" />
     <Resource Language="ES" />
     <Resource Language="FR" />
     <Resource Language="IT" />
@@ -45,6 +44,29 @@
   <Capabilities>
     <Capability Name="internetClient" />
   </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>UniversalXamlAdControl.Windows.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.UserUtils" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.AdErrorReport" ThreadingModel="STA" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.SdkInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.HttpClient" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.AdPlacement" ThreadingModel="STA" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.AdScheduler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.EventLogging" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.Advertisement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.AdErrorEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.AdTagCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.AdExtension" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.ExpandProperties" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.InterstitialAd" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.ManipulationStateChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.AdControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.UniversalXamlAdControl_Windows_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="14.0" />
@@ -55,7 +77,7 @@
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25123.0" />
-    <build:Item Name="Microsoft.AdMediator.Universal" Version="1.0" />
+    <build:Item Name="Microsoft.AdMediatorWindows81" Version="1.0" />
     <build:Item Name="MakePri.exe" Version="10.0.10586.15 (th2_release.151119-1817)" />
   </build:Metadata>
 </Package>

@@ -7,20 +7,18 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:UI="using:Microsoft.Advertising.WinRT.UI"
     mc:Ignorable="d">
-    <Grid x:ConnectionId='1' x:Name="MainGrid">
+    <Grid Background="Black">
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
+            <RowDefinition x:ConnectionId='1' Height="*" x:Name="MainGrid"/>
             <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid x:ConnectionId='2' x:Name="BotaoEuNunca" Grid.Row="0">
             <TextBlock x:ConnectionId='6' x:Name="Sortear" x:Uid="ToStart" TextAlignment="Center" Text="Para começar o jogo clique em proxímo" HorizontalAlignment="Stretch" Foreground="White" VerticalAlignment="Center"  FontSize="40" TextWrapping="Wrap"/>
         </Grid>
-        <Grid Height="50" Width="350" Grid.Row="1">
+        <Grid Grid.Row="1">
             <UI:AdControl x:ConnectionId='5' x:Name="Ad" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center" Width="300"/>
         </Grid>
-        
-        
         <Grid x:ConnectionId='3' x:Name="Mensagem" Grid.Row="2">
             <Button x:ConnectionId='4' x:Uid="Next" Content="Proxímo" Background="OrangeRed" Height="200" Width="200" x:Name="xBotao" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"                       >
                 <Button.Template>

@@ -9,6 +9,7 @@ Images\Lyon.png
 Images\Nice.png
 Images\Pasadena.png
 Images\Rio.png
+ApplicationInsights.config
 Assets\LockScreenLogo.scale-200.png
 Assets\SplashScreen.scale-100.png
 Assets\SplashScreen.scale-125.png
@@ -50,7 +51,6 @@ Assets\Wide310x150Logo.scale-150.png
 Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
 ProjectPasadena.xr.xml
-Data\pt-br\NeverEver.txt
 Images\Help\Page1.png
 Images\Help\Page2.png
 Images\Help\Page3.png

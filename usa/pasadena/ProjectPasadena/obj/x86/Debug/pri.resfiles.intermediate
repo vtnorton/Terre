@@ -1,2 +1,3 @@
-C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.AdMediator.Universal\1.0\Redist\CommonConfiguration\Neutral\Microsoft.AdMediator.Universal.pri
+C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\Redist\CommonConfiguration\Neutral\Microsoft.AdMediator.Windows81.pri
+C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\Redist\CommonConfiguration\Neutral\Microsoft.Advertising.pri
 C:\Users\norto\.nuget\packages\UniversalRateReminder\2.0.0\lib\uap10.0\UniversalRateReminder.pri

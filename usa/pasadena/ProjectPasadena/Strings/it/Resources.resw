@@ -67,4 +67,11 @@
   <data name="ToStart.Text" xml:space="preserve">
     <value>Per iniziare clicca in avanti!</value>
   </data>
+  <data name="ThisAppDescription.Text" xml:space="preserve">
+    <value>Un gioco può distruggere anche da rafforzare amicizie. Prendere la bevanda più forte, o che è più vicino a voi e il famoso 'I mai mai', giocherà dove ogni volta che hai fatto qualcosa mostrato sullo schermo si dovrebbe bere un sorso. La regola è semplice, il gioco è conosciuto, quindi cosa aspettate? Chiama i tuoi amici più vicini per un giro di 'I mai mai'.</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="ThisAppName.Text" xml:space="preserve">
+    <value>#NeverEver</value>
+  </data>
 </root>

@@ -21,14 +21,14 @@
     <AppxPackagedFile Include="F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\ProjectPasadena.exe">
       <PackagePath>entrypoint\ProjectPasadena.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.AdMediator.Universal\1.0\References\CommonConfiguration\Neutral\Microsoft.AdMediator.Core.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\References\CommonConfiguration\Neutral\Microsoft.AdMediator.Core.dll">
       <PackagePath>Microsoft.AdMediator.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.AdMediator.Universal\1.0\References\CommonConfiguration\Neutral\Microsoft.AdMediator.Universal.dll">
-      <PackagePath>Microsoft.AdMediator.Universal.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\References\CommonConfiguration\Neutral\Microsoft.AdMediator.Windows81.dll">
+      <PackagePath>Microsoft.AdMediator.Windows81.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.AdMediator.Universal\1.0\References\CommonConfiguration\x86\Microsoft.AdMediator.Universal.MicrosoftAdvertising.dll">
-      <PackagePath>Microsoft.AdMediator.Universal.MicrosoftAdvertising.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\References\CommonConfiguration\x86\Microsoft.AdMediator.Windows81.MicrosoftAdvertising.dll">
+      <PackagePath>Microsoft.AdMediator.Windows81.MicrosoftAdvertising.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\norto\.nuget\packages\Microsoft.ApplicationInsights\1.2.3\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -354,8 +354,29 @@
     <AppxPackagedFile Include="F:\Terre\Core\bin\Release\Core.dll">
       <PackagePath>Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.AdMediator.Universal\1.0\Redist\CommonConfiguration\Neutral\Microsoft.AdMediator.Universal\Themes\Generic.xbf">
-      <PackagePath>Microsoft.AdMediator.Universal\Themes\Generic.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\References\CommonConfiguration\Neutral\Microsoft.Advertising.winmd">
+      <PackagePath>Microsoft.Advertising.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\Redist\CommonConfiguration\Neutral\Microsoft.Advertising\bootstrap.html">
+      <PackagePath>Microsoft.Advertising\bootstrap.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\Redist\CommonConfiguration\Neutral\MSAdvertisingJS\ads\bootstrap.js">
+      <PackagePath>MSAdvertisingJS\ads\bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\Redist\CommonConfiguration\Neutral\MSAdvertisingJS\ads\ormma.js">
+      <PackagePath>MSAdvertisingJS\ads\ormma.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\Redist\CommonConfiguration\Neutral\Microsoft.AdMediator.Windows81\Themes\Generic.xbf">
+      <PackagePath>Microsoft.AdMediator.Windows81\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\Redist\CommonConfiguration\Neutral\Microsoft.Advertising\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Advertising\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\Redist\CommonConfiguration\x86\UniversalXamlAdControl.Windows.dll">
+      <PackagePath>UniversalXamlAdControl.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.10240.0\\redist\Debug\x86\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Terre\CoreWin10\Images\Apps.png">
       <PackagePath>Images\Apps.png</PackagePath>
@@ -555,17 +576,14 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\usa\pasadena\ProjectPasadena\Data\pt-br\NeverEver.txt">
-      <PackagePath>Data\pt-br\NeverEver.txt</PackagePath>
+    <AppxPackagedFile Include="F:\Terre\usa\pasadena\ProjectPasadena\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Terre\usa\pasadena\ProjectPasadena\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Terre\usa\pasadena\ProjectPasadena\bin\x86\Debug\ProjectPasadena.xr.xml">
       <PackagePath>ProjectPasadena.xr.xml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.10240.0\\redist\Debug\x86\ucrtbased.dll">
-      <PackagePath>ucrtbased.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -581,30 +599,6 @@
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\">
-      <Name>Microsoft.Advertising.Xaml</Name>
-      <Version>10.0.1603.0</Version>
-      <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name=Microsoft.Advertising.Xaml, MinVersion=10.0.1603.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\.\AppX\ARM\Microsoft.Advertising.Xaml.ARM.10.0.appx</AppxLocation>
-      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkID=619694</MoreInfo>
-    </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\">
-      <Name>Microsoft.Advertising.Xaml</Name>
-      <Version>10.0.1603.0</Version>
-      <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name=Microsoft.Advertising.Xaml, MinVersion=10.0.1603.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\.\AppX\x64\Microsoft.Advertising.Xaml.x64.10.0.appx</AppxLocation>
-      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkID=619694</MoreInfo>
-    </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\">
-      <Name>Microsoft.Advertising.Xaml</Name>
-      <Version>10.0.1603.0</Version>
-      <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name=Microsoft.Advertising.Xaml, MinVersion=10.0.1603.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\.\AppX\x86\Microsoft.Advertising.Xaml.x86.10.0.appx</AppxLocation>
-      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkID=619694</MoreInfo>
-    </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
       <Version>14.0.23918.0</Version>
@@ -627,6 +621,30 @@
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.23918.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.120\14.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug.Universal</Name>
+      <Version>12.0.30501.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug.Universal, MinVersion = 12.0.30501.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.120\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.Universal.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.120\14.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug.Universal</Name>
+      <Version>12.0.30501.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug.Universal, MinVersion = 12.0.30501.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.120\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.Universal.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.120\14.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug.Universal</Name>
+      <Version>12.0.30501.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug.Universal, MinVersion = 12.0.30501.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.120\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.Universal.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">

@@ -67,4 +67,11 @@
   <data name="ToStart.Text" xml:space="preserve">
     <value>Para começar, clique em avançar!</value>
   </data>
+  <data name="ThisAppDescription.Text" xml:space="preserve">
+    <value>Um jogo pode destruir, bem como para fortalecer amizades. Tomar a bebida mais forte, ou que está mais perto de você e vai jogar o famoso 'Eu nunca', onde cada vez que você tenha feito algo mostrado no ecrã você deve beber um gole. A regra é simples, o jogo é conhecido e, em seguida, o que você está esperando? Chame seus amigos para uma rodada de 'Eu nunca'.</value>
+    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
+  </data>
+  <data name="ThisAppName.Text" xml:space="preserve">
+    <value>#NeverEver</value>
+  </data>
 </root>
