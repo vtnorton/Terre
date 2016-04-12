@@ -1,6 +1,4 @@
-﻿using Core;
-
-namespace ProjectRio
+﻿namespace Core
 {
     public class Information
     {
