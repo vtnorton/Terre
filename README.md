@@ -1,3 +1,3 @@
 # Terre
-##Documentation coming soon
+Documentation coming soon
 All of my apps to Windows 
