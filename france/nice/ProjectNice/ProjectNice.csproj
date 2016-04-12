@@ -107,8 +107,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="project.json" />
-    <PRIResource Include="Strings\en\Resources.resw" />
-    <PRIResource Include="Strings\en\Shared.resw" />
     <PRIResource Include="Strings\fr\Resources.resw" />
     <PRIResource Include="Strings\fr\Shared.resw" />
     <PRIResource Include="Strings\it\Resources.resw" />
