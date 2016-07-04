@@ -230,3 +230,5 @@ F:\Terre\france\nice\ProjectNice\obj\ARM\Debug\Microsoft.Band.Phone_UAP.pri.xml
 F:\Terre\france\nice\ProjectNice\obj\ARM\Debug\Microsoft.Band.Store_UAP.pri.xml
 F:\Terre\france\nice\ProjectNice\obj\ARM\Debug\UniversalRateReminder.pri.xml
 F:\Terre\france\nice\ProjectNice\obj\ARM\Debug\ProjectArchitectures.txt
+F:\uwp.vtnorton.terre\Terre\france\nice\ProjectNice\obj\ARM\Debug\ProjectNice.exe
+F:\uwp.vtnorton.terre\Terre\france\nice\ProjectNice\obj\ARM\Debug\ProjectNice.pdb
