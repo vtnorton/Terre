@@ -1,5 +1,7 @@
 ﻿using Core;
 using ProjectLyon.Code;
+using Windows.System;
+using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
@@ -9,9 +11,75 @@ namespace ProjectLyon
     {
         private bool Zerar, JustNumber, IsResultInHours = false;
         public MainPage()
-        {   this.InitializeComponent();
+        {
+            this.InitializeComponent();
             Ad.ApplicationId = Ads.Lyon[0];
             Ad.AdUnitId = Ads.Lyon[1];
+            Window.Current.CoreWindow.KeyDown += (s, e) =>
+            {
+                switch (e.VirtualKey)
+                {
+                    case VirtualKey.Number0:
+                    case VirtualKey.NumberPad0:
+                        btnZero_Click(null, null);
+                        break;
+                    case VirtualKey.Number1:
+                    case VirtualKey.NumberPad1:
+                        btn1_Click(null, null);
+                        break;
+                    case VirtualKey.Number2:
+                    case VirtualKey.NumberPad2:
+                        btn2_Click(null, null);
+                        break;
+                    case VirtualKey.Number3:
+                    case VirtualKey.NumberPad3:
+                        btn3_Click(null, null);
+                        break;
+                    case VirtualKey.Number4:
+                    case VirtualKey.NumberPad4:
+                        btn4_Click(null, null);
+                        break;
+                    case VirtualKey.Number5:
+                    case VirtualKey.NumberPad5:
+                        btn5_Click(null, null);
+                        break;
+                    case VirtualKey.Number6:
+                    case VirtualKey.NumberPad6:
+                        btn6_Click(null, null);
+                        break;
+                    case VirtualKey.Number7:
+                    case VirtualKey.NumberPad7:
+                        btn7_Click(null, null);
+                        break;
+                    case VirtualKey.Number8:
+                    case VirtualKey.NumberPad8:
+                        btn8_Click(null, null);
+                        break;
+                    case VirtualKey.Number9:
+                    case VirtualKey.NumberPad9:
+                        btn9_Click(null, null);
+                        break;
+                    case VirtualKey.Delete:
+                        btnCleanLast_Click(null, null);
+                        break;
+                    case VirtualKey.Divide:
+                        btnDividir_Click(null, null);
+                        break;
+                    case VirtualKey.Multiply:
+                        btnMultiply_Click(null, null);
+                        break;
+                    case VirtualKey.Add:
+                        btnSoma_Click(null, null);
+                        break;
+                    case VirtualKey.Subtract:
+                        btnMenos_Click(null, null);
+                        break;
+                    case VirtualKey.Enter:
+                        btnEquals_Click(null, null);
+                        break;
+
+                }
+            };
         }
 
         private void btnCleanLast_Click(object sender, RoutedEventArgs e)
@@ -27,7 +95,7 @@ namespace ProjectLyon
 
         private void btnDeleteLast_Click(object sender, RoutedEventArgs e)
         {
-            if(txtResult.Text != "")
+            if (txtResult.Text != "")
             {
                 txtResult.Text = txtResult.Text.Substring(0, txtResult.Text.Length - 1);
                 txtConta.Text = txtConta.Text.Substring(0, txtConta.Text.Length - 1);
@@ -179,7 +247,7 @@ namespace ProjectLyon
                 txtConta.Text += " - 10";
                 txtResult.Text = (int.Parse(txtResult.Text) - 10).ToString();
             }
-            
+
         }
 
         private void btnEquals_Click(object sender, RoutedEventArgs e)

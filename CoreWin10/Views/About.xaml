@@ -34,6 +34,29 @@
             </PivotItem>
             <PivotItem>
                 <PivotItem.Header>
+                    <TextBlock Text="send feedback" x:Uid="/Shared/txtThisApp" Foreground="White"></TextBlock>
+                </PivotItem.Header>
+                <Grid CompositeMode="SourceOver">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" FontSize="25" Text="Send me a feedback"></TextBlock>
+                    <TextBlock Grid.Row="1" FontSize="15" Text="Help me improve this app by sending me a feedback of what you saw wrong or what you thing is going to be interesting to add to this app." TextWrapping="WrapWholeWords"></TextBlock>
+                    <TextBox x:Name="txtEmail" Grid.Row="2" InputScope="EmailSmtpAddress" PlaceholderText="Your email" Margin="0,15,0,7.5"></TextBox>
+                    <TextBox x:Name="txtSubject" Grid.Row="3" PlaceholderText="Subject" Margin="0,7.5,0,5"></TextBox>
+                    <TextBox x:Name="txtMenssage" Grid.Row="4" InputScope="Text" Height="100" PlaceholderText="Feedback" Margin="0,10,0,15" AcceptsReturn="True"></TextBox>
+                    <Button ToolTipService.ToolTip="Send feedback" Click="btnSend_Click" x:Name="btnSend" Grid.Row="5" Content="Send Feedback" Width="150" HorizontalAlignment="Right"></Button>
+                    <TextBlock x:Name="lblMenssage" Text=" " Grid.Row="6" FontSize="15"></TextBlock>
+                </Grid>
+            </PivotItem>
+            <PivotItem>
+                <PivotItem.Header>
                     <TextBlock Text="other apps" x:Uid="/Shared/txtOtherApps" Foreground="White"></TextBlock>
                 </PivotItem.Header>
                 <Grid CompositeMode="SourceOver" Margin="0,0,0,15">
@@ -41,18 +64,33 @@
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"></RowDefinition>
-                                <!--Nice-->
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <!--Lyon-->
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <!--LasVegas-->
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <!--Pasadena-->
                                 <RowDefinition Height="Auto"></RowDefinition>
                                 <RowDefinition Height="Auto"></RowDefinition>
-                                <!--Douai-->
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
                             </Grid.RowDefinitions>
                             <Grid Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="120"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                    <RowDefinition Height="50"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Image Source="/Images/Quebec.png" Grid.Column="0" Grid.Row="0" Width="100" VerticalAlignment="Top" Margin="0,10,0,0"></Image>
+                                <Grid Grid.Column="1">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="25"></RowDefinition>
+                                        <RowDefinition Height="*"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Foreground="White" Grid.Column="1" Grid.Row="0" x:Uid="/Shared/QuebecTitle" FontSize="20" Text="Formula - Universal Code Editor"></TextBlock>
+                                    <TextBlock Foreground="White" Grid.Column="1" Grid.Row="1" TextWrapping="Wrap" FontSize="12" x:Uid="/Shared/QuebecDescription" Text="Lorem ipsum"></TextBlock>
+                                </Grid>
+                                <!-- Put the link for download here -->
+                                <HyperlinkButton x:Name="Quebec" Grid.Row="1" Grid.ColumnSpan="2" x:Uid="/Shared/DownloadIt" Content="Download this app" Height="50" HorizontalAlignment="Center"/>
+                            </Grid>
+                            <Grid Grid.Row="1">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="120"></ColumnDefinition>
                                     <ColumnDefinition Width="*"></ColumnDefinition>
@@ -74,27 +112,6 @@
                                 <HyperlinkButton x:Name="Douai" Grid.Row="1" Grid.ColumnSpan="2" x:Uid="/Shared/DownloadIt" Content="Download this app" Height="50" HorizontalAlignment="Center"/>
                             </Grid>
 
-                            <Grid Grid.Row="1">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="120"></ColumnDefinition>
-                                    <ColumnDefinition Width="*"></ColumnDefinition>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="Auto"></RowDefinition>
-                                    <RowDefinition Height="50"></RowDefinition>
-                                </Grid.RowDefinitions>
-                                <Image Source="/Images/LasVegas.png" Grid.Column="0" Grid.Row="0" Width="100" VerticalAlignment="Top" Margin="0,10,0,0"></Image>
-                                <Grid Grid.Column="1">
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="25"></RowDefinition>
-                                        <RowDefinition Height="*"></RowDefinition>
-                                    </Grid.RowDefinitions>
-                                    <TextBlock Foreground="White" Grid.Column="1" Grid.Row="0" x:Uid="/Shared/LasVegasTitle" FontSize="20" Text="Lorem ipsum"></TextBlock>
-                                    <TextBlock Foreground="White" Grid.Column="1" Grid.Row="1" TextWrapping="Wrap" FontSize="12" x:Uid="/Shared/LasVegasDescription" Text="Lorem ipsum"></TextBlock>
-                                </Grid>
-                                <!-- Put the link for download here -->
-                                <HyperlinkButton x:Name="LasVegas" Grid.Row="1" Grid.ColumnSpan="2" x:Uid="/Shared/DownloadIt" Content="Download this app" Height="50" HorizontalAlignment="Center"/>
-                            </Grid>
                             <Grid Grid.Row="2">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="120"></ColumnDefinition>
@@ -137,28 +154,8 @@
                                 <!-- Put the link for download here -->
                                 <HyperlinkButton x:Name="Nice" Grid.Row="1" Grid.ColumnSpan="2" x:Uid="/Shared/DownloadIt" Content="Download this app" Height="50" HorizontalAlignment="Center"/>
                             </Grid>
+
                             <Grid Grid.Row="4">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="120"></ColumnDefinition>
-                                    <ColumnDefinition Width="*"></ColumnDefinition>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="Auto"></RowDefinition>
-                                    <RowDefinition Height="50"></RowDefinition>
-                                </Grid.RowDefinitions>
-                                <Image Source="/Images/Pasadena.png" Grid.Column="0" Grid.Row="0" Width="100" VerticalAlignment="Top" Margin="0,10,0,0"></Image>
-                                <Grid Grid.Column="1">
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="25"></RowDefinition>
-                                        <RowDefinition Height="*"></RowDefinition>
-                                    </Grid.RowDefinitions>
-                                    <TextBlock Foreground="White" Grid.Column="1" Grid.Row="0" x:Uid="/Shared/PasadenaTitle" FontSize="20" Text="Lorem ipsum"></TextBlock>
-                                    <TextBlock Foreground="White" Grid.Column="1" Grid.Row="1" TextWrapping="Wrap" FontSize="12" x:Uid="/Shared/PasadenaDescription" Text="Lorem ipsum"></TextBlock>
-                                </Grid>
-                                <!-- Put the link for download here -->
-                                <HyperlinkButton x:Name="Pasadena" Grid.Row="1" Grid.ColumnSpan="2" x:Uid="/Shared/DownloadIt" Content="Download this app" Height="50" HorizontalAlignment="Center"/>
-                            </Grid>
-                            <Grid Grid.Row="5">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="120"></ColumnDefinition>
                                     <ColumnDefinition Width="*"></ColumnDefinition>

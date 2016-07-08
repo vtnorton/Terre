@@ -7,3 +7,7 @@ F:\Terre\Core\obj\Release\Core.dll
 F:\Terre\Core\obj\Release\Core.pdb
 F:\Terre\Core\bin\Release\Core.dll
 F:\Terre\Core\bin\Release\Core.pdb
+F:\uwp.vtnorton.terre\Terre\Core\bin\Release\Core.dll
+F:\uwp.vtnorton.terre\Terre\Core\bin\Release\Core.pdb
+F:\uwp.vtnorton.terre\Terre\Core\obj\Release\Core.dll
+F:\uwp.vtnorton.terre\Terre\Core\obj\Release\Core.pdb

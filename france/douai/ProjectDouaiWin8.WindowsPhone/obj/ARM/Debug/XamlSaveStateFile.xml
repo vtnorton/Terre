@@ -6,7 +6,7 @@
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.admediator81\1.0\references\commonconfiguration\arm\microsoft.admediator.windowsphone81.microsoftadvertising.dll" HashGuid="696d18ee-c90f-a4fa-8a48-f7dcc85562b4" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.admediator81\1.0\references\commonconfiguration\neutral\microsoft.advertising.winmd" HashGuid="0e298d0e-35bc-69c1-ce53-3ec79c031e52" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
-    <ReferenceAssembly PathName="f:\terre\core\bin\release\core.dll" HashGuid="f316af02-d739-64ab-0ea7-c9375cc13666" />
-    <ReferenceAssembly PathName="f:\terre\france\douai\packages\universalratereminder.2.0.0\lib\portable-netcore451+wpa81\universalratereminder.dll" HashGuid="ce4fc02f-1433-1a32-511f-3192d942683e" />
+    <ReferenceAssembly PathName="f:\uwp.vtnorton.terre\terre\core\bin\release\core.dll" HashGuid="498b230b-29ef-d1d2-119c-ad6b05fcc1e4" />
+    <ReferenceAssembly PathName="f:\uwp.vtnorton.terre\terre\france\douai\packages\universalratereminder.2.0.0\lib\portable-netcore451+wpa81\universalratereminder.dll" HashGuid="ce4fc02f-1433-1a32-511f-3192d942683e" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

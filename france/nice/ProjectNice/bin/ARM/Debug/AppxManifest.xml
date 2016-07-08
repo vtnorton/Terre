@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="60181VTNORTON.Random42" Publisher="CN=A1BAD918-0EE3-4743-84A7-20C7B6052F9A" Version="2.1.0.0" ProcessorArchitecture="arm" />
+  <Identity Name="60181VTNORTON.Random42" Publisher="CN=A1BAD918-0EE3-4743-84A7-20C7B6052F9A" Version="2.0.0.0" ProcessorArchitecture="arm" />
   <mp:PhoneIdentity PhoneProductId="5bea1da8-642c-42b1-a7af-2e9e86023b42" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Random 42</DisplayName>
@@ -37,6 +37,10 @@
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#8A2BE2" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait" />
+          <uap:Rotation Preference="portraitFlipped" />
+        </uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>
@@ -53,7 +57,7 @@
     <build:Item Name="ProjectGUID" Value="{0CC13278-DB2A-45DB-9C6B-A92441B4C10A}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25123.0" />
-    <build:Item Name="MakePri.exe" Version="10.0.10586.15 (th2_release.151119-1817)" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25219.0" />
+    <build:Item Name="MakePri.exe" Version="10.0.10586.212 (th2_release_sec.160328-1908)" />
   </build:Metadata>
 </Package>

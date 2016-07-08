@@ -265,4 +265,10 @@
   <data name="YappSite.Content" xml:space="preserve">
     <value>Y'APP's site</value>
   </data>
+  <data name="QuebecDescription.Text" xml:space="preserve">
+    <value>How many times do you get out of your office and remember a line of code that can fix the biggest bug you have? Guest what, you will forgot that line of code, you simply have to write it right out way. It can't wait you to get to the office. That's why Formula - Universal Code Editor is here.</value>
+  </data>
+  <data name="QuebecTitle.Text" xml:space="preserve">
+    <value>Formula - Universal Code Editor</value>
+  </data>
 </root>

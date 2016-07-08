@@ -126,12 +126,27 @@
     <Content Include="..\..\..\CoreWin10\Images\Pasadena.png">
       <Link>Images\Pasadena.png</Link>
     </Content>
+    <Content Include="..\..\..\CoreWin10\Images\Quebec.png">
+      <Link>Images\Quebec.png</Link>
+    </Content>
     <Content Include="..\..\..\CoreWin10\Images\Rio.png">
       <Link>Images\Rio.png</Link>
     </Content>
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Service References\SendFeedbackMenssageService\ProjectNice.SendFeedbackMenssageService.SendFeedbackEmailResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SendFeedbackMenssageService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\SendFeedbackMenssageService\configuration.svcinfo" />
+    <None Include="Service References\SendFeedbackMenssageService\configuration91.svcinfo" />
+    <None Include="Service References\SendFeedbackMenssageService\Feedback.disco" />
+    <None Include="Properties\ServiceReferences.Designer.ClientConfig" />
+    <None Include="Service References\SendFeedbackMenssageService\Feedback.wsdl" />
     <PRIResource Include="..\..\..\CoreWin10\Strings\en-US\Shared.resw">
       <Link>Strings\en-US\Shared.resw</Link>
     </PRIResource>
@@ -179,6 +194,11 @@
       <DependentUpon>MasterPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\SendFeedbackMenssageService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Views\Help.xaml.cs">
       <DependentUpon>Help.xaml</DependentUpon>
     </Compile>
@@ -274,7 +294,12 @@
       <HintPath>..\..\..\Core\bin\Release\Core.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\SendFeedbackMenssageService\" />
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

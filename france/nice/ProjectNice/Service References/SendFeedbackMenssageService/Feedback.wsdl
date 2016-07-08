@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SendFeedbackEmail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xProject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="xMenssage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="xMail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="xSubject" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendFeedbackEmailResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SendFeedbackEmailSoapIn">
+    <wsdl:part name="parameters" element="tns:SendFeedbackEmail" />
+  </wsdl:message>
+  <wsdl:message name="SendFeedbackEmailSoapOut">
+    <wsdl:part name="parameters" element="tns:SendFeedbackEmailResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FeedbackSoap">
+    <wsdl:operation name="SendFeedbackEmail">
+      <wsdl:input message="tns:SendFeedbackEmailSoapIn" />
+      <wsdl:output message="tns:SendFeedbackEmailSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FeedbackSoap" type="tns:FeedbackSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendFeedbackEmail">
+      <soap:operation soapAction="http://tempuri.org/SendFeedbackEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FeedbackSoap12" type="tns:FeedbackSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendFeedbackEmail">
+      <soap12:operation soapAction="http://tempuri.org/SendFeedbackEmail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Feedback">
+    <wsdl:port name="FeedbackSoap" binding="tns:FeedbackSoap">
+      <soap:address location="http://vtnorton.com/Services/Feedback.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FeedbackSoap12" binding="tns:FeedbackSoap12">
+      <soap12:address location="http://vtnorton.com/Services/Feedback.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

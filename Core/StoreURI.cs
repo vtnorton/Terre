@@ -37,6 +37,10 @@ namespace Core
         private static string ProductIdWin8Teresopolis = "";
         #endregion
 
+        #region Canada
+        private static string ProductIdQuebec = "9nblggh4wb6b ";
+        #endregion
+
         #region Review France
         public static Uri ReviewNice = new Uri(@"ms-windows-store://review/?ProductId=" + ProductIdNice);
         public static Uri ReviewLyon = new Uri(@"ms-windows-store://review/?ProductId=" + ProductIdLyon);
@@ -83,6 +87,10 @@ namespace Core
         public static Uri OpenWP8Pasadena = new Uri(@"ms-windows-store://pdp/?PhoneAppId=" + ProductIdWin8Pasadena);
         public static Uri OpenWP8Seattle = new Uri(@"ms-windows-store://pdp/?PhoneAppId=" + ProductIdWin8Seattle);
         public static Uri OpenWP8Miami = new Uri(@"ms-windows-store://pdp/?PhoneAppId=" + ProductIdWin8Miami);
+        #endregion
+
+        #region Open Canada
+        public static Uri OpenQuebec = new Uri(@"ms-windows-store://pdp/?ProductId=" + ProductIdQuebec);
         #endregion
 
         #region Open Brazil

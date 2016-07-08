@@ -13,7 +13,7 @@ namespace Core
 
         public static int CodeLines = 189;
         public static int Colors = 85;
-        public static int RevisonNumber = 18;
+        public static int RevisonNumber = 19;
         public static string BuildCode = "65";
         public static string Targat = " ";
         public static string Build = RevisonNumber + "." + BuildCode + Targat;
