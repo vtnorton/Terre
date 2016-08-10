@@ -52,20 +52,6 @@ namespace ProjectLyon
             FillColorHome();
             Selected = 1;
         }
-        private void btnBand_Click(object sender, TappedRoutedEventArgs e)
-        {
-            ContentFrame.Navigate(typeof(MainPage));
-            ResetAll();
-            FillColorBand();
-            Selected = 2;
-        }
-        private void btnSettings_Click(object sender, TappedRoutedEventArgs e)
-        {
-            ContentFrame.Navigate(typeof(MainPage));
-            ResetAll();
-            FillColorSettings();
-            Selected = 5;
-        }
 
         private void btnHelp_Click(object sender, TappedRoutedEventArgs e)
         {
@@ -88,19 +74,13 @@ namespace ProjectLyon
             txtAbout.Foreground = fillWhite;
             txtHelp.Foreground = fillWhite;
             txtHome.Foreground = fillWhite;
-            txtBand.Foreground = fillWhite;
-            txtSettings.Foreground = fillWhite;
             btnHome.Foreground = fillWhite;
             btnAbout.Foreground = fillWhite;
             btnHelp.Foreground = fillWhite;
             btnMenu.Foreground = fillWhite;
-            btnBand.Foreground = fillWhite;
-            btnSettings.Foreground = fillWhite;
             gridAbout.Background = fillTransparent;
             gridHelp.Background = fillTransparent;
             gridHome.Background = fillTransparent;
-            gridBand.Background = fillTransparent;
-            gridSettings.Background = fillTransparent;
         }
         private void stpHome_PointerMoved(object sender, PointerRoutedEventArgs e)
         {
@@ -121,45 +101,6 @@ namespace ProjectLyon
                 gridHome.Background = fillTransparent;
             }
         }
-
-        private void stpBand_PointerMoved(object sender, PointerRoutedEventArgs e)
-        {
-            stpBand.Background = fillGray;
-            gridBand.Background = fillColor;
-            btnBand.Foreground = fillWhite;
-        }
-
-        private void stpBand_PointerExited(object sender, PointerRoutedEventArgs e)
-        {
-            if (Selected == 2)
-            {
-                FillColorBand();
-            }
-            else
-            {
-                stpBand.Background = fillTransparent;
-                gridBand.Background = fillTransparent;
-            }
-        }
-        private void stpSetting_PointerMoved(object sender, PointerRoutedEventArgs e)
-        {
-            stpSetting.Background = fillGray;
-            gridSettings.Background = fillColor;
-            btnSettings.Foreground = fillWhite;
-        }
-        private void stpSetting_PointerExited(object sender, PointerRoutedEventArgs e)
-        {
-            if (Selected == 5)
-            {
-                FillColorSettings();
-            }
-            else
-            {
-                stpSetting.Background = fillTransparent;
-                gridSettings.Background = fillTransparent;
-            }
-        }
-
         private void stpHelp_PointerMoved(object sender, PointerRoutedEventArgs e)
         {
             stpHelp.Background = fillGray;
@@ -207,22 +148,6 @@ namespace ProjectLyon
             btnHome.Foreground = fillColor;
             btnHome.Background = fillTransparent;
             stpHome.Background = fillTransparent;
-        }
-        private void FillColorBand()
-        {
-            gridBand.Background = fillColor;
-            txtBand.Foreground = fillColor;
-            btnBand.Foreground = fillColor;
-            btnBand.Background = fillTransparent;
-            stpBand.Background = fillTransparent;
-        }
-        private void FillColorSettings()
-        {
-            gridSettings.Background = fillColor;
-            txtSettings.Foreground = fillColor;
-            btnSettings.Foreground = fillColor;
-            btnSettings.Background = fillTransparent;
-            stpSetting.Background = fillTransparent;
         }
         private void FillColorHelp()
         {

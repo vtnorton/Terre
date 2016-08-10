@@ -22,11 +22,11 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
-    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
     <PackageCertificateThumbprint>E4E75B3EC148F8E92739BA2EEAF918D7273C2BD0</PackageCertificateThumbprint>
-    <AppxPackageDir>F:\packages\delta\ProjectDouai_2.1.0\</AppxPackageDir>
+    <AppxPackageDir>F:\packages\delta\ProjectDouai_2.1.20\</AppxPackageDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>

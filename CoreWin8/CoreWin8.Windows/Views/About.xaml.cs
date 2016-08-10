@@ -1,12 +1,12 @@
 ﻿using Core;
 using Core.Shared;
 using CoreWin10.Code;
-//using ProjectDouaiWin8;
-//using ProjectDouaiWin8.Views;
+using ProjectDouaiWin8;
+using ProjectDouaiWin8.Views;
 //using ProjectLyonWin8;
 //using ProjectLyonWin8.Views;
-using ProjectNiceWIn8;
-using ProjectNiceWIn8.Views;
+//using ProjectNiceWIn8;
+//using ProjectNiceWIn8.Views;
 using System;
 using Windows.System;
 using Windows.UI.Xaml;

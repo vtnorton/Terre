@@ -1,1 +1,1 @@
-F:\Terre\france\douai\ProjectDouaiWin8.WindowsPhone\ProjectDouaiWin8.WindowsPhone.csproj;arm
+F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.WindowsPhone\ProjectDouaiWin8.WindowsPhone.csproj;arm

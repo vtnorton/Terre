@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>VTN_MAIN</Machine>
+    <Machine>DESKTOP-V34KNIL</Machine>
     <WindowsUser>norto</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
@@ -9,16 +9,16 @@
     <SolutionConfiguration>Debug|ARM</SolutionConfiguration>
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>60181VTNORTON.Conjugar</PackageIdentityName>
-    <IntermediateOutputPath>F:\Terre\france\douai\ProjectDouaiWin8.Windows\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\obj\ARM\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\AppxManifest.xml">
+    <AppXManifest Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\ProjectDouaiWin8.Windows.exe">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\ProjectDouaiWin8.Windows.exe">
       <PackagePath>ProjectDouaiWin8.Windows.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\References\CommonConfiguration\Neutral\Microsoft.AdMediator.Core.dll">
@@ -30,10 +30,10 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\References\CommonConfiguration\ARM\Microsoft.AdMediator.Windows81.MicrosoftAdvertising.dll">
       <PackagePath>Microsoft.AdMediator.Windows81.MicrosoftAdvertising.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\Core\bin\Release\Core.dll">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\Core\bin\Release\Core.dll">
       <PackagePath>Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\packages\UniversalRateReminder.2.0.0\lib\portable-netcore451+wpa81\UniversalRateReminder.dll">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\packages\UniversalRateReminder.2.0.0\lib\portable-netcore451+wpa81\UniversalRateReminder.dll">
       <PackagePath>UniversalRateReminder.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\References\CommonConfiguration\Neutral\Microsoft.Advertising.winmd">
@@ -57,178 +57,178 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.AdMediatorWindows81\1.0\Redist\CommonConfiguration\ARM\UniversalXamlAdControl.Windows.dll">
       <PackagePath>UniversalXamlAdControl.Windows.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\CoreWin10\Images\Apps.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\CoreWin10\Images\Apps.png">
       <PackagePath>Images\Apps.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\CoreWin10\Images\Douai.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\CoreWin10\Images\Douai.png">
       <PackagePath>Images\Douai.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\CoreWin10\Images\Help\Page4.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\CoreWin10\Images\Help\Page4.png">
       <PackagePath>Images\Help\Page4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\CoreWin10\Images\Help\Page5.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\CoreWin10\Images\Help\Page5.png">
       <PackagePath>Images\Help\Page5.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\CoreWin10\Images\Help\Page6.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\CoreWin10\Images\Help\Page6.png">
       <PackagePath>Images\Help\Page6.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\CoreWin10\Images\LasVegas.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\CoreWin10\Images\LasVegas.png">
       <PackagePath>Images\LasVegas.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\CoreWin10\Images\Lyon.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\CoreWin10\Images\Lyon.png">
       <PackagePath>Images\Lyon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\CoreWin10\Images\Nice.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\CoreWin10\Images\Nice.png">
       <PackagePath>Images\Nice.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\CoreWin10\Images\Pasadena.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\CoreWin10\Images\Pasadena.png">
       <PackagePath>Images\Pasadena.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\CoreWin10\Images\Rio.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\CoreWin10\Images\Rio.png">
       <PackagePath>Images\Rio.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouai\Images\Help\Page1.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouai\Images\Help\Page1.png">
       <PackagePath>Images\Help\Page1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Logo.scale-140.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Logo.scale-140.png">
       <PackagePath>Assets\Logo.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Logo.scale-180.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Logo.scale-180.png">
       <PackagePath>Assets\Logo.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Logo.scale-80.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Logo.scale-80.png">
       <PackagePath>Assets\Logo.scale-80.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.scale-140.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.scale-140.png">
       <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.scale-180.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.scale-180.png">
       <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.scale-80.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.scale-80.png">
       <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.targetsize-16.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.targetsize-16.png">
       <PackagePath>Assets\SmallLogo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.targetsize-256.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.targetsize-256.png">
       <PackagePath>Assets\SmallLogo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.targetsize-32.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.targetsize-32.png">
       <PackagePath>Assets\SmallLogo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.targetsize-48.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SmallLogo.targetsize-48.png">
       <PackagePath>Assets\SmallLogo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SplashScreen.scale-140.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SplashScreen.scale-140.png">
       <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SplashScreen.scale-180.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\SplashScreen.scale-180.png">
       <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square310x310Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square310x310Logo.scale-100.png">
       <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square310x310Logo.scale-140.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square310x310Logo.scale-140.png">
       <PackagePath>Assets\Square310x310Logo.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square310x310Logo.scale-180.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square310x310Logo.scale-180.png">
       <PackagePath>Assets\Square310x310Logo.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square310x310Logo.scale-80.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square310x310Logo.scale-80.png">
       <PackagePath>Assets\Square310x310Logo.scale-80.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square70x70Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square70x70Logo.scale-100.png">
       <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square70x70Logo.scale-140.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square70x70Logo.scale-140.png">
       <PackagePath>Assets\Square70x70Logo.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square70x70Logo.scale-180.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square70x70Logo.scale-180.png">
       <PackagePath>Assets\Square70x70Logo.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square70x70Logo.scale-80.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Square70x70Logo.scale-80.png">
       <PackagePath>Assets\Square70x70Logo.scale-80.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\StoreLogo.scale-140.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\StoreLogo.scale-140.png">
       <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\StoreLogo.scale-180.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\StoreLogo.scale-180.png">
       <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Wide310x150Logo.scale-140.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Wide310x150Logo.scale-140.png">
       <PackagePath>Assets\Wide310x150Logo.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Wide310x150Logo.scale-180.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Wide310x150Logo.scale-180.png">
       <PackagePath>Assets\Wide310x150Logo.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Wide310x150Logo.scale-80.png">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\Assets\Wide310x150Logo.scale-80.png">
       <PackagePath>Assets\Wide310x150Logo.scale-80.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\ProjectDouaiWin8.Windows.xr.xml">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\ProjectDouaiWin8.Windows.xr.xml">
       <PackagePath>ProjectDouaiWin8.Windows.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\App.xbf">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\Views\About.xbf">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\Views\About.xbf">
       <PackagePath>Views\About.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\Views\Conjulgado.xbf">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\Views\Conjulgado.xbf">
       <PackagePath>Views\Conjulgado.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\Views\Help.xbf">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\Views\Help.xbf">
       <PackagePath>Views\Help.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouaiWin8.Windows\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

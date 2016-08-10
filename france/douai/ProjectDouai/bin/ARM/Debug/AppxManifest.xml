@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="60181VTNORTON.Conjugar" Publisher="CN=A1BAD918-0EE3-4743-84A7-20C7B6052F9A" Version="2.1.0.0" ProcessorArchitecture="arm" />
+  <Identity Name="60181VTNORTON.Conjugar" Publisher="CN=A1BAD918-0EE3-4743-84A7-20C7B6052F9A" Version="2.1.19.0" ProcessorArchitecture="arm" />
   <mp:PhoneIdentity PhoneProductId="65dccf28-15a9-410b-8ace-d9520dfba274" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Conjugar</DisplayName>
@@ -52,9 +52,9 @@
     <build:Item Name="ProjectGUID" Value="{B7C42882-D379-4BD9-8967-32610FCA8B52}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25123.0" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25219.0" />
     <build:Item Name="Microsoft.AdMediator.Universal" Version="1.0" />
     <build:Item Name="WindowsMobile" Version="10.0.10240.0" />
-    <build:Item Name="MakePri.exe" Version="10.0.10586.15 (th2_release.151119-1817)" />
+    <build:Item Name="MakePri.exe" Version="10.0.10586.212 (th2_release_sec.160328-1908)" />
   </build:Metadata>
 </Package>

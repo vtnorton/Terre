@@ -23,7 +23,7 @@
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
     <PackageCertificateThumbprint>CB9910EBE930EE9CD99A89F288F8BD9748F6C822</PackageCertificateThumbprint>
-    <AppxPackageDir>F:\packages\delta\ProjectDouai_2.1.1\</AppxPackageDir>
+    <AppxPackageDir>F:\packages\delta\ProjectDouai_2.1.20\</AppxPackageDir>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

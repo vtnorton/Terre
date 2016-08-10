@@ -1,1 +1,1 @@
-F:\Terre\france\douai\ProjectDouai\ProjectDouai.csproj;arm
+F:\uwp.vtnorton.terre\Terre\france\douai\ProjectDouai\ProjectDouai.csproj;arm

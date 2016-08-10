@@ -62,44 +62,7 @@
                         <TextBlock Grid.Column="2" x:Name="txtHome" x:Uid="txtHome" Text="Home" FontSize="18" Foreground="White" VerticalAlignment="Center" />
                     </Grid>
                 </StackPanel>
-                <StackPanel x:Name="stpBand" PointerMoved="stpBand_PointerMoved" PointerExited="stpBand_PointerExited"  Tapped="btnBand_Click" Orientation="Horizontal">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="5"></ColumnDefinition>
-                            <ColumnDefinition Width="45"></ColumnDefinition>
-                            <ColumnDefinition Width="250"></ColumnDefinition>
-                        </Grid.ColumnDefinitions>
-                        <Grid Grid.Column="0" x:Name="gridBand" Background="Transparent"></Grid>
-                        <HyperlinkButton Grid.Column="1" x:Name="btnBand" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE735;"
-                        Width="45" Height="50" Background="Transparent">
-                            <HyperlinkButton.ContentTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="{Binding}" />
-                                </DataTemplate>
-                            </HyperlinkButton.ContentTemplate>
-                        </HyperlinkButton>
-                        <TextBlock Grid.Column="2" x:Name="txtBand" x:Uid="txtBand" Text="Microsoft Band" FontSize="18" Foreground="White" VerticalAlignment="Center" />
-                    </Grid>
-                </StackPanel>
-                <StackPanel x:Name="stpSetting" Tapped="btnSettings_Click" Orientation="Horizontal" PointerExited="stpSetting_PointerExited" PointerMoved="stpSetting_PointerMoved">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="5"></ColumnDefinition>
-                            <ColumnDefinition Width="45"></ColumnDefinition>
-                            <ColumnDefinition Width="250"></ColumnDefinition>
-                        </Grid.ColumnDefinitions>
-                        <Grid Grid.Column="0" x:Name="gridSettings" Background="Transparent"></Grid>
-                        <HyperlinkButton Grid.Column="1" x:Name="btnSettings" Foreground="White"  FontFamily="Segoe MDL2 Assets" Content="&#59155;"
-                        Width="45" Height="50" Background="Transparent">
-                            <HyperlinkButton.ContentTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="{Binding}" />
-                                </DataTemplate>
-                            </HyperlinkButton.ContentTemplate>
-                        </HyperlinkButton>
-                        <TextBlock Grid.Column="2" x:Name="txtSettings" x:Uid="txtSettings" Text="Settings" FontSize="18" Foreground="White" VerticalAlignment="Center" />
-                    </Grid>
-                </StackPanel>
+     
                 <StackPanel x:Name="stpHelp" Tapped="btnHelp_Click" Orientation="Horizontal" PointerMoved="stpHelp_PointerMoved" PointerExited="stpHelp_PointerExited">
                     <Grid>
                         <Grid.ColumnDefinitions>

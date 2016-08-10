@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="60181VTNORTON.Conjugar" Publisher="CN=A1BAD918-0EE3-4743-84A7-20C7B6052F9A" Version="2.0.0.3" />
+  <Identity Name="60181VTNORTON.Conjugar" Publisher="CN=A1BAD918-0EE3-4743-84A7-20C7B6052F9A" Version="2.0.0.5" />
   <mp:PhoneIdentity PhoneProductId="8bbc0d68-bfd2-49e8-8a31-f8ee685ead59" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Conjugar</DisplayName>
