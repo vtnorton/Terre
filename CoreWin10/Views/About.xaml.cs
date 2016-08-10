@@ -1,6 +1,6 @@
 ﻿using Core;
+using Core.Code;
 using Core.Shared;
-using CoreWin10.Code;
 using System;
 using Windows.System;
 using Windows.UI;

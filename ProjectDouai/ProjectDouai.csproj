@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{B7C42882-D379-4BD9-8967-32610FCA8B52}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectDouai</RootNamespace>
+    <AssemblyName>ProjectDouai</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>ProjectDouai_StoreKey.pfx</PackageCertificateKeyFile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>E4E75B3EC148F8E92739BA2EEAF918D7273C2BD0</PackageCertificateThumbprint>
+    <AppxPackageDir>F:\packages\delta\ProjectDouai_2.1.20\</AppxPackageDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="..\CoreWin10\Images\Apps.png">
+      <Link>Images\Apps.png</Link>
+    </Content>
+    <Content Include="..\CoreWin10\Images\Douai.png">
+      <Link>Images\Douai.png</Link>
+    </Content>
+    <Content Include="..\CoreWin10\Images\Help\Page4.png">
+      <Link>Images\Help\Page4.png</Link>
+    </Content>
+    <Content Include="..\CoreWin10\Images\Help\Page5.png">
+      <Link>Images\Help\Page5.png</Link>
+    </Content>
+    <Content Include="..\CoreWin10\Images\Help\Page6.png">
+      <Link>Images\Help\Page6.png</Link>
+    </Content>
+    <Content Include="..\CoreWin10\Images\LasVegas.png">
+      <Link>Images\LasVegas.png</Link>
+    </Content>
+    <Content Include="..\CoreWin10\Images\Lyon.png">
+      <Link>Images\Lyon.png</Link>
+    </Content>
+    <Content Include="..\CoreWin10\Images\Nice.png">
+      <Link>Images\Nice.png</Link>
+    </Content>
+    <Content Include="..\CoreWin10\Images\Pasadena.png">
+      <Link>Images\Pasadena.png</Link>
+    </Content>
+    <Content Include="..\CoreWin10\Images\Quebec.png">
+      <Link>Images\Quebec.png</Link>
+    </Content>
+    <Content Include="..\CoreWin10\Images\Rio.png">
+      <Link>Images\Rio.png</Link>
+    </Content>
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <PRIResource Include="..\CoreWin10\Strings\en-US\Shared.resw">
+      <Link>Strings\en-US\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CoreWin10\Strings\es\Shared.resw">
+      <Link>Strings\es\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CoreWin10\Strings\fr\Shared.resw">
+      <Link>Strings\fr\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CoreWin10\Strings\it\Shared.resw">
+      <Link>Strings\it\Shared.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CoreWin10\Strings\pt\Shared.resw">
+      <Link>Strings\pt\Shared.resw</Link>
+    </PRIResource>
+    <None Include="Service References\SendFeedbackMenssageService\ProjectDouai.SendFeedbackMenssageService.SendFeedbackEmailResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SendFeedbackMenssageService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\SendFeedbackMenssageService\configuration.svcinfo" />
+    <None Include="Service References\SendFeedbackMenssageService\configuration91.svcinfo" />
+    <None Include="Service References\SendFeedbackMenssageService\Feedback.disco" />
+    <None Include="Properties\ServiceReferences.Designer.ClientConfig" />
+    <None Include="Service References\SendFeedbackMenssageService\Feedback.wsdl" />
+    <None Include="project.json" />
+    <None Include="ProjectDouai_StoreKey.pfx" />
+    <PRIResource Include="Strings\en-US\Resources.resw" />
+    <PRIResource Include="Strings\es\Resources.resw" />
+    <PRIResource Include="Strings\fr\Resources.resw" />
+    <PRIResource Include="Strings\it\Resources.resw" />
+    <PRIResource Include="Strings\pt\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\CoreWin10\Views\About.xaml.cs">
+      <Link>Views\About.xaml.cs</Link>
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Code\AppCode.cs" />
+    <Compile Include="Information.cs" />
+    <Compile Include="Irregulares\Abaular.cs" />
+    <Compile Include="Irregulares\Abolir.cs" />
+    <Compile Include="Irregulares\Abster.cs" />
+    <Compile Include="Irregulares\Acudir.cs" />
+    <Compile Include="Irregulares\Adequar.cs" />
+    <Compile Include="Irregulares\Advertir.cs" />
+    <Compile Include="Irregulares\Advir.cs" />
+    <Compile Include="Irregulares\Agredir.cs" />
+    <Compile Include="Irregulares\Aguar.cs" />
+    <Compile Include="Irregulares\Aguerrir.cs" />
+    <Compile Include="Irregulares\Ajuizar.cs" />
+    <Compile Include="Irregulares\Amiudar.cs" />
+    <Compile Include="Irregulares\Ansiar.cs" />
+    <Compile Include="Irregulares\Antever.cs" />
+    <Compile Include="Irregulares\Antiquar.cs" />
+    <Compile Include="Irregulares\Apaniguar.cs" />
+    <Compile Include="Irregulares\Apaziguar.cs" />
+    <Compile Include="Irregulares\Aprazer.cs" />
+    <Compile Include="Irregulares\Arguir.cs" />
+    <Compile Include="Irregulares\Arruinar.cs" />
+    <Compile Include="Irregulares\Assentir.cs" />
+    <Compile Include="Irregulares\Augir.cs" />
+    <Compile Include="Irregulares\Averiguar.cs" />
+    <Compile Include="Irregulares\Avir.cs" />
+    <Compile Include="Irregulares\BemQuerer.cs" />
+    <Compile Include="Irregulares\Boiar.cs" />
+    <Compile Include="Irregulares\Bulir.cs" />
+    <Compile Include="Irregulares\Caber.cs" />
+    <Compile Include="Irregulares\Cerzir.cs" />
+    <Compile Include="Irregulares\Cobir.cs" />
+    <Compile Include="Irregulares\Coibir.cs" />
+    <Compile Include="Irregulares\Colorir.cs" />
+    <Compile Include="Irregulares\Comedir.cs" />
+    <Compile Include="Irregulares\Comerciar.cs" />
+    <Compile Include="Irregulares\Compelir.cs" />
+    <Compile Include="Irregulares\Competir.cs" />
+    <Compile Include="Irregulares\Comprazer.cs" />
+    <Compile Include="Irregulares\Concernir.cs" />
+    <Compile Include="Irregulares\Conseguir.cs" />
+    <Compile Include="Irregulares\Consentir.cs" />
+    <Compile Include="Irregulares\Construir.cs" />
+    <Compile Include="Irregulares\Consumir.cs" />
+    <Compile Include="Irregulares\Conter.cs" />
+    <Compile Include="Irregulares\Contiguar.cs" />
+    <Compile Include="Irregulares\Contravir.cs" />
+    <Compile Include="Irregulares\Convir.cs" />
+    <Compile Include="Irregulares\Corroer.cs" />
+    <Compile Include="Irregulares\Crer.cs" />
+    <Compile Include="Irregulares\Cuspir.cs" />
+    <Compile Include="Irregulares\Dar.cs" />
+    <Compile Include="Irregulares\Deflectir.cs" />
+    <Compile Include="Irregulares\Demolir.cs" />
+    <Compile Include="Irregulares\Denegrir.cs" />
+    <Compile Include="Irregulares\Desaguar.cs" />
+    <Compile Include="Irregulares\Desavir.cs" />
+    <Compile Include="Irregulares\Descaber.cs" />
+    <Compile Include="Irregulares\Descer.cs" />
+    <Compile Include="Irregulares\Descobrir.cs" />
+    <Compile Include="Irregulares\Desimpedir.cs" />
+    <Compile Include="Irregulares\Desmentir.cs" />
+    <Compile Include="Irregulares\Desmiudar.cs" />
+    <Compile Include="Irregulares\Despedir.cs" />
+    <Compile Include="Irregulares\Despir.cs" />
+    <Compile Include="Irregulares\Desprazer.cs" />
+    <Compile Include="Irregulares\Desquerer.cs" />
+    <Compile Include="Irregulares\Destruir.cs" />
+    <Compile Include="Irregulares\Deter.cs" />
+    <Compile Include="Irregulares\Devir.cs" />
+    <Compile Include="Irregulares\Discernir.cs" />
+    <Compile Include="Irregulares\Divergir.cs" />
+    <Compile Include="Irregulares\Divertir.cs" />
+    <Compile Include="Irregulares\Doer.cs" />
+    <Compile Include="Irregulares\Dormir.cs" />
+    <Compile Include="Irregulares\Eclodir.cs" />
+    <Compile Include="Irregulares\Empedernir.cs" />
+    <Compile Include="Irregulares\Encobrir.cs" />
+    <Compile Include="Irregulares\Engolir.cs" />
+    <Compile Include="Irregulares\Enraizar.cs" />
+    <Compile Include="Irregulares\Entreter.cs" />
+    <Compile Include="Irregulares\Entupir.cs" />
+    <Compile Include="Irregulares\Enviuvar.cs" />
+    <Compile Include="Irregulares\Equivaler.cs" />
+    <Compile Include="Irregulares\Esmiucar.cs" />
+    <Compile Include="Irregulares\Espavorir.cs" />
+    <Compile Include="Irregulares\Estar.cs" />
+    <Compile Include="Irregulares\Estiar.cs" />
+    <Compile Include="Irregulares\Europeizar.cs" />
+    <Compile Include="Irregulares\Expedir.cs" />
+    <Compile Include="Irregulares\Expelir.cs" />
+    <Compile Include="Irregulares\Explodir.cs" />
+    <Compile Include="Irregulares\Flectir.cs" />
+    <Compile Include="Irregulares\Fremir.cs" />
+    <Compile Include="Irregulares\Fugir.cs" />
+    <Compile Include="Irregulares\Fulgir.cs" />
+    <Compile Include="Irregulares\Haver.cs" />
+    <Compile Include="Irregulares\Hebraizar.cs" />
+    <Compile Include="Irregulares\Homogeneizar.cs" />
+    <Compile Include="Irregulares\Impedir.cs" />
+    <Compile Include="Irregulares\Impelir.cs" />
+    <Compile Include="Irregulares\Incendiar.cs" />
+    <Compile Include="Irregulares\Inflectir.cs" />
+    <Compile Include="Irregulares\Instruir.cs" />
+    <Compile Include="Irregulares\Intermediar.cs" />
+    <Compile Include="Irregulares\Intervir.cs" />
+    <Compile Include="Irregulares\Investir.cs" />
+    <Compile Include="Irregulares\Ir.cs" />
+    <Compile Include="Irregulares\Jazer.cs" />
+    <Compile Include="Irregulares\Judaizar.cs" />
+    <Compile Include="Irregulares\Ler.cs" />
+    <Compile Include="Irregulares\Licenciar.cs" />
+    <Compile Include="Irregulares\Malquerer.cs" />
+    <Compile Include="Irregulares\Manter.cs" />
+    <Compile Include="Irregulares\Mediar.cs" />
+    <Compile Include="Irregulares\Medir.cs" />
+    <Compile Include="Irregulares\Mentir.cs" />
+    <Compile Include="Irregulares\Minguar.cs" />
+    <Compile Include="Irregulares\Moer.cs" />
+    <Compile Include="Irregulares\Mugir.cs" />
+    <Compile Include="Irregulares\Multicolorir.cs" />
+    <Compile Include="Irregulares\Negociar.cs" />
+    <Compile Include="Irregulares\Nevar.cs" />
+    <Compile Include="Irregulares\Obliquar.cs" />
+    <Compile Include="Irregulares\Obsequiar.cs" />
+    <Compile Include="Irregulares\Obstruir.cs" />
+    <Compile Include="Irregulares\Obter.cs" />
+    <Compile Include="Irregulares\Odiar.cs" />
+    <Compile Include="Irregulares\Orvalhar.cs" />
+    <Compile Include="Irregulares\Ouvir.cs" />
+    <Compile Include="Irregulares\Parar.cs" />
+    <Compile Include="Irregulares\Parir.cs" />
+    <Compile Include="Irregulares\Pedir.cs" />
+    <Compile Include="Irregulares\Perder.cs" />
+    <Compile Include="Irregulares\Perseguir.cs" />
+    <Compile Include="Irregulares\Plebeizar.cs" />
+    <Compile Include="Irregulares\Poder.cs" />
+    <Compile Include="Irregulares\Polir.cs" />
+    <Compile Include="Irregulares\Por.cs" />
+    <Compile Include="Irregulares\Premiar.cs" />
+    <Compile Include="Irregulares\Premir.cs" />
+    <Compile Include="Irregulares\Pressentir.cs" />
+    <Compile Include="Irregulares\Prevenir.cs" />
+    <Compile Include="Irregulares\Prever.cs" />
+    <Compile Include="Irregulares\Progredir.cs" />
+    <Compile Include="Irregulares\Proibir.cs" />
+    <Compile Include="Irregulares\Prosseguir.cs" />
+    <Compile Include="Irregulares\Prover.cs" />
+    <Compile Include="Irregulares\Provir.cs" />
+    <Compile Include="Irregulares\Querer.cs" />
+    <Compile Include="Irregulares\Rebolir.cs" />
+    <Compile Include="Irregulares\Rebulir.cs" />
+    <Compile Include="Irregulares\Reflectir.cs" />
+    <Compile Include="Irregulares\Refulgir.cs" />
+    <Compile Include="Irregulares\Regredir.cs" />
+    <Compile Include="Irregulares\Relampejar.cs" />
+    <Compile Include="Irregulares\Remir.cs" />
+    <Compile Include="Irregulares\Remoer.cs" />
+    <Compile Include="Irregulares\Repelir.cs" />
+    <Compile Include="Irregulares\Repetir.cs" />
+    <Compile Include="Irregulares\Requerer.cs" />
+    <Compile Include="Irregulares\Ressentir.cs" />
+    <Compile Include="Irregulares\Reter.cs" />
+    <Compile Include="Irregulares\Reunir.cs" />
+    <Compile Include="Irregulares\Rever.cs" />
+    <Compile Include="Irregulares\Revestir.cs" />
+    <Compile Include="Irregulares\Revir.cs" />
+    <Compile Include="Irregulares\Rir.cs" />
+    <Compile Include="Irregulares\Roer.cs" />
+    <Compile Include="Irregulares\Rugir.cs" />
+    <Compile Include="Irregulares\Saber.cs" />
+    <Compile Include="Irregulares\Sacudir.cs" />
+    <Compile Include="Irregulares\Saraivar.cs" />
+    <Compile Include="Irregulares\Saudar.cs" />
+    <Compile Include="Irregulares\Seguir.cs" />
+    <Compile Include="Irregulares\Sentir.cs" />
+    <Compile Include="Irregulares\Ser.cs" />
+    <Compile Include="Irregulares\Servir.cs" />
+    <Compile Include="Irregulares\Sorrir.cs" />
+    <Compile Include="Irregulares\Sortir.cs" />
+    <Compile Include="Irregulares\Subir.cs" />
+    <Compile Include="Irregulares\Sumir.cs" />
+    <Compile Include="Irregulares\Suster.cs" />
+    <Compile Include="Irregulares\Ter.cs" />
+    <Compile Include="Irregulares\Tossir.cs" />
+    <Compile Include="Irregulares\Transgredir.cs" />
+    <Compile Include="Irregulares\Trazer.cs" />
+    <Compile Include="Irregulares\Trovejar.cs" />
+    <Compile Include="Irregulares\Tugir.cs" />
+    <Compile Include="Irregulares\Valer.cs" />
+    <Compile Include="Irregulares\Ventar.cs" />
+    <Compile Include="Irregulares\Ver.cs" />
+    <Compile Include="Irregulares\Vestir.cs" />
+    <Compile Include="Irregulares\Vir.cs" />
+    <Compile Include="Irregulares\Viuvar.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.xaml.cs">
+      <DependentUpon>MasterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Code\Verbo.cs" />
+    <Compile Include="Service References\SendFeedbackMenssageService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Conjulgado.xaml.cs">
+      <DependentUpon>Conjulgado.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Help.xaml.cs">
+      <DependentUpon>Help.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="ProjectDouai.alpha_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-125.png" />
+    <Content Include="Assets\SplashScreen.scale-150.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Square310x310Logo.scale-125.png" />
+    <Content Include="Assets\Square310x310Logo.scale-150.png" />
+    <Content Include="Assets\Square310x310Logo.scale-200.png" />
+    <Content Include="Assets\Square310x310Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\Square71x71Logo.scale-125.png" />
+    <Content Include="Assets\Square71x71Logo.scale-150.png" />
+    <Content Include="Assets\Square71x71Logo.scale-200.png" />
+    <Content Include="Assets\Square71x71Logo.scale-400.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-125.png" />
+    <Content Include="Assets\StoreLogo.scale-150.png" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
+    <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Images\Help\Page1.png" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="..\CoreWin10\Views\About.xaml">
+      <Link>Views\About.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MasterPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Conjulgado.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Help.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.AdMediator.Universal, Version=1.0">
+      <Name>Microsoft Advertising Universal SDK</Name>
+    </SDKReference>
+    <SDKReference Include="Microsoft.Advertising.Xaml, Version=10.0">
+      <Name>Microsoft Advertising SDK for XAML</Name>
+    </SDKReference>
+    <SDKReference Include="Microsoft.VCLibs, Version=14.0">
+      <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
+    </SDKReference>
+    <SDKReference Include="WindowsMobile, Version=10.0.10240.0">
+      <Name>Windows Mobile Extensions for the UWP</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\SendFeedbackMenssageService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{06517bff-e5cb-4990-939a-6e8402b6674b}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
