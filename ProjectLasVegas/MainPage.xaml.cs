@@ -23,23 +23,23 @@ namespace ProjectLasVegas
         }
         private async void TrueOrDareQuestion(int garrafa)
         {
-            MessageDialog msgbox = new MessageDialog("Então, Verdade ou consequência?", "#VerdadeOuConsequência");
+            MessageDialog msgbox = new MessageDialog('Então, Verdade ou consequência?', '#VerdadeOuConsequência');
 
             msgbox.Commands.Clear();
-            msgbox.Commands.Add(new UICommand { Label = "Verdade", Id = 0 });
-            msgbox.Commands.Add(new UICommand { Label = "Consequência", Id = 1 });
+            msgbox.Commands.Add(new UICommand { Label = 'Verdade', Id = 0 });
+            msgbox.Commands.Add(new UICommand { Label = 'Consequência', Id = 1 });
 
             var res = await msgbox.ShowAsync();
 
             if ((int)res.Id == 0)
             {
-                MessageDialog dialogo = new MessageDialog(code.SortTrue(garrafa), "Verdade");
+                MessageDialog dialogo = new MessageDialog(code.SortTruth(garrafa), 'Verdade');
                 await dialogo.ShowAsync();
             }
 
             if ((int)res.Id == 1)
             {
-                MessageDialog dialogo = new MessageDialog(code.SortDare(garrafa), "Consequência");
+                MessageDialog dialogo = new MessageDialog(code.SortDare(garrafa), 'Consequência');
                 await dialogo.ShowAsync();
             }
 

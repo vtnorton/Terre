@@ -120,9 +120,6 @@
   <data name="txtAbout.Text" xml:space="preserve">
     <value>Sobre</value>
   </data>
-  <data name="txtBand.Text" xml:space="preserve">
-    <value>Banda de Microsoft</value>
-  </data>
   <data name="txtHelp.Text" xml:space="preserve">
     <value>Ajuda</value>
   </data>
@@ -134,10 +131,9 @@
   </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Aqueles que nunca jogaram um jogo tão assim... ou nunca ouviu falar que atire a primeira pedra! O melhor jogo da verdade e consequência que a loja do Windows tem visto até agora, tem várias garrafas de acordo com a ocasião (na família, na praça, entre amigos, bêbados, com as melhores marcas, sozinhos, na sala de aula e entre casais), com perguntas e desafios pré-definidos é divertido no aplicativo esste certo!</value>
-    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
   </data>
   <data name="AppName" xml:space="preserve">
-    <value>#TrueOrDare</value>
+    <value>#VerdadeOuConsequencia</value>
   </data>
   <data name="GetToKnowMe.Text" xml:space="preserve">
     <value>Te conhecer eu e meus outros apps, visitando meu site.</value>
@@ -168,9 +164,8 @@
   </data>
   <data name="ThisAppDescription.Text" xml:space="preserve">
     <value>Aqueles que nunca jogaram um jogo tão assim... ou nunca ouviu falar que atire a primeira pedra! O melhor jogo da verdade e consequência que a loja do Windows tem visto até agora, tem várias garrafas de acordo com a ocasião (na família, na praça, entre amigos, bêbados, com as melhores marcas, sozinhos, na sala de aula e entre casais), com perguntas e desafios pré-definidos é divertido no aplicativo esste certo!</value>
-    <comment>Não é raro ocasiões onde precisamos sortear alguém, com esse aplicativo fica fácil. Basta adicionar a faixa de números a serem sorteados e ele fará o trabalho para você. Experimente.</comment>
   </data>
   <data name="ThisAppName.Text" xml:space="preserve">
-    <value>#TrueOrDare</value>
+    <value>#VerdadeOuConsequencia</value>
   </data>
 </root>

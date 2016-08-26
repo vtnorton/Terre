@@ -1,129 +1,101 @@
-﻿using System;
-using System.IO;
-using System.Linq;
+﻿using ProjectLasVegas.Code;
+using System;
 
 namespace ProjectLasVegas
 {
     public class AppCode
     {
-        //TODO: There is a lot of coding repeating here. What a shame! 
-        public string SortDare(int Garrafa)
+        string[] Questions;
+        Random pickOneQuestion = new Random();
+
+        public string SortDare(int Bottle)
         {
-            Random randNumb = new Random();
-            int PesoDaGarrafa = randNumb.Next(0, 100);
-            switch (Garrafa)
+            switch (Bottle)
             {
-                case 1: //Sozinho
-                    if (PesoDaGarrafa < 60)
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Alone.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Shared.txt"); //Compartilhado
-                case 2: //Na sala de aula
-                    if (PesoDaGarrafa < 60)
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\AtClass.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Shared.txt"); //Compartilhado
-                case 3: //Casais
-                    if (PesoDaGarrafa < 65)
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Couple.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Shared.txt"); //Compartilhado
-                case 4: //Bebados
-                    if (PesoDaGarrafa < 70)
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Drunks.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Shared.txt"); //Compartilhado
-                case 5: //Familia
-                    if (PesoDaGarrafa < 30)
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Family.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Shared.txt"); //Compartilhado
-                case 6: //Amigos
-                    if (PesoDaGarrafa < 50)
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Friends.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Shared.txt"); //Compartilhado
-                case 7: //Na Praca
-                    if (PesoDaGarrafa < 55)
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Square.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Shared.txt"); //Compartilhado
-                case 8: //Com as Bests
-                    if (PesoDaGarrafa < 75)
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\TheBests.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\Dare\\pt-br\\Shared.txt"); //Compartilhado
+                //Em sala de aula
+                case 1:
+                    Questions = new string[Desafio.Shared.Length + Desafio.AtClass.Length];
+                    Desafio.Shared.CopyTo(Questions, 0);
+                    Desafio.AtClass.CopyTo(Questions, Desafio.Shared.Length);
+                    return Questions[pickOneQuestion.Next(0, Questions.Length + 1)];
+                //Casais
+                case 2:
+                    Questions = new string[Desafio.Shared.Length + Desafio.Couple.Length];
+                    Desafio.Shared.CopyTo(Questions, 0);
+                    Desafio.Couple.CopyTo(Questions, Desafio.Shared.Length);
+                    return Questions[pickOneQuestion.Next(0, Questions.Length + 1)];
+                //Em família
+                case 3:
+                    Questions = new string[Desafio.Shared.Length + Desafio.Family.Length];
+                    Desafio.Shared.CopyTo(Questions, 0);
+                    Desafio.Family.CopyTo(Questions, Desafio.Shared.Length);
+                    return Questions[pickOneQuestion.Next(0, Questions.Length + 1)];
+                //Com amigos
+                case 4:
+                    Questions = new string[Desafio.Shared.Length + Desafio.Friends.Length];
+                    Desafio.Shared.CopyTo(Questions, 0);
+                    Desafio.Friends.CopyTo(Questions, Desafio.Shared.Length);
+                    return Questions[pickOneQuestion.Next(0, Questions.Length + 1)];
+                //No parque
+                case 5:
+                    Questions = new string[Desafio.Shared.Length + Desafio.Park.Length];
+                    Desafio.Shared.CopyTo(Questions, 0);
+                    Desafio.Park.CopyTo(Questions, Desafio.Shared.Length);
+                    return Questions[pickOneQuestion.Next(0, Questions.Length + 1)];
+                //Com os melhores
+                case 6:
+                    Questions = new string[Desafio.Shared.Length + Desafio.TheBests.Length];
+                    Desafio.Shared.CopyTo(Questions, 0);
+                    Desafio.TheBests.CopyTo(Questions, Desafio.Shared.Length);
+                    return Questions[pickOneQuestion.Next(0, Questions.Length + 1)];
                 default:
-                    return "Nenhuma garrafa conhecida foi selecionada. Experimente outra garrafa.";
+                    return "Nenhuma garrafa foi selecionada";
             }
         }
-        public string SortTrue(int Garrafa)
+
+        public string SortTruth(int Bottle)
         {
-            Random randNumb = new Random();
-            int PesoDaGarrafa = randNumb.Next(0, 100);
-            switch (Garrafa)
+            switch (Bottle)
             {
-                case 1: //Sozinho
-                    if (PesoDaGarrafa < 60)
-                        return SortTrueOrDare("Data\\True\\pt-br\\Alone.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\True\\pt-br\\Shared.txt"); //Compartilhado
-                case 2: //Na sala de aula
-                    if (PesoDaGarrafa < 80)
-                        return SortTrueOrDare("Data\\True\\pt-br\\AtClass.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\True\\pt-br\\Shared.txt"); //Compartilhado
-                case 3: //Casais
-                    if (PesoDaGarrafa < 65)
-                        return SortTrueOrDare("Data\\True\\pt-br\\Couple.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\True\\pt-br\\Shared.txt"); //Compartilhado
-                case 4: //Bebados
-                    if (PesoDaGarrafa < 50)
-                        return SortTrueOrDare("Data\\True\\pt-br\\Drunks.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\True\\pt-br\\Shared.txt"); //Compartilhado
-                case 5: //Familia
-                    if (PesoDaGarrafa < 30)
-                        return SortTrueOrDare("Data\\True\\pt-br\\Family.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\True\\pt-br\\Shared.txt"); //Compartilhado
-                case 6: //Amigos
-                    if (PesoDaGarrafa < 50)
-                        return SortTrueOrDare("Data\\True\\pt-br\\Friends.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\True\\pt-br\\Shared.txt"); //Compartilhado
-                case 7: //Na Praca
-                    if (PesoDaGarrafa < 55)
-                        return SortTrueOrDare("Data\\True\\pt-br\\Square.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\True\\pt-br\\Shared.txt"); //Compartilhado
-                case 8: //Com as Bests
-                    if (PesoDaGarrafa < 70)
-                        return SortTrueOrDare("Data\\True\\pt-br\\TheBests.txt"); //Path da garrafa específica
-                    else
-                        return SortTrueOrDare("Data\\True\\pt-br\\Shared.txt"); //Compartilhado
+                //Em sala de aula
+                case 1:
+                    Questions = new string[Verdade.Shared.Length + Verdade.AtClass.Length];
+                    Verdade.Shared.CopyTo(Questions, 0);
+                    Verdade.AtClass.CopyTo(Questions, Verdade.Shared.Length);
+                    return Questions[pickOneQuestion.Next(0, Questions.Length + 1)];
+                //Casais
+                case 2:
+                    Questions = new string[Verdade.Shared.Length + Verdade.Couple.Length];
+                    Verdade.Shared.CopyTo(Questions, 0);
+                    Verdade.Couple.CopyTo(Questions, Verdade.Shared.Length);
+                    return Questions[pickOneQuestion.Next(0, Questions.Length + 1)];
+                //Em família
+                case 3:
+                    Questions = new string[Verdade.Shared.Length + Verdade.Family.Length];
+                    Verdade.Shared.CopyTo(Questions, 0);
+                    Verdade.Family.CopyTo(Questions, Verdade.Shared.Length);
+                    return Questions[pickOneQuestion.Next(0, Questions.Length + 1)];
+                //Com amigos
+                case 4:
+                    Questions = new string[Verdade.Shared.Length + Verdade.Friends.Length];
+                    Verdade.Shared.CopyTo(Questions, 0);
+                    Verdade.Friends.CopyTo(Questions, Verdade.Shared.Length);
+                    return Questions[pickOneQuestion.Next(0, Questions.Length + 1)];
+                //No parque
+                case 5:
+                    Questions = new string[Verdade.Shared.Length + Verdade.Park.Length];
+                    Verdade.Shared.CopyTo(Questions, 0);
+                    Verdade.Park.CopyTo(Questions, Verdade.Shared.Length);
+                    return Questions[pickOneQuestion.Next(0, Questions.Length + 1)];
+                //Com os melhores
+                case 6:
+                    Questions = new string[Verdade.Shared.Length + Verdade.TheBests.Length];
+                    Verdade.Shared.CopyTo(Questions, 0);
+                    Verdade.TheBests.CopyTo(Questions, Verdade.Shared.Length);
+                    return Questions[pickOneQuestion.Next(0, Questions.Length + 1)];
                 default:
-                    return "Nenhuma garrafa conhecida foi selecionada. Experimente outra garrafa.";
+                    return "Nenhuma garrafa foi selecionada";
             }
-        }
-        private string SortTrueOrDare(string Path)
-        {
-            Random randNumb = new Random();
-            int LineNumberTxtFile, PerguntaSelecionada;
-            string Pergunta;
-            try
-            {
-                LineNumberTxtFile = File.ReadLines(@Path).Count();
-                string[] perguntas = File.ReadAllLines(@Path);
-                PerguntaSelecionada = randNumb.Next(0, LineNumberTxtFile);
-                Pergunta = perguntas[PerguntaSelecionada];
-            }
-            catch
-            {
-                Pergunta = "Houve um erro ao carregar o arquivo da pergunta.";
-            }
-            return Pergunta;
         }
     }
 }

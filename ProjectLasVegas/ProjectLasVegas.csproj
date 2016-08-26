@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ProjectLasVegas</RootNamespace>
     <AssemblyName>ProjectLasVegas</AssemblyName>
-    <DefaultLanguage>en-US</DefaultLanguage>
+    <DefaultLanguage>pt-br</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
@@ -135,27 +135,11 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <PRIResource Include="..\CoreWin10\Strings\en-US\Shared.resw">
-      <Link>Strings\en-US\Shared.resw</Link>
-    </PRIResource>
-    <PRIResource Include="..\CoreWin10\Strings\es\Shared.resw">
-      <Link>Strings\es\Shared.resw</Link>
-    </PRIResource>
-    <PRIResource Include="..\CoreWin10\Strings\fr\Shared.resw">
-      <Link>Strings\fr\Shared.resw</Link>
-    </PRIResource>
-    <PRIResource Include="..\CoreWin10\Strings\it\Shared.resw">
-      <Link>Strings\it\Shared.resw</Link>
-    </PRIResource>
     <PRIResource Include="..\CoreWin10\Strings\pt\Shared.resw">
       <Link>Strings\pt\Shared.resw</Link>
     </PRIResource>
     <None Include="project.json" />
     <PRIResource Include="Strings\pt\Resources.resw" />
-    <PRIResource Include="Strings\it\Resources.resw" />
-    <PRIResource Include="Strings\fr\Resources.resw" />
-    <PRIResource Include="Strings\es\Resources.resw" />
-    <PRIResource Include="Strings\en-US\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\CoreWin10\Views\About.xaml.cs">
@@ -166,6 +150,8 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Code\AppCode.cs" />
+    <Compile Include="Code\Desafio.cs" />
+    <Compile Include="Code\Verdade.cs" />
     <Compile Include="Information.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -230,43 +216,16 @@
     <Content Include="Assets\Wide310x150Logo.scale-125.png" />
     <Content Include="Assets\Wide310x150Logo.scale-150.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <Content Include="Data\Dare\pt-br\Alone.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\Dare\pt-br\AtClass.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\Dare\pt-br\Couple.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\Dare\pt-br\Drunks.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\Dare\pt-br\Family.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\Dare\pt-br\Friends.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\Dare\pt-br\Shared.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Data\Dare\pt-br\Square.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\Dare\pt-br\TheBests.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\True\pt-br\Alone.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Data\True\pt-br\AtClass.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\True\pt-br\Couple.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\True\pt-br\Drunks.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\True\pt-br\Family.txt">
@@ -319,12 +278,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <SDKReference Include="Microsoft.AdMediator.Universal, Version=1.0">
-      <Name>Microsoft Advertising Universal SDK</Name>
-    </SDKReference>
-    <SDKReference Include="Microsoft.Advertising.Xaml, Version=10.0">
-      <Name>Microsoft Advertising SDK for XAML</Name>
-    </SDKReference>
     <SDKReference Include="Microsoft.VCLibs, Version=14.0">
       <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
     </SDKReference>

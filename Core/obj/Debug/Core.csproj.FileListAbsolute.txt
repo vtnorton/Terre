@@ -14,3 +14,4 @@ F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\pri.resfiles.intermediate
 F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\qualifiers.txt
 F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\qualifiers.txt.intermediate
 F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
