@@ -2,7 +2,6 @@
 {
     public class Desafio
     {
-        //Verficar por erros de ortografia antes de publicar
         public static string[] Shared = new string[] { "Cante e dance uma canção do Justin Bieber!",
             "Deixe a pessoa a mais perto de você fazer uma transformação em você!",
             "Deixe uma pessoa de sua escolha pintar as suas unhas!",
@@ -43,8 +42,7 @@
             "Você tem que atender todos os telefones que tocarem (não só o seu) pelo resto da noite.",
             "Envie uma mensagem de texto para o seu chefe: 'Qual a boa d hj?'",
             "Pense em uma palavra que ninguém poderá falar até o fim do jogo (ex. 'a' ou 'bebida'). Quem falar essa palavra irá participar da próxima consequência." };
-
-        //Verficar por erros de ortografia antes de publicar
+        
         public static string[] AtClass = new string[] { "Troque a sua camisa com uma pessoa do sexo oposto!",
             "Use suas meias nas suas orelhas pelo resto da partida.",
             "Esvazie a sua carteira, bolsos e bolsa e explique seus conteúdos!",
@@ -144,7 +142,6 @@
             "Dê um beijo em alguém do mesmo sexo. Se você é tímido, pode beijar na bochecha!",
             "Imite um caranguejo correndo na praia." };
         
-        //Verficar por erros de ortografia antes de publicar
         public static string[] Couple = new string[] { "Esvazie a sua carteira, bolsos e bolsa e explique seus conteúdos!",
             "Troque um artigo de roupa com a pessoa a sua esquerda.",
             "Troque um artigo de roupa com uma pessoa que o grupo escolher.",
@@ -156,8 +153,7 @@
             "Dê um chupão em qualquer parte do corpo da pessoa que o grupo escolher.",
             "Escolha alguém que deve colocar um cubo de gelo dentro da calça dela por vinte segundos.",
             "Roube uma coisa da pessoa no grupo pelo resto da noite (ex. um artigo de roupa, celular, etc.)." };
-
-        //Verficar por erros de ortografia antes de publicar
+        
         public static string[] Family = new string[] { "Deixe o grupo te enfaixar com papel higiênico como uma múmia!",
             "Abra a janela, incline-se para fora e cante o hino nacional bem alto!",
             "Engula uma colher cheia de canela!",
@@ -203,8 +199,7 @@
             "Invente uma fofoca boba sobre alguém da sala e poste no Twitter.",
             "Faça o upload de uma foto de um tamanduá e marque alguém da sala que mais lembra um tamanduá.",
             "Escolha um jogador que só pode andar de costas pelo resto do jogador (ex. para ir ao banheiro). " };
-
-        //Verficar por erros de ortografia antes de publicar
+        
         public static string[] Friends = new string[] { "Troque a sua camisa com uma pessoa do sexo oposto!",
             "Deixe o grupo te enfaixar com papel higiênico como uma múmia!",
             "Abra a janela, incline-se para fora e cante o hino nacional bem alto!",
@@ -267,8 +262,7 @@
             "Mande outro jogador ficar de pé olhando um canto da parede pela próxima rodada. A pessoa deve rebolar toda vez que alguém xingar. ",
             "Pense em um apelido idiota para a pessoa mais próxima de você e escreva na testa dele(a).",
             "Escolha um jogador que só pode andar de costas pelo resto do jogador (ex. para pegar outra bebida, para ir ao banheiro). " };
-
-        //Verficar por erros de ortografia antes de publicar
+        
         public static string[] Park = new string[] { "Troque a sua camisa com uma pessoa do sexo oposto!",
             "Cante o hino nacional bem alto!",
             "Esvazie a sua carteira, bolsos e bolsa e explique seus conteúdos!",
@@ -304,8 +298,7 @@
             "Mande outro jogador ficar de pé olhando um canto da parede pela próxima rodada. A pessoa deve rebolar toda vez que alguém xingar. ",
             "Escolha alguém para correr uma volta em torno do prédio que vocês estão. (Se for tarde da noite, escolha dois amigos para ir – sistema de amigo!)",
             "Escolha um jogador que só pode andar de costas pelo resto do jogador (ex. para pegar outra bebida, para ir ao banheiro). " };
-
-        //Verficar por erros de ortografia antes de publicar
+        
         public static string[] TheBests = new string[] { "Esvazie a sua carteira, bolsos e bolsa e explique seus conteúdos!",
             "Escolha alguém para postar no status do Facebook status ou no Twitter, “Me mudando para a Tailândia. Doações são bem-vindas. ”",
             "Escolha uma vítima que deve enviar uma solicitação de “Noivado” no Facebook para alguém que ele (a) não fala há alguns anos. ",
