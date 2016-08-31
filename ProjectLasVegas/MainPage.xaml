@@ -9,12 +9,6 @@
     mc:Ignorable="d">
 
     <Page.Resources>
-        <Storyboard x:Name="spinalone">
-            <DoubleAnimation To="360" RepeatBehavior="Forever" 
-         Storyboard.TargetName="alonebottle"
-         Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" />
-
-        </Storyboard>
         <Storyboard x:Name="spinatclass">
             <DoubleAnimation To="360" RepeatBehavior="Forever" 
          Storyboard.TargetName="atclassbottle"
@@ -23,11 +17,6 @@
         <Storyboard x:Name="spincouple">
             <DoubleAnimation To="360" RepeatBehavior="Forever" 
          Storyboard.TargetName="couplebottle"
-         Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" />
-        </Storyboard>
-        <Storyboard x:Name="spindrunks">
-            <DoubleAnimation To="360" RepeatBehavior="Forever" 
-         Storyboard.TargetName="drunksbottle"
          Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" />
         </Storyboard>
         <Storyboard x:Name="spinfamily">
@@ -61,17 +50,6 @@
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <Pivot>
-                <PivotItem x:Name="Alone" Header="sozinho">
-                    <Grid>
-                        <Image x:Name="alonebottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" 
-                                   Source="Assets/Bottles/Alone.png" 
-                                   PointerPressed="alonebottle_PointerPressed">
-                            <Image.RenderTransform>
-                                <RotateTransform></RotateTransform>
-                            </Image.RenderTransform>
-                        </Image>
-                    </Grid>
-                </PivotItem>
                 <PivotItem x:Name="AtClass" Header="em sala de aula">
                     <Grid>
                         <Image x:Name="atclassbottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/AtClass.png" PointerPressed="atclassbottle_PointerPressed">
@@ -84,15 +62,6 @@
                 <PivotItem x:Name="Couple" Header="casais">
                     <Grid>
                         <Image x:Name="couplebottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/Couple.png" PointerPressed="couplebottle_PointerPressed">
-                            <Image.RenderTransform>
-                                <RotateTransform></RotateTransform>
-                            </Image.RenderTransform>
-                        </Image>
-                    </Grid>
-                </PivotItem>
-                <PivotItem x:Name="Drunks" Header="bêbados">
-                    <Grid>
-                        <Image x:Name="drunksbottle" HorizontalAlignment="Stretch" RenderTransformOrigin=".5,.5" VerticalAlignment="Stretch" Margin="0,0,0,50" Source="Assets/Bottles/Drunks.png" PointerPressed="drunksbottle_PointerPressed">
                             <Image.RenderTransform>
                                 <RotateTransform></RotateTransform>
                             </Image.RenderTransform>

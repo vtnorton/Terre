@@ -36,7 +36,7 @@ namespace ProjectLasVegas
                     Desafio.Shared.CopyTo(Questions, 0);
                     Desafio.Friends.CopyTo(Questions, Desafio.Shared.Length);
                     return Questions[pickOneQuestion.Next(0, Questions.Length + 1)];
-                //No parque
+                //Na praça
                 case 5:
                     Questions = new string[Desafio.Shared.Length + Desafio.Park.Length];
                     Desafio.Shared.CopyTo(Questions, 0);

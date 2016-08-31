@@ -1,6 +1,7 @@
 F:\uwp.vtnorton.terre\Terre\Core\bin\Debug\Core.dll
 F:\uwp.vtnorton.terre\Terre\Core\bin\Debug\Core.pdb
 F:\uwp.vtnorton.terre\Terre\Core\bin\Debug\Core.pri
+F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
 F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\Core.dll
 F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\Core.pdb
 F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\priconfig.xml
@@ -14,4 +15,3 @@ F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\pri.resfiles.intermediate
 F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\qualifiers.txt
 F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\qualifiers.txt.intermediate
 F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\MultipleQualifiersPerDimensionFound.txt
-F:\uwp.vtnorton.terre\Terre\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
