@@ -17,14 +17,14 @@
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>ProjectNice_StoreKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>5DEAC81006ED75192D308B1682DF587ACBE74205</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>ProjectNice_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>A61AA64DAF2603CFACF4A3DF1C336BD4280C74E7</PackageCertificateThumbprint>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
-    <AppxPackageDir>F:\packages\delta\ProjectNice_2.1.19\</AppxPackageDir>
+    <AppxPackageDir>F:\uwp.vtnorton.packages\ProjectNice_2.1.28</AppxPackageDir>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
   </PropertyGroup>
@@ -131,9 +131,6 @@
     </Content>
     <Content Include="..\CoreWin10\Images\Rio.png">
       <Link>Images\Rio.png</Link>
-    </Content>
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <PRIResource Include="..\CoreWin10\Strings\en-US\Shared.resw">
       <Link>Strings\en-US\Shared.resw</Link>

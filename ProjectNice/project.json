@@ -1,8 +1,5 @@
 ﻿{
-  "dependencies": {
-    "Microsoft.Composition": "1.0.30",
-    "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2"
-  },
+  "dependencies": {},
   "frameworks": {
     "uap10.0": {}
   },

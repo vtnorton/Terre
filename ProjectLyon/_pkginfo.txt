@@ -1,1 +1,1 @@
-F:\packages\delta\ProjectLyon_2.1.19\ProjectLyon_2.1.19.0\ProjectLyon_2.1.19.0_x86_x64_arm.appxbundle
+F:\uwp.vtnorton.packages\ProjectLyon_2.1.28\ProjectLyon_2.1.28.0\ProjectLyon_2.1.28.0_x86_x64_arm.appxbundle

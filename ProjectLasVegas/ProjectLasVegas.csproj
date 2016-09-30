@@ -17,14 +17,14 @@
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>ProjectLasVegas_StoreKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>0F8F3FB4BCEBEAFF2DDA1C2087D73B0DF47FAD04</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>ProjectLasVegas_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>B50BD9AA59356144416042F608C3EA90D1BAE4AD</PackageCertificateThumbprint>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
-    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
-    <AppxPackageDir>F:\packages\delta\ProjectLasVegas_2.0.0\</AppxPackageDir>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>F:\uwp.vtnorton.packages\ProjectLasVegas_2.0.28\</AppxPackageDir>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
   </PropertyGroup>

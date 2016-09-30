@@ -5,7 +5,7 @@
         public static string Core = "1.2." + CoreInformation.BuildCode;
         
         #region WINDOWS 10
-        public static string Win10LasVegas = "2.1." + CoreInformation.Build + " _discontinued_";
+        public static string Win10LasVegas = "2.1." + CoreInformation.Build;
         public static string Win10Pasadena = "2.1." + CoreInformation.Build + " _discontinued_";
         public static string Win10Lyon = "2.3." + CoreInformation.Build;
         public static string Win10Douai = "2.1." + CoreInformation.Build;

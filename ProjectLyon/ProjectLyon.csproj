@@ -17,14 +17,14 @@
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>ProjectLyon_StoreKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>FF5EBEB92FDA03ECB6EF5FB44AACEF09BB6664EA</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>ProjectLyon_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>7D3FD47479138FF357A2271BD47183D04CDB6499</PackageCertificateThumbprint>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
-    <AppxPackageDir>F:\packages\delta\ProjectLyon_2.1.19\</AppxPackageDir>
+    <AppxPackageDir>F:\uwp.vtnorton.packages\ProjectLyon_2.1.28\</AppxPackageDir>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
   </PropertyGroup>
@@ -131,9 +131,6 @@
     </Content>
     <Content Include="..\CoreWin10\Images\Rio.png">
       <Link>Images\Rio.png</Link>
-    </Content>
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <PRIResource Include="..\CoreWin10\Strings\en-US\Shared.resw">
       <Link>Strings\en-US\Shared.resw</Link>
@@ -273,9 +270,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <SDKReference Include="Microsoft.AdMediator.Universal, Version=1.0">
-      <Name>Microsoft Advertising Universal SDK</Name>
-    </SDKReference>
     <SDKReference Include="Microsoft.Advertising.Xaml, Version=10.0">
       <Name>Microsoft Advertising SDK for XAML</Name>
     </SDKReference>

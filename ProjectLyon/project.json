@@ -1,7 +1,6 @@
 ﻿{
   "dependencies": {
-    "Jace": "0.8.7",
-    "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2"
+    "Jace": "0.8.7"
   },
   "frameworks": {
     "uap10.0": {}
